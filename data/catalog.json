@@ -1,6 +1,8 @@
 [
-    { "nombre": "Vestido rojo", "categoria": "Mujer", "imagen": "assets/images/vestido_rojo.jpg" },
-    { "nombre": "Traje negro", "categoria": "Hombre", "imagen": "assets/images/traje_negro.jpg" },
-    { "nombre": "Sombrero vaquero", "categoria": "Accesorios", "imagen": "assets/images/sombrero.jpg" }
+    { "nombre": "Vestido rojo", "categoria": "Vestuario de mujer", "imagen": "assets/images/vestido_rojo.jpg" },
+    { "nombre": "Traje negro", "categoria": "Vestuario de hombre", "imagen": "assets/images/traje_negro.jpg" },
+    { "nombre": "Disfraz de pirata", "categoria": "Disfraces", "imagen": "assets/images/disfraz_pirata.jpg" },
+    { "nombre": "Máscara de carnaval", "categoria": "Accesorios", "imagen": "assets/images/mascara.jpg" },
+    { "nombre": "Florero antiguo", "categoria": "Decoración", "imagen": "assets/images/florero.jpg" }
   ]
   
