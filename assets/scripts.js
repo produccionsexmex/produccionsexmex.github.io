@@ -1,49 +1,38 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const catalog = document.getElementById("catalog");
-    const searchInput = document.getElementById("search");
+    const content = document.getElementById("content");
+    const navLinks = document.querySelectorAll(".nav-link");
   
-    fetch("data/catalog.json")
+    fetch("data/catalogo.json")
       .then(response => response.json())
       .then(data => {
-        const categories = groupByCategory(data);
-        displayCatalog(categories);
+        navLinks.forEach(link => {
+          link.addEventListener("click", event => {
+            event.preventDefault();
+            navLinks.forEach(link => link.classList.remove("active"));
+            link.classList.add("active");
   
-        searchInput.addEventListener("input", () => {
-          const searchTerm = searchInput.value.toLowerCase();
-          const filtered = data.filter(item =>
-            item.nombre.toLowerCase().includes(searchTerm) ||
-            item.categoria.toLowerCase().includes(searchTerm)
-          );
-          const filteredCategories = groupByCategory(filtered);
-          displayCatalog(filteredCategories);
+            const category = link.getAttribute("data-category");
+            const filteredItems = data.filter(item => item.categoria === category);
+            displayCategory(category, filteredItems);
+          });
         });
       });
   
-    function groupByCategory(items) {
-      return items.reduce((acc, item) => {
-        if (!acc[item.categoria]) {
-          acc[item.categoria] = [];
-        }
-        acc[item.categoria].push(item);
-        return acc;
-      }, {});
-    }
-  
-    function displayCatalog(categories) {
-      catalog.innerHTML = "";
-      for (const [category, items] of Object.entries(categories)) {
-        const section = document.createElement("section");
-        section.classList.add("mb-5");
-        section.innerHTML = `
-          <h2 class="text-center mb-4">${category}</h2>
+    function displayCategory(category, items) {
+      content.innerHTML = `<h2 class="text-center mb-4">${category}</h2>`;
+      const subcategories = groupBySubcategory(items);
+      for (const [subcategory, subitems] of Object.entries(subcategories)) {
+        content.innerHTML += `
+          <h3>${subcategory}</h3>
           <div class="row g-4">
-            ${items
+            ${subitems
               .map(item => `
                 <div class="col-md-4 col-lg-3">
                   <div class="card h-100">
                     <img src="${item.imagen}" class="card-img-top" alt="${item.nombre}">
                     <div class="card-body">
                       <h5 class="card-title">${item.nombre}</h5>
+                      ${item.medidas ? `<p class="card-text">Medidas: ${item.medidas.join(", ")}</p>` : ""}
                     </div>
                   </div>
                 </div>
@@ -51,8 +40,16 @@ document.addEventListener("DOMContentLoaded", () => {
               .join("")}
           </div>
         `;
-        catalog.appendChild(section);
       }
+    }
+  
+    function groupBySubcategory(items) {
+      return items.reduce((acc, item) => {
+        const subcategory = item.subcategoria || "Otros";
+        if (!acc[subcategory]) acc[subcategory] = [];
+        acc[subcategory].push(item);
+        return acc;
+      }, {});
     }
   });
   

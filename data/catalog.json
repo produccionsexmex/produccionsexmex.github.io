@@ -1,8 +1,52 @@
 [
-    { "nombre": "Vestido rojo", "categoria": "Vestuario de mujer", "imagen": "assets/images/vestido_rojo.jpg" },
-    { "nombre": "Traje negro", "categoria": "Vestuario de hombre", "imagen": "assets/images/traje_negro.jpg" },
-    { "nombre": "Disfraz de pirata", "categoria": "Disfraces", "imagen": "assets/images/disfraz_pirata.jpg" },
-    { "nombre": "Máscara de carnaval", "categoria": "Accesorios", "imagen": "assets/images/mascara.jpg" },
-    { "nombre": "Florero antiguo", "categoria": "Decoración", "imagen": "assets/images/florero.jpg" }
+    {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "nombre": "Vestido rojo",
+      "imagen": "assets/img/516Ltwudh1L.webp"
+    },
+    {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "nombre": "Vestido negro",
+        "imagen": "assets/img/02257478001-c.webp"
+      },
+    {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Zapatos",
+      "nombre": "Zapatos de tacón",
+      "medidas": ["24", "25", "26"],
+      "imagen": "assets/images/tacon.jpg"
+    },
+    {
+      "categoria": "Vestuario de hombre",
+      "subcategoria": "Vestidos",
+      "nombre": "Traje negro",
+      "imagen": "assets/images/traje_negro.jpg"
+    },
+    {
+      "categoria": "Vestuario de hombre",
+      "subcategoria": "Zapatos",
+      "nombre": "Zapatos de vestir",
+      "medidas": ["27", "28", "29"],
+      "imagen": "assets/images/vestir.jpg"
+    },
+    {
+      "categoria": "Disfraces de mujer y de hombre",
+      "nombre": "Disfraz de pirata",
+      "imagen": "assets/images/disfraz_pirata.jpg"
+    },
+    {
+      "categoria": "Accesorios",
+      "subcategoria": "Máscaras",
+      "nombre": "Máscara de carnaval",
+      "imagen": "assets/images/mascara.jpg"
+    },
+    {
+      "categoria": "Decoración",
+      "subcategoria": "Floreros",
+      "nombre": "Florero antiguo",
+      "imagen": "assets/images/florero.jpg"
+    }
   ]
   
