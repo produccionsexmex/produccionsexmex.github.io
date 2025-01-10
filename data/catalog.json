@@ -1,0 +1,6 @@
+[
+    { "nombre": "Vestido rojo", "categoria": "Mujer", "imagen": "assets/images/vestido_rojo.jpg" },
+    { "nombre": "Traje negro", "categoria": "Hombre", "imagen": "assets/images/traje_negro.jpg" },
+    { "nombre": "Sombrero vaquero", "categoria": "Accesorios", "imagen": "assets/images/sombrero.jpg" }
+  ]
+  
