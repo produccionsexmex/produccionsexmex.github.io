@@ -1,11 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Fondo general */
+/* Ajustes generales */
 body {
-    background:  #e9ecef;
     font-family: 'Poppins', sans-serif;
-    color: #343a40;
+    margin: 0;
+    padding-top: 56px; /* Espacio para la barra de navegación fija */
+  }
+  
+  /* Navegación */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
   }
   
   /* Títulos de categorías */
@@ -41,60 +52,18 @@ body {
   /* Imagen en las tarjetas */
   .card-img-top {
     border-bottom: 2px solid #007bff;
-    height: 200px;
+    height: 350px;
     object-fit: cover;
   }
   
-  /* Botones interactivos (si agregamos más interacción) */
-  .btn {
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 20px;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
+  .card-body {
+    padding: 0.5rem;
+    text-align: center;
   }
   
   /* Contenedor principal */
   .container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .d-flex {
-    display: flex;
-    height: 100vh;
+    max-width: 100%;
+    padding: 0 10px;
   }
   
-  /* Menú Lateral */
-  #sidebar {
-    width: 250px;
-    background-color: #f8f9fa;
-  }
-  
-  #sidebar .sidebar-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  #sidebar .nav-link {
-    color: #343a40;
-    padding: 10px 20px;
-    transition: background-color 0.2s, color 0.2s;
-  }
-  
-  #sidebar .nav-link:hover, 
-  #sidebar .nav-link.active {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  /* Contenido Principal */
-  #content {
-    padding: 20px;
-    overflow-y: auto;
-    flex-grow: 1;
-  }
