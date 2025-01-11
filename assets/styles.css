@@ -52,7 +52,7 @@ body {
   /* Imagen en las tarjetas */
   .card-img-top {
     border-bottom: 2px solid #007bff;
-    height: 350px;
+    height: 600px;
     object-fit: cover;
   }
   

@@ -1,10 +1,197 @@
 [
     {
       "categoria": "Vestuario de mujer",
-      "subcategoria": "Vestidos",
-      "nombre": "Vestido rojo",
-      "imagen": "assets/img/516Ltwudh1L.webp"
+      "subcategoria": "Brillosos",
+      "nombre": "Brillosos 01",
+      "imagen": "assets/img/mujeres/brillosos/01.jpg"
     },
+    {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 02",
+        "imagen": "assets/img/mujeres/brillosos/02.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 03",
+        "imagen": "assets/img/mujeres/brillosos/03.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 04",
+        "imagen": "assets/img/mujeres/brillosos/04.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 05",
+        "imagen": "assets/img/mujeres/brillosos/05.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 06",
+        "imagen": "assets/img/mujeres/brillosos/06.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 07",
+        "imagen": "assets/img/mujeres/brillosos/07.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 08",
+        "imagen": "assets/img/mujeres/brillosos/08.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 09",
+        "imagen": "assets/img/mujeres/brillosos/09.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 010",
+        "imagen": "assets/img/mujeres/brillosos/10.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 011",
+        "imagen": "assets/img/mujeres/brillosos/11.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 012",
+        "imagen": "assets/img/mujeres/brillosos/12.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 013",
+        "imagen": "assets/img/mujeres/brillosos/13.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 014",
+        "imagen": "assets/img/mujeres/brillosos/14.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 014",
+        "imagen": "assets/img/mujeres/brillosos/14_1.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 015",
+        "imagen": "assets/img/mujeres/brillosos/15.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 016",
+        "imagen": "assets/img/mujeres/brillosos/16.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 017",
+        "imagen": "assets/img/mujeres/brillosos/17.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 018",
+        "imagen": "assets/img/mujeres/brillosos/18.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 01",
+        "imagen": "assets/img/mujeres/brillosos/19.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 019",
+        "imagen": "assets/img/mujeres/brillosos/20.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 020",
+        "imagen": "assets/img/mujeres/brillosos/21.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 022",
+        "imagen": "assets/img/mujeres/brillosos/22.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 023",
+        "imagen": "assets/img/mujeres/brillosos/23.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 024",
+        "imagen": "assets/img/mujeres/brillosos/24.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 025",
+        "imagen": "assets/img/mujeres/brillosos/25.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 026",
+        "imagen": "assets/img/mujeres/brillosos/26.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 027",
+        "imagen": "assets/img/mujeres/brillosos/27.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 030",
+        "imagen": "assets/img/mujeres/brillosos/30.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 031",
+        "imagen": "assets/img/mujeres/brillosos/31.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 032",
+        "imagen": "assets/img/mujeres/brillosos/32.jpg"
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Brillosos",
+      "nombre": "Brillosos 033",
+        "imagen": "assets/img/mujeres/brillosos/33.jpg"
+      },
+                                                                              
     {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
