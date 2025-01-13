@@ -50,18 +50,75 @@ function displayItems(items) {
 // Función para filtrar los ítems basados en el texto de búsqueda
 function filterItems() {
   const query = searchBar.value.toLowerCase();
-  
+
   const filteredItems = items.filter(item => {
-    return (
-      item.nombre.toLowerCase().includes(query) ||
-      item.categoria.toLowerCase().includes(query) ||
-      item.subcategoria.toLowerCase().includes(query) ||
-      item.tags.some(tag => tag.toLowerCase().includes(query))
-    );
+      // Realizamos la búsqueda en nombre, categoría, subcategoría, tags y color
+      return (
+          (item.nombre && item.nombre.toLowerCase().includes(query)) || // Busca en nombre
+          (item.categoria && item.categoria.toLowerCase().includes(query)) || // Busca en categoría
+          (item.subcategoria && item.subcategoria.toLowerCase().includes(query)) || // Busca en subcategoría
+          (item.tags && item.tags.some(tag => tag.toLowerCase().includes(query))) || // Busca en tags
+          (item.color && item.color.toLowerCase().includes(query)) // Busca en color
+      );
   });
 
-  displayItems(filteredItems);
+  displayItems(filteredItems); // Muestra los ítems filtrados
 }
+
+// Función para filtrar los ítems basados en el texto de búsqueda
+function filterItems() {
+  const query = searchBar.value.toLowerCase();
+
+  // Si el input está vacío, vaciamos los ítems mostrados
+  if (query === "") {
+      itemsContainer.innerHTML = ''; // Borra los ítems
+  } else {
+      // Si hay texto en el input, realizamos la búsqueda en todos los campos
+      const filteredItems = items.filter(item => {
+          return (
+              (item.nombre && item.nombre.toLowerCase().includes(query)) || // Busca en nombre
+              (item.categoria && item.categoria.toLowerCase().includes(query)) || // Busca en categoría
+              (item.subcategoria && item.subcategoria.toLowerCase().includes(query)) || // Busca en subcategoría
+              (item.tags && item.tags.some(tag => tag.toLowerCase().includes(query))) || // Busca en tags
+              (item.color && item.color.toLowerCase().includes(query)) // Busca en color
+          );
+      });
+
+      // Muestra los ítems filtrados
+      displayItems(filteredItems);
+  }
+}
+
+// Función para mostrar los ítems en la página
+function displayItems(items) {
+  if (items.length === 0) {
+      itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta búsqueda.</p>';
+  } else {
+      itemsContainer.innerHTML = items
+          .map(item => {
+              const displayName = item.nombre ? item.nombre : "";
+              const tags = item.tags ?
+                  item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("")
+                  : "";
+
+              return `
+              <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                  <div class="card h-100">
+                      <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
+                      <div class="card-body">
+                          ${displayName ? `<h5 class="card-title">${displayName}</h5>` : ""}
+                          ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
+                          ${tags ? `<div class="mt-2">${tags}</div>` : ""}
+                      </div>
+                  </div>
+              </div>`;
+          })
+          .join("");
+  }
+}
+
+// Evento de búsqueda
+searchBar.addEventListener("input", filterItems); // Filtra mientras se escribe
 
 // Función para filtrar ítems por subcategoría
 function filterBySubcategory(subcategory) {
