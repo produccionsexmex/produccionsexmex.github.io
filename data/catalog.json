@@ -1078,7 +1078,8 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 02",
-        "imagen": "assets/img/mujeres/puti-vestidos/02.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/02.jpg",
+        "tags": ["floral", "fucsia"]
       },
       {
         "categoria": "Vestuario de mujer",

@@ -76,4 +76,25 @@ body {
     height: 400px;
   }
 }
-  
+/* Para la barra de búsqueda */
+#searchBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 0; /* Asegura que esté al principio */
+}
+
+/* Para el submenú de categorías */
+#subcategoriesNav {
+  position: fixed;
+  top: 60px; /* Ajusta según la altura de la barra de búsqueda */
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+  padding: 10px;
+}
