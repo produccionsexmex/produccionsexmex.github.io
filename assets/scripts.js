@@ -36,7 +36,7 @@ function displayItems(items) {
               <div class="card-body">
                 <h5 class="card-title">${displayName}</h5>
                 ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
-                ${item.tags ? `<p>Tags: ${item.tags.join(", ")}</p>` : ""}
+                ${item.tags ? `<span class="badge text-bg-primary"> ${item.tags.join(", ")}</span>` : ""}
               </div>` : ""}
           </div>
         </div>`;
