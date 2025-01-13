@@ -1,22 +1,27 @@
 // Variables de los elementos
 const itemsContainer = document.getElementById("itemsContainer");
 const subcategoriesNav = document.getElementById("subcategoriesNav");
+const sizesNav = document.getElementById("sizesNav"); // Contenedor para las tallas
 const searchBar = document.getElementById("searchBar");
 const subcategoriesList = document.getElementById("subcategoriesList");
+const sizesList = document.getElementById("sizesList"); // Lista de tallas
 
 let items = []; // Array donde almacenamos los ítems cargados
 let currentCategory = ''; // Para saber qué categoría estamos viendo actualmente
+let currentSubcategory = ''; // Para saber qué subcategoría estamos viendo actualmente
 
-// Función para cargar los ítems desde el archivo JSON externo
 async function loadItems() {
-  try {
-    const response = await fetch('data/catalog.json'); // Cambia la ruta a tu archivo JSON
-    items = await response.json();
-    displayItems(items); // Muestra todos los ítems al cargar
-  } catch (error) {
-    console.error('Error al cargar los ítems:', error);
+    try {
+      const response = await fetch('data/catalog.json'); // Cambia la ruta a tu archivo JSON
+      items = await response.json();
+  
+      // No llamamos a `displayItems` al inicio para evitar mostrar ítems de forma predeterminada
+      console.log('Ítems cargados correctamente');
+    } catch (error) {
+      console.error('Error al cargar los ítems:', error);
+    }
   }
-}
+  
 
 // Función para mostrar los ítems en la página
 function displayItems(items) {
@@ -24,7 +29,7 @@ function displayItems(items) {
     .map(item => {
       const displayName = item.nombre ? item.nombre : "";
       return `
-        <div class="col-12 col-3 col-md-4 col-lg-4 mb-4">
+        <div class="col-lg-4 mb-4">
           <div class="card h-100">
             <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
             ${displayName ? `
@@ -57,7 +62,15 @@ function filterItems() {
 
 // Función para filtrar ítems por subcategoría
 function filterBySubcategory(subcategory) {
+  currentSubcategory = subcategory; // Guarda la subcategoría seleccionada
   const filteredItems = items.filter(item => item.subcategoria === subcategory);
+  displayItems(filteredItems);
+  displaySizes(subcategory); // Muestra las tallas disponibles para esta subcategoría
+}
+
+// Función para filtrar ítems por talla
+function filterBySize(size) {
+  const filteredItems = items.filter(item => item.medidas && item.medidas.includes(size));
   displayItems(filteredItems);
 }
 
@@ -73,12 +86,84 @@ function displaySubcategories(category) {
     .join("");
 }
 
-// Función para manejar la navegación de la categoría principal
-function handleCategoryClick(category) {
-  displaySubcategories(category);
-  const filteredItems = items.filter(item => item.categoria === category);
-  displayItems(filteredItems);
+// Función para mostrar las tallas disponibles en una subcategoría
+function displaySizes(subcategory) {
+  // Filtra los ítems de la subcategoría de calzado
+  const itemsInSubcategory = items.filter(item => item.subcategoria === subcategory && item.medidas);
+
+  if (itemsInSubcategory.length > 0) {
+    sizesNav.style.display = 'block'; // Muestra el menú de tallas si hay productos con medidas
+  } else {
+    sizesNav.style.display = 'none'; // Oculta el menú si no hay productos con tallas
+  }
+
+  // Obtén todas las tallas disponibles, asegurando que sean únicas
+  const sizes = [...new Set(itemsInSubcategory.flatMap(item => item.medidas))].sort((a, b) => {
+    // Ordena las tallas de menor a mayor, tratando las fracciones como cadenas
+    return a.localeCompare(b);
+  });
+  
+  // Mostrar las tallas en el menú
+  sizesList.innerHTML = sizes
+    .map(size => `
+      <li class="nav-item me-2 mb-2">
+        <a class="btn btn-outline-primary" href="#" onclick="filterBySize('${size}')">${size}</a>
+      </li>`)
+    .join("");
 }
+
+// Variables de los elementos
+const currentCategoryHeading = document.getElementById('currentCategory');
+
+function handleCategoryClick(category) {
+    // Cerrar el menú de Bootstrap
+    const navbarCollapse = document.getElementById('navbarNav');
+    const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+    bsCollapse.hide(); // Oculta el menú
+  
+    // Actualiza el encabezado con la categoría seleccionada
+    currentCategory = category;
+    currentCategoryHeading.textContent = category;
+  
+    // Muestra las subcategorías de la categoría seleccionada
+    displaySubcategories(category);
+  
+    // Limpia los ítems mostrados inicialmente al cambiar de categoría
+    itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría para ver los ítems.</p>';
+  
+    // Oculta el menú de tallas por defecto
+    sizesNav.style.display = 'none';
+  }
+  
+  
+
+  function filterBySubcategory(subcategory) {
+    // Actualiza el encabezado con la categoría y la subcategoría
+    currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
+  
+    // Filtra los ítems considerando la categoría actual y la subcategoría seleccionada
+    const filteredItems = items.filter(
+      item => item.categoria === currentCategory && item.subcategoria === subcategory
+    );
+  
+    // Muestra los ítems filtrados si existen
+    if (filteredItems.length > 0) {
+      displayItems(filteredItems);
+    } else {
+      itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta subcategoría.</p>';
+    }
+  
+    // Si la categoría es "Calzado", muestra el menú de tallas
+    if (currentCategory === 'Calzado') {
+      displaySizesNav(filteredItems);
+    } else {
+      sizesNav.style.display = 'none';
+    }
+  }
+  
+  
+
+  
 
 // Eventos
 searchBar.addEventListener("input", filterItems); // Filtra mientras se escribe

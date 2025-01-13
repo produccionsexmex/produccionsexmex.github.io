@@ -19,8 +19,8 @@
         <ul class="navbar-nav w-100">
           <li class="nav-item"><a class="nav-link" href="#" data-category="Vestuario de mujer">Vestuario de Mujer</a></li>
           <li class="nav-item"><a class="nav-link" href="#" data-category="Vestuario de hombre">Vestuario de Hombre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-category="Disfraces de mujer y de hombre">Disfraces</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-category="Accesorios">Accesorios</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#" data-category="Disfraces de mujer y de hombre">Disfraces</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-category="Accesorios">Accesorios</a></li> -->
           <li class="nav-item"><a class="nav-link" href="#" data-category="Decoración">Decoración</a></li>
         </ul>
       </div>
@@ -28,21 +28,34 @@
   </nav>
 
   <!-- Barra de navegación secundaria para subcategorías -->
-  <div id="subcategoriesNav" class="container mt-5 pt-5">
+  <div id="subcategoriesNav" class="container pt-4">
     <nav>
-      <ul class="nav" id="subcategoriesList">
+      <ul class="nav nav-pills" id="subcategoriesList">
         <!-- Subcategorías dinámicas se insertarán aquí -->
       </ul>
     </nav>
   </div>
 
+  
   <!-- Buscador -->
   <div class="container mt-3">
     <input type="text" id="searchBar" class="form-control" placeholder="Buscar por nombre, categoría, subcategoría o tags">
+
+    <div class="my-4">
+        <!-- Barra de navegación de tallas (se muestra solo si la subcategoría es calzado) -->
+        <nav id="sizesNav" class="navbar navbar-expand-lg navbar-light bg-light" style="display:none;">
+            <div class="container-fluid">
+            <ul id="sizesList" class="nav">
+                <!-- Las tallas se insertarán aquí dinámicamente -->
+            </ul>
+            </div>
+        </nav>
+    </div>
   </div>
 
   <!-- Contenido Principal -->
   <div class="container mt-3">
+    <h3 id="currentCategory" class="mb-4 text-center"></h3>
     <div id="itemsContainer" class="row g-3">
       <!-- Los ítems filtrados se mostrarán aquí -->
     </div>
