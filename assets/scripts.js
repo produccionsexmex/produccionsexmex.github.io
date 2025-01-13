@@ -28,16 +28,19 @@ function displayItems(items) {
   itemsContainer.innerHTML = items
     .map(item => {
       const displayName = item.nombre ? item.nombre : "";
+      const tags = item.tags ? 
+        item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("") 
+        : "";
+
       return `
         <div class="col-lg-4 col-sm-6 col-12 mb-4">
           <div class="card h-100">
             <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
-            ${displayName ? `
-              <div class="card-body">
-                <h5 class="card-title">${displayName}</h5>
-                ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
-                ${item.tags ? `<span class="badge text-bg-primary"> ${item.tags.join(", ")}</span>` : ""}
-              </div>` : ""}
+            <div class="card-body">
+              ${displayName ? `<h5 class="card-title">${displayName}</h5>` : ""}
+              ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
+              ${tags ? `<div class="mt-2">${tags}</div>` : ""}
+            </div>
           </div>
         </div>`;
     })
@@ -86,30 +89,68 @@ function displaySubcategories(category) {
     .join("");
 }
 
-// Función para mostrar las tallas disponibles en una subcategoría
-function displaySizes(subcategory) {
-  // Filtra los ítems de la subcategoría de calzado
-  const itemsInSubcategory = items.filter(item => item.subcategoria === subcategory && item.medidas);
+function displayColorsNav(filteredItems) {
+  // Limpia el contenido actual del menú de colores
+  subcategoriesList.innerHTML = '';
 
-  if (itemsInSubcategory.length > 0) {
-    sizesNav.style.display = 'block'; // Muestra el menú de tallas si hay productos con medidas
-  } else {
-    sizesNav.style.display = 'none'; // Oculta el menú si no hay productos con tallas
+  // Obtén una lista única de colores
+  const colors = [...new Set(filteredItems.map(item => item.color))];
+
+  // Si hay colores, genera los elementos dinámicos
+  if (colors.length > 0) {
+    subcategoriesList.innerHTML = colors
+      .map(color => `
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="filterByColor('${color}')">${color}</a>
+        </li>
+      `)
+      .join("");
   }
+}
 
-  // Obtén todas las tallas disponibles, asegurando que sean únicas
-  const sizes = [...new Set(itemsInSubcategory.flatMap(item => item.medidas))].sort((a, b) => {
-    // Ordena las tallas de menor a mayor, tratando las fracciones como cadenas
-    return a.localeCompare(b);
-  });
-  
-  // Mostrar las tallas en el menú
-  sizesList.innerHTML = sizes
-    .map(size => `
-      <li class="nav-item me-2 mb-2">
-        <a class="btn btn-outline-primary" href="#" onclick="filterBySize('${size}')">${size}</a>
-      </li>`)
-    .join("");
+function filterByColor(color) {
+  const filteredItems = items.filter(
+    item => item.categoria === currentCategory &&
+            item.subcategoria === currentSubcategory &&
+            item.color === color
+  );
+
+  // Actualiza los ítems mostrados y el encabezado
+  if (filteredItems.length > 0) {
+    displayItems(filteredItems);
+    currentCategoryHeading.textContent = `${currentCategory} > ${currentSubcategory} > ${color}`;
+  } else {
+    itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para este color.</p>';
+  }
+}
+
+function filterBySubcategory(subcategory) {
+  // Actualiza el encabezado con la categoría y subcategoría
+  currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
+  currentSubcategory = subcategory; // Guarda la subcategoría actual
+
+  // Filtra los ítems según la categoría y subcategoría
+  const filteredItems = items.filter(
+    item => item.categoria === currentCategory && item.subcategoria === subcategory
+  );
+
+  // Muestra los ítems filtrados
+  if (filteredItems.length > 0) {
+    displayItems(filteredItems); // Muestra los ítems de la subcategoría
+
+    // Si la categoría es "Calzado", muestra el menú de tallas
+    if (currentCategory === 'Calzado') {
+      displaySizesNav(filteredItems); // Muestra tallas si es Calzado
+    } else {
+      sizesNav.style.display = 'none'; // Oculta el menú de tallas si no es Calzado
+    }
+
+    // Muestra el menú de colores (si la subcategoría tiene colores)
+    displayColorsNav(filteredItems);
+  } else {
+    itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta subcategoría.</p>';
+    subcategoriesNav.innerHTML = ''; // Limpia el menú de colores si no hay ítems
+  }
 }
 
 // Variables de los elementos
@@ -149,8 +190,10 @@ function handleCategoryClick(category) {
     // Muestra los ítems filtrados si existen
     if (filteredItems.length > 0) {
       displayItems(filteredItems);
+      displayColorsNav(filteredItems); // Muestra el menú de colores si aplica
     } else {
       itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta subcategoría.</p>';
+      subcategoriesNav.innerHTML = ''; // Limpia el menú de colores si no hay ítems
     }
   
     // Si la categoría es "Calzado", muestra el menú de tallas
@@ -160,7 +203,6 @@ function handleCategoryClick(category) {
       sizesNav.style.display = 'none';
     }
   }
-  
   
 
   

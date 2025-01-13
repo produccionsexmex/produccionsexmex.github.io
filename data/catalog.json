@@ -2298,50 +2298,210 @@
         "imagen": "assets/img/hombres/disfraces/047.jpg"
       },
 
+
+
+
+
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
+        "color": "Blancos",
         "nombre": "Jarron Blanco 029",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/029.jpg",
         "tags": ["dorado", "moderno", "decorativo"]
       },
-
-
-
-
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
-        "variantes": [
-          {
-            "nombre": "Jarrón blanco clásico",
-            "color": "Blanco 029",
-            "imagen": "assets/img/02257478001-c.webp",
-            "descripcion": "Jarrón de cerámica blanca de estilo clásico",
-            "tags": ["blanco", "clásico", "cerámica"]
-          },
-          {
-            "nombre": "Jarrón dorado elegante",
-            "color": "Dorado",
-            "imagen": "assets/img/adornos/jarrones/dorados/jarron2.jpg",
-            "descripcion": "Jarrón metálico dorado para decoración moderna",
-            "tags": ["dorado", "moderno", "decorativo"]
-          },
-          {
-            "nombre": "Jarrón blanco minimalista",
-            "color": "Blanco",
-            "imagen": "assets/img/adornos/jarrones/blancos/jarron3.jpg",
-            "descripcion": "Jarrón de diseño minimalista para ambientes contemporáneos",
-            "tags": ["blanco", "minimalista", "moderno"]
-          },
-          {
-            "nombre": "Jarrón dorado texturizado",
-            "color": "Dorado",
-            "imagen": "assets/img/adornos/jarrones/dorados/jarron4.jpg",
-            "descripcion": "Jarrón dorado con textura grabada",
-            "tags": ["dorado", "texturizado", "lujoso"]
-          }
-        ]
+        "nombre": "Jarron Blanco 030",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/030.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 031",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/031.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 049",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/049.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 059",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/059.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 030",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/030.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 060",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/060.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 061",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/061.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 062",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/062.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 063",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/063.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 064",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/064.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 065",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/065.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 066",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/066.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 067",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/067.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 068",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/068.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 069",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/069.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 070",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/070.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 071",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/071.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 066",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/066.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 072",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/072.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 073",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/073.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 074",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/074.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 075",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/075.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 076",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/076.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 077",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/077.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 078",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/078.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 079",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/079.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 093",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/093.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
       }
+
+
+
+
   ]
   
