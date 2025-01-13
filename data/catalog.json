@@ -2303,13 +2303,13 @@
 
 
       {
-        "categoria": "Adornos",
+        "categoria": "Decoración",
         "subcategoria": "Jarrones",
         "variantes": [
           {
             "nombre": "Jarrón blanco clásico",
-            "color": "Blanco",
-            "imagen": "assets/img/adornos/jarrones_blancos/jarron1.jpg",
+            "color": "Blanco 029",
+            "imagen": "assets/img/adornos/jarrones/jarrones_blancos/029.jpg",
             "descripcion": "Jarrón de cerámica blanca de estilo clásico",
             "tags": ["blanco", "clásico", "cerámica"]
           },
