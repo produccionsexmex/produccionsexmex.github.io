@@ -2298,6 +2298,13 @@
         "imagen": "assets/img/hombres/disfraces/047.jpg"
       },
 
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+        "nombre": "Jarron Blanco 029",
+        "imagen": "assets/img/adornos/jarrones/blancos/jarron3.jpg",
+        "tags": ["dorado", "moderno", "decorativo"]
+      },
 
 
 
@@ -2309,7 +2316,7 @@
           {
             "nombre": "Jarrón blanco clásico",
             "color": "Blanco 029",
-            "imagen": "assets/img/adornos/jarrones/jarrones_blancos/029.jpg",
+            "imagen": "assets/img/02257478001-c.webp",
             "descripcion": "Jarrón de cerámica blanca de estilo clásico",
             "tags": ["blanco", "clásico", "cerámica"]
           },

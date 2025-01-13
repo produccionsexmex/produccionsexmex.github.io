@@ -51,8 +51,9 @@ body {
   
   /* Imagen en las tarjetas */
   .card-img-top {
-    border-bottom: 2px solid #007bff;
-    height: 600px;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
     object-fit: cover;
   }
   
@@ -70,3 +71,9 @@ body {
     display: block;
     float: left;
   }
+@media (max-width: 768px){
+  .card-img-top{
+    height: 400px;
+  }
+}
+  

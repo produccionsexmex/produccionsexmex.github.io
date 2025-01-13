@@ -29,7 +29,7 @@ function displayItems(items) {
     .map(item => {
       const displayName = item.nombre ? item.nombre : "";
       return `
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-4 col-sm-6 col-12 mb-4">
           <div class="card h-100">
             <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
             ${displayName ? `
