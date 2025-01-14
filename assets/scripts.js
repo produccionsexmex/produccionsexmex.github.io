@@ -67,25 +67,32 @@ function filterItems() {
 
 // Función para filtrar los ítems basados en el texto de búsqueda
 function filterItems() {
-  const query = searchBar.value.toLowerCase();
+  const query = searchBar.value.toLowerCase().trim();
+  
+  // Divide la búsqueda en palabras clave
+  const keywords = query.split(/\s+/);
 
-  // Si el input está vacío, vaciamos los ítems mostrados
-  if (query === "") {
-      itemsContainer.innerHTML = ''; // Borra los ítems
+  // Filtra los ítems
+  const filteredItems = items.filter(item => {
+    // Une todos los datos relevantes del ítem en un solo string
+    const itemData = [
+      item.nombre?.toLowerCase() || '',
+      item.categoria?.toLowerCase() || '',
+      item.subcategoria?.toLowerCase() || '',
+      ...(item.tags ? item.tags.map(tag => tag.toLowerCase()) : [])
+    ].join(' ');
+
+    // Verifica que todas las palabras clave estén presentes en el string
+    return keywords.every(keyword => itemData.includes(keyword));
+  });
+
+  // Muestra los ítems filtrados
+  if (filteredItems.length > 0) {
+    displayItems(filteredItems);
+  } else if (query) {
+    itemsContainer.innerHTML = '<p class="text-muted">No se encontraron resultados para esta búsqueda.</p>';
   } else {
-      // Si hay texto en el input, realizamos la búsqueda en todos los campos
-      const filteredItems = items.filter(item => {
-          return (
-              (item.nombre && item.nombre.toLowerCase().includes(query)) || // Busca en nombre
-              (item.categoria && item.categoria.toLowerCase().includes(query)) || // Busca en categoría
-              (item.subcategoria && item.subcategoria.toLowerCase().includes(query)) || // Busca en subcategoría
-              (item.tags && item.tags.some(tag => tag.toLowerCase().includes(query))) || // Busca en tags
-              (item.color && item.color.toLowerCase().includes(query)) // Busca en color
-          );
-      });
-
-      // Muestra los ítems filtrados
-      displayItems(filteredItems);
+    itemsContainer.innerHTML = ''; // Limpia los ítems si no hay búsqueda
   }
 }
 
