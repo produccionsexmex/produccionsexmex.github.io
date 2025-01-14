@@ -230,7 +230,8 @@
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 01",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/01.jpg"
+        "imagen": "assets/img/mujeres/calzado/01.jpg",
+        "tags": ["Tacón alto", "Coral"]
       },  
 
       {
@@ -238,224 +239,256 @@
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 02",
         "medidas": ["24 1/2"],
-        "imagen": "assets/img/mujeres/calzado/02.jpg"
+        "imagen": "assets/img/mujeres/calzado/02.jpg",
+        "tags": ["Tacón alto", "Plateado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 03",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/03.jpg"
+        "imagen": "assets/img/mujeres/calzado/03.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 04",
         "medidas": ["24 1/2"],
-        "imagen": "assets/img/mujeres/calzado/04.jpg"
+        "imagen": "assets/img/mujeres/calzado/04.jpg",
+        "tags": ["Tacón alto", "Rojo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 05",
         "medidas": ["25 1/2"],
-        "imagen": "assets/img/mujeres/calzado/05.jpg"
+        "imagen": "assets/img/mujeres/calzado/05.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 06",
         "medidas": ["22"],
-        "imagen": "assets/img/mujeres/calzado/06.jpg"
+        "imagen": "assets/img/mujeres/calzado/06.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 07",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/07.jpg"
+        "imagen": "assets/img/mujeres/calzado/07.jpg",
+        "tags": ["Tacón alto", "Lila"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 08",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/08.jpg"
+        "imagen": "assets/img/mujeres/calzado/08.jpg",
+        "tags": ["Tacón alto", "Coral"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 09",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/09.jpg"
+        "imagen": "assets/img/mujeres/calzado/09.jpg",
+        "tags": ["Tacón alto", "Floreado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 010",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/10.jpg"
+        "imagen": "assets/img/mujeres/calzado/10.jpg",
+        "tags": ["Tacón alto", "Hueso"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 011",
         "medidas": ["28"],
-        "imagen": "assets/img/mujeres/calzado/11.jpg"
+        "imagen": "assets/img/mujeres/calzado/11.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 012",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/12.jpg"
+        "imagen": "assets/img/mujeres/calzado/12.jpg",
+        "tags": ["Tacón alto", "Hueso"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 013",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/13.jpg"
+        "imagen": "assets/img/mujeres/calzado/13.jpg",
+        "tags": ["Tacón alto", "Plateado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 014",
         "medidas": ["24  1/2"],
-        "imagen": "assets/img/mujeres/calzado/04.jpg"
+        "imagen": "assets/img/mujeres/calzado/14.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 015",
         "medidas": ["26 1/2"],
-        "imagen": "assets/img/mujeres/calzado/15.jpg"
+        "imagen": "assets/img/mujeres/calzado/15.jpg",
+        "tags": ["Tacón alto", "Fiusha"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 016",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/16.jpg"
+        "imagen": "assets/img/mujeres/calzado/16.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 017",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/17.jpg"
+        "imagen": "assets/img/mujeres/calzado/17.jpg",
+        "tags": ["Tacón alto", "Rojo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 018",
         "medidas": ["25 1/2"],
-        "imagen": "assets/img/mujeres/calzado/18.jpg"
+        "imagen": "assets/img/mujeres/calzado/18.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 019",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/19.jpg"
+        "imagen": "assets/img/mujeres/calzado/19.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 020",
         "medidas": ["24 1/2"],
-        "imagen": "assets/img/mujeres/calzado/20.jpg"
+        "imagen": "assets/img/mujeres/calzado/20.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 021",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/21.jpg"
+        "imagen": "assets/img/mujeres/calzado/21.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 022",
         "medidas": ["26 1/2"],
-        "imagen": "assets/img/mujeres/calzado/22.jpg"
+        "imagen": "assets/img/mujeres/calzado/22.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 023",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/23.jpg"
+        "imagen": "assets/img/mujeres/calzado/23.jpg",
+        "tags": ["Tacón alto", "Gris"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 024",
         "medidas": ["25 1/2"],
-        "imagen": "assets/img/mujeres/calzado/24.jpg"
+        "imagen": "assets/img/mujeres/calzado/24.jpg",
+        "tags": ["Tacón alto", "Beige"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 025",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/25.jpg"
+        "imagen": "assets/img/mujeres/calzado/25.jpg",
+        "tags": ["Tacón alto", "Floreado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 026",
         "medidas": ["25 1/2"],
-        "imagen": "assets/img/mujeres/calzado/26.jpg"
+        "imagen": "assets/img/mujeres/calzado/26.jpg",
+        "tags": ["Tacón alto", "Blanco"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 027",
         "medidas": ["23 1/2"],
-        "imagen": "assets/img/mujeres/calzado/27.jpg"
+        "imagen": "assets/img/mujeres/calzado/27.jpg",
+        "tags": ["Tacón alto", "Rojo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 028",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/28.jpg"
+        "imagen": "assets/img/mujeres/calzado/28.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 029",
         "medidas": ["23 1/2"],
-        "imagen": "assets/img/mujeres/calzado/29.jpg"
+        "imagen": "assets/img/mujeres/calzado/29.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 030",
         "medidas": ["23"],
-        "imagen": "assets/img/mujeres/calzado/30.jpg"
+        "imagen": "assets/img/mujeres/calzado/30.jpg",
+        "tags": ["Tacón alto", "Beige"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 031",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/31.jpg"
+        "imagen": "assets/img/mujeres/calzado/31.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 032",
         "medidas": ["24 1/2"],
-        "imagen": "assets/img/mujeres/calzado/32.jpg"
+        "imagen": "assets/img/mujeres/calzado/32.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 033",
         "medidas": ["23"],
-        "imagen": "assets/img/mujeres/calzado/33.jpg"
+        "imagen": "assets/img/mujeres/calzado/33.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
 
       {
@@ -463,56 +496,64 @@
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 035",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/35.jpg"
+        "imagen": "assets/img/mujeres/calzado/35.jpg",
+        "tags": ["Tacón alto", "Coral"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 036",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/36.jpg"
+        "imagen": "assets/img/mujeres/calzado/36.jpg",
+        "tags": ["Tacón alto", "Rojo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 037",
         "medidas": ["28 1/2"],
-        "imagen": "assets/img/mujeres/calzado/37.jpg"
+        "imagen": "assets/img/mujeres/calzado/37.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 038",
         "medidas": ["23"],
-        "imagen": "assets/img/mujeres/calzado/38.jpg"
+        "imagen": "assets/img/mujeres/calzado/38.jpg",
+        "tags": ["Tacón alto", "Ladrillo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 039",
         "medidas": ["25 1/2"],
-        "imagen": "assets/img/mujeres/calzado/39.jpg"
+        "imagen": "assets/img/mujeres/calzado/39.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 040",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/40.jpg"
+        "imagen": "assets/img/mujeres/calzado/40.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 041",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/41.jpg"
+        "imagen": "assets/img/mujeres/calzado/41.jpg",
+        "tags": ["Tacón alto", "Plateado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 042",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/42.jpg"
+        "imagen": "assets/img/mujeres/calzado/42.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
 
       {
@@ -520,84 +561,103 @@
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 044",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/44.jpg"
+        "imagen": "assets/img/mujeres/calzado/44.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 045",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/45.jpg"
+        "imagen": "assets/img/mujeres/calzado/45.jpg",
+        "tags": ["Tacón alto", "Plateado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 046",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/46.jpg"
+        "imagen": "assets/img/mujeres/calzado/46.jpg",
+        "tags": ["Tacón alto", "Café"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 047",
         "medidas": ["26 1/2"],
-        "imagen": "assets/img/mujeres/calzado/47.jpg"
+        "imagen": "assets/img/mujeres/calzado/47.jpg",
+        "tags": ["Tacón alto", "Verde"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 048",
         "medidas": ["25"],
-        "imagen": "assets/img/mujeres/calzado/48.jpg"
+        "imagen": "assets/img/mujeres/calzado/48.jpg",
+        "tags": ["Tacón alto", "Verde"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 049",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/49.jpg"
+        "imagen": "assets/img/mujeres/calzado/49.jpg",
+        "tags": ["Tacón alto", "Beige"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 050",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/50.jpg"
+        "imagen": "assets/img/mujeres/calzado/50.jpg",
+        "tags": ["Tacón alto", "Blanco"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 051",
         "medidas": ["24"],
-        "imagen": "assets/img/mujeres/calzado/51.jpg"
+        "imagen": "assets/img/mujeres/calzado/51.jpg",
+        "tags": ["Tacón alto", "Dorado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 052",
         "medidas": ["27"],
-        "imagen": "assets/img/mujeres/calzado/52.jpg"
+        "imagen": "assets/img/mujeres/calzado/52.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 053",
         "medidas": ["26"],
-        "imagen": "assets/img/mujeres/calzado/53.jpg"
+        "imagen": "assets/img/mujeres/calzado/53.jpg",
+        "tags": ["Tacón alto", "Animal print"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 054",
         "medidas": ["28"],
-        "imagen": "assets/img/mujeres/calzado/54.jpg"
+        "imagen": "assets/img/mujeres/calzado/54.jpg",
+        "tags": ["Tacón alto", "Negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 055",
         "medidas": ["23"],
-        "imagen": "assets/img/mujeres/calzado/55.jpg"
+        "imagen": "assets/img/mujeres/calzado/55.jpg",
+        "tags": ["Tacón alto", "Rojo"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Zapatos",
+        "nombre": "Zapatillas 055",
+        "medidas": ["23 1/2"],
+        "imagen": "assets/img/mujeres/calzado/56.jpg",
+        "tags": ["Tacón alto", "Rojo"]
       },
 
 
