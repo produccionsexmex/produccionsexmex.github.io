@@ -1552,157 +1552,182 @@
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 052",
         "imagen": "assets/img/mujeres/puti-vestidos/052.jpg",
-        "tags": ["Liso", "Negro", "Vestido con falda corta", "Escote amplio"]
+        "tags": ["Liso", "Fiusha", "Vestido con falda corta", "Escote amplio", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 053",
-        "imagen": "assets/img/mujeres/puti-vestidos/053.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/053.jpg",
+        "tags": ["Liso", "Fiusha", "Vestido con falda corta", "Escote amplio", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 054",
-        "imagen": "assets/img/mujeres/puti-vestidos/054.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/054.jpg",
+        "tags": ["Liso", "Fiusha", "Vestido con falda corta", "Escote cruzado", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 055",
-        "imagen": "assets/img/mujeres/puti-vestidos/055.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/055.jpg",
+        "tags": ["Liso", "Coral", "Vestido con falda corta", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 056",
-        "imagen": "assets/img/mujeres/puti-vestidos/056.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/056.jpg",
+        "tags": ["Liso", "Rosa", "Vestido con falda corta", "Apertura en escote", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 057",
-        "imagen": "assets/img/mujeres/puti-vestidos/057.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/057.jpg",
+        "tags": ["Liso", "Rosa", "Vestido con falda corta", "Escote amplio", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 058",
-        "imagen": "assets/img/mujeres/puti-vestidos/058.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/058.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Apertura en escote", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 059",
-        "imagen": "assets/img/mujeres/puti-vestidos/059.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/059.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Escote en V", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 060",
-        "imagen": "assets/img/mujeres/puti-vestidos/060.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/060.jpg",
+        "tags": ["Plisado", "Negro", "Vestido con falda corta", "Escote amplio", "Manga corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 078",
-        "imagen": "assets/img/mujeres/puti-vestidos/078.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/078.jpg",
+        "tags": ["Liso", "Rojo", "Vestido con falda corta", "Apertura en escote", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 079",
-        "imagen": "assets/img/mujeres/puti-vestidos/079.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/079.jpg",
+        "tags": ["Liso", "Rojo", "Vestido con falda corta", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 080",
-        "imagen": "assets/img/mujeres/puti-vestidos/080.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/080.jpg",
+        "tags": ["Liso", "Rojo", "Vestido con falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 081",
-        "imagen": "assets/img/mujeres/puti-vestidos/081.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/081.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Apertura lateral", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 082",
-        "imagen": "assets/img/mujeres/puti-vestidos/082.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/082.jpg",
+        "tags": ["Liso", "Rojo", "Vestido con falda larga", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 083",
-        "imagen": "assets/img/mujeres/puti-vestidos/083.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/083.jpg",
+        "tags": ["Liso", "Café", "Vestido con falda larga", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 084",
-        "imagen": "assets/img/mujeres/puti-vestidos/084.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/084.jpg",
+        "tags": ["Puntos Blancos", "Gris", "Vestido con falda corta", "Escote en V", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 085",
-        "imagen": "assets/img/mujeres/puti-vestidos/085.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/085.jpg",
+        "tags": ["Encaje", "Negro y Tinto", "Vestido con falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 086",
-        "imagen": "assets/img/mujeres/puti-vestidos/086.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/086.jpg",
+        "tags": ["Liso", "Gris", "Vestido con falda corta", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 087",
-        "imagen": "assets/img/mujeres/puti-vestidos/087.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/087.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Cuello redondo", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 088",
-        "imagen": "assets/img/mujeres/puti-vestidos/088.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/088.jpg",
+       "tags": ["Liso", "Negro", "Vestido con falda corta", "Detalles en Dorado", "Cuello redondo", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 089",
-        "imagen": "assets/img/mujeres/puti-vestidos/089.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/089.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Cuello redondo", "Sin mangas", "Tirantes"] 
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 090",
-        "imagen": "assets/img/mujeres/puti-vestidos/090.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/090.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Detalles en Dorado", "Cuello redondo", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 091",
-        "imagen": "assets/img/mujeres/puti-vestidos/091.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/091.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Cuello redondo", "Sin mangas", "Tirantes"] 
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 092",
-        "imagen": "assets/img/mujeres/puti-vestidos/092.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/092.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Escote en V", "Manga larga"] 
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 093",
-        "imagen": "assets/img/mujeres/puti-vestidos/093.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/093.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Escote en V", "Manga larga"] 
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 094",
-        "imagen": "assets/img/mujeres/puti-vestidos/094.jpg"
+        "imagen": "assets/img/mujeres/puti-vestidos/094.jpg",
+        "tags": ["Liso", "Negro", "Vestido con falda corta", "Escote en V", "Manga larga"] 
       },
       {
         "categoria": "Vestuario de mujer",
