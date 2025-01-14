@@ -53,21 +53,36 @@ h3 {
     width: 100%;
     height: auto;
     object-fit: cover;
-    aspect-ratio: 3 / 4; /* Mantiene una relación de aspecto estándar */
 }
 
 /* Ajustes específicos por tamaño de pantalla */
-@media (min-width: 1024px) {
+@media (max-width: 690px) {
     .card-img-top {
-        height: 740px;
-        max-height: none; /* Asegura que no se limite la altura en pantallas grandes */
+        height: 430px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 691px) and (max-width: 768px) {
     .card-img-top {
-        height: 450px;
-        object-fit: cover;
+        height: 490px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-img-top {
+        height: 650px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .card-img-top {
+        height: 615px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .card-img-top {
+        height: 1110px;
     }
 }
 
