@@ -3,193 +3,225 @@
       "categoria": "Vestuario de mujer",
       "subcategoria": "Brillosos",
       "nombre": "Brillosos 01",
-      "imagen": "assets/img/mujeres/brillosos/01.jpg"
+      "imagen": "assets/img/mujeres/brillosos/01.jpg",
+      "tags": ["Vestido Largo", "Café", "Cuello alto"]
     },
     {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 02",
-        "imagen": "assets/img/mujeres/brillosos/02.jpg"
+        "imagen": "assets/img/mujeres/brillosos/02.jpg",
+        "tags": ["Corte completo", "Negro", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 03",
-        "imagen": "assets/img/mujeres/brillosos/03.jpg"
+        "imagen": "assets/img/mujeres/brillosos/03.jpg",
+        "tags": ["Vestido largo", "Dorado", "Tirantes", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 04",
-        "imagen": "assets/img/mujeres/brillosos/04.jpg"
+        "imagen": "assets/img/mujeres/brillosos/04.jpg",
+        "tags": ["Vestido largo", "Dorado", "Tirantes", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 05",
-        "imagen": "assets/img/mujeres/brillosos/05.jpg"
+        "imagen": "assets/img/mujeres/brillosos/05.jpg",
+        "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 06",
-        "imagen": "assets/img/mujeres/brillosos/06.jpg"
+        "imagen": "assets/img/mujeres/brillosos/06.jpg",
+        "tags": ["Vestido corto", "Rojo", "Tirantes", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 07",
-        "imagen": "assets/img/mujeres/brillosos/07.jpg"
+        "imagen": "assets/img/mujeres/brillosos/07.jpg",
+        "tags": ["Corte completo", "Negro", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 08",
-        "imagen": "assets/img/mujeres/brillosos/08.jpg"
+        "imagen": "assets/img/mujeres/brillosos/08.jpg",
+        "tags": ["Corte completo", "Verde", "Manga larga", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 09",
-        "imagen": "assets/img/mujeres/brillosos/09.jpg"
+        "imagen": "assets/img/mujeres/brillosos/09.jpg",
+        "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 010",
-        "imagen": "assets/img/mujeres/brillosos/10.jpg"
+        "imagen": "assets/img/mujeres/brillosos/10.jpg",
+        "tags": ["Manga corta", "Coral", "Escote redondo", "Peluche en mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 011",
-        "imagen": "assets/img/mujeres/brillosos/11.jpg"
+        "imagen": "assets/img/mujeres/brillosos/11.jpg",
+        "tags": ["Pantalon corto", "Dorado", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 012",
-        "imagen": "assets/img/mujeres/brillosos/12.jpg"
+        "imagen": "assets/img/mujeres/brillosos/12.jpg",
+        "tags": ["Manga larga", "Dorado", "Cuello redondo", "Ombliguera"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 013",
-        "imagen": "assets/img/mujeres/brillosos/13.jpg"
+        "imagen": "assets/img/mujeres/brillosos/13.jpg",
+        "tags": ["Manga corta", "Coral", "Escote redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 014",
-        "imagen": "assets/img/mujeres/brillosos/14.jpg"
+        "imagen": "assets/img/mujeres/brillosos/14.jpg",
+        "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 014",
-        "imagen": "assets/img/mujeres/brillosos/14_1.jpg"
+        "imagen": "assets/img/mujeres/brillosos/14_1.jpg",
+        "tags": ["Manga larga", "Rojo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 015",
-        "imagen": "assets/img/mujeres/brillosos/15.jpg"
+        "imagen": "assets/img/mujeres/brillosos/15.jpg",
+        "tags": ["Sin mmangas", "TInto", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 016",
-        "imagen": "assets/img/mujeres/brillosos/16.jpg"
+        "imagen": "assets/img/mujeres/brillosos/16.jpg",
+        "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 017",
-        "imagen": "assets/img/mujeres/brillosos/17.jpg"
+        "imagen": "assets/img/mujeres/brillosos/17.jpg",
+        "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 018",
-        "imagen": "assets/img/mujeres/brillosos/18.jpg"
+        "imagen": "assets/img/mujeres/brillosos/18.jpg",
+        "tags": ["Manga larga", "Rosa", "Escote en V", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 01",
-        "imagen": "assets/img/mujeres/brillosos/19.jpg"
+        "imagen": "assets/img/mujeres/brillosos/19.jpg",
+        "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 019",
-        "imagen": "assets/img/mujeres/brillosos/20.jpg"
+        "imagen": "assets/img/mujeres/brillosos/20.jpg",
+        "tags": ["Dorado", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 020",
-        "imagen": "assets/img/mujeres/brillosos/21.jpg"
+        "imagen": "assets/img/mujeres/brillosos/21.jpg",
+        "tags": ["Largo", "Coral", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 022",
-        "imagen": "assets/img/mujeres/brillosos/22.jpg"
+        "imagen": "assets/img/mujeres/brillosos/22.jpg",
+        "tags": ["Sin mangas", "Rojo", "Escote en V", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 023",
-        "imagen": "assets/img/mujeres/brillosos/23.jpg"
+        "imagen": "assets/img/mujeres/brillosos/23.jpg",
+        "tags": ["Manga larga", "Rojo", "Cuello redondo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 024",
-        "imagen": "assets/img/mujeres/brillosos/24.jpg"
+        "imagen": "assets/img/mujeres/brillosos/24.jpg",
+        "tags": ["Largo", "Tinto", "Escote en V", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 025",
-        "imagen": "assets/img/mujeres/brillosos/25.jpg"
+        "imagen": "assets/img/mujeres/brillosos/25.jpg",
+        "tags": ["Largo", "Tinto", "Peluche en escote", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 026",
-        "imagen": "assets/img/mujeres/brillosos/26.jpg"
+        "imagen": "assets/img/mujeres/brillosos/26.jpg",
+        "tags": ["Largo", "Rojo", "Escote en V", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 027",
-        "imagen": "assets/img/mujeres/brillosos/27.jpg"
+        "imagen": "assets/img/mujeres/brillosos/27.jpg",
+        "tags": ["Corto", "Tinto", "Cadena dorada en escote", "Manga 3/4"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 030",
-        "imagen": "assets/img/mujeres/brillosos/30.jpg"
+        "imagen": "assets/img/mujeres/brillosos/30.jpg",
+        "tags": ["Largo", "Tinto", "Escote en V", "Sin mangas", "Tirantes", "Corte acampanado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 031",
-        "imagen": "assets/img/mujeres/brillosos/31.jpg"
+        "imagen": "assets/img/mujeres/brillosos/31.jpg",
+        "tags": ["Corto", "Dorado", "Escote en V", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 032",
-        "imagen": "assets/img/mujeres/brillosos/32.jpg"
+        "imagen": "assets/img/mujeres/brillosos/32.jpg",
+        "tags": ["Largo", "Beige", "Escote en V", "Manga 3/4"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Brillosos",
       "nombre": "Brillosos 033",
-        "imagen": "assets/img/mujeres/brillosos/33.jpg"
+        "imagen": "assets/img/mujeres/brillosos/33.jpg",
+        "tags": ["Largo", "Negro", "Escote amplio", "Sin mangas", "Tirantes"]
       },
             
       
@@ -576,439 +608,513 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 01",
-        "imagen": "assets/img/mujeres/disfraces/01.jpg"
+        "imagen": "assets/img/mujeres/disfraces/01.jpg",
+        "tags": ["Disfraz de princesa", "Rosa", "Manga corta", "falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 02",
-        "imagen": "assets/img/mujeres/disfraces/02.jpg"
+        "imagen": "assets/img/mujeres/disfraces/02.jpg",
+        "tags": ["Disfraz animal print", "Beige", "Manga larga", "falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 03",
-        "imagen": "assets/img/mujeres/disfraces/03.jpg"
+        "imagen": "assets/img/mujeres/disfraces/03.jpg",
+        "tags": ["Disfraz de gatita", "Negro", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 04",
-        "imagen": "assets/img/mujeres/disfraces/04.jpg"
+        "imagen": "assets/img/mujeres/disfraces/04.jpg",
+        "tags": ["Disfraz animal print", "Sin mangas", "falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 05",
-        "imagen": "assets/img/mujeres/disfraces/05.jpg"
+        "imagen": "assets/img/mujeres/disfraces/05.jpg",
+        "tags": ["Disfraz de caperucita roja", "Rojo con blanco", "Sin mangas", "falda corta", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 06",
-        "imagen": "assets/img/mujeres/disfraces/06.jpg"
+        "imagen": "assets/img/mujeres/disfraces/06.jpg",
+        "tags": ["Disfraz de vampierza", "Negro", "Manga larga", "falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 07",
-        "imagen": "assets/img/mujeres/disfraces/07.jpg"
+        "imagen": "assets/img/mujeres/disfraces/07.jpg",
+        "tags": ["Disfraz", "NEgro", "Manga larga", "falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 08",
-        "imagen": "assets/img/mujeres/disfraces/08.jpg"
+        "imagen": "assets/img/mujeres/disfraces/08.jpg",
+        "tags": ["Disfraz de enfermera", "Blanco", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 09",
-        "imagen": "assets/img/mujeres/disfraces/09.jpg"
+        "imagen": "assets/img/mujeres/disfraces/09.jpg",
+        "tags": ["Disfraz de enfermera", "Blanco", "Manga corta", "Cuello redondo", "Cierre rojo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 010",
-        "imagen": "assets/img/mujeres/disfraces/010.jpg"
+        "imagen": "assets/img/mujeres/disfraces/010.jpg",
+        "tags": ["Corset de enfermera", "Blanco", "Sin mangas", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 011",
-        "imagen": "assets/img/mujeres/disfraces/011.jpg"
+        "imagen": "assets/img/mujeres/disfraces/011.jpg",
+        "tags": ["Bata de enfermera", "Blanco", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 012",
-        "imagen": "assets/img/mujeres/disfraces/012.jpg"
+        "imagen": "assets/img/mujeres/disfraces/012.jpg",
+        "tags": ["Disfraz de vampira", "Negro", "Manga corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 013",
-        "imagen": "assets/img/mujeres/disfraces/013.jpg"
+        "imagen": "assets/img/mujeres/disfraces/013.jpg",
+        "tags": ["Top superheroína", "Rojo", "Mangas 3/4", "Escote redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 014",
-        "imagen": "assets/img/mujeres/disfraces/014.jpg"
+        "imagen": "assets/img/mujeres/disfraces/014.jpg",
+        "tags": ["Disfraz de monja", "Negro", "Sin mangas", "Escote amplio"]
+        
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 015",
-        "imagen": "assets/img/mujeres/disfraces/015.jpg"
+        "imagen": "assets/img/mujeres/disfraces/015.jpg",
+        "tags": ["Disfraz de monja", "Negro", "Sin mangas", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 016",
-        "imagen": "assets/img/mujeres/disfraces/016.jpg"
+        "imagen": "assets/img/mujeres/disfraces/016.jpg",
+        "tags": ["Disfraz de enfermera", "Rojo", "Sin mangas", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 017",
-        "imagen": "assets/img/mujeres/disfraces/017.jpg"
+        "imagen": "assets/img/mujeres/disfraces/017.jpg",
+        "tags": ["Disfraz de enfermera", "Rojo", "Sin mangas", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 018",
-        "imagen": "assets/img/mujeres/disfraces/018.jpg"
+        "imagen": "assets/img/mujeres/disfraces/018.jpg",
+        "tags": ["Disfraz de enfermera", "Blanco", "Sin mangas", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 019",
-        "imagen": "assets/img/mujeres/disfraces/019.jpg"
+        "imagen": "assets/img/mujeres/disfraces/019.jpg",
+        "tags": ["Disfraz animal print", "Sin mangas", "Escote redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 020",
-        "imagen": "assets/img/mujeres/disfraces/020.jpg"
+        "imagen": "assets/img/mujeres/disfraces/020.jpg",
+        "tags": ["Vestido desgrrado", "Negro", "Sin mangas", "Sin tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 021",
-        "imagen": "assets/img/mujeres/disfraces/021.jpg"
+        "imagen": "assets/img/mujeres/disfraces/021.jpg",
+        "tags": ["Blusa naranja", "Sin mangas", "Cuello en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 022",
-        "imagen": "assets/img/mujeres/disfraces/022.jpg"
+        "imagen": "assets/img/mujeres/disfraces/022.jpg", 
+        "tags": ["Putivestido", "Negro y blanco", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 023",
-        "imagen": "assets/img/mujeres/disfraces/023.jpg"
+        "imagen": "assets/img/mujeres/disfraces/023.jpg", 
+        "tags": ["Bikini una pieza", "Rosa", "Sin mangas", "Tirantes", "Peluche en escote"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 024",
-        "imagen": "assets/img/mujeres/disfraces/024.jpg"
+        "imagen": "assets/img/mujeres/disfraces/024.jpg", 
+        "tags": ["Disfraz de diabla", "Rojo", "Sin mangas", "Corset negro"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 025",
-        "imagen": "assets/img/mujeres/disfraces/025.jpg"
+        "imagen": "assets/img/mujeres/disfraces/025.jpg", 
+        "tags": ["Bikini una pieza", "Rojo", "Malla negro", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 026",
-        "imagen": "assets/img/mujeres/disfraces/026.jpg"
+        "imagen": "assets/img/mujeres/disfraces/026.jpg", 
+        "tags": ["Bikini una pieza", "Negro", "Sin mangas", "Tirantes", "Peluche en escote"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 026",
-        "imagen": "assets/img/mujeres/disfraces/026_1.jpg"
+        "imagen": "assets/img/mujeres/disfraces/026_1.jpg", 
+        "tags": ["Disfraz de bruja", "Negro", "Sin mangas", "Tirantes", "Peluche en escote"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 027",
-        "imagen": "assets/img/mujeres/disfraces/027.jpg"
+        "imagen": "assets/img/mujeres/disfraces/027.jpg", 
+        "tags": ["Disfraz militar", "Verde", "Sin mangas", "Una pieza"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 028",
-        "imagen": "assets/img/mujeres/disfraces/028.jpg"
+        "imagen": "assets/img/mujeres/disfraces/028.jpg", 
+        "tags": ["Traje típico mexicano", "Blanco", "Dos piezas", "Sin tirantes", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 029",
-        "imagen": "assets/img/mujeres/disfraces/029.jpg"
+        "imagen": "assets/img/mujeres/disfraces/029.jpg", 
+        "tags": ["Disfraz de catrina", "Negro", "Sin mangas", "Detalles florales"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 030",
-        "imagen": "assets/img/mujeres/disfraces/030.jpg"
+        "imagen": "assets/img/mujeres/disfraces/030.jpg", 
+        "tags": ["Negro", "Sin mangas", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 031",
-        "imagen": "assets/img/mujeres/disfraces/031.jpg"
+        "imagen": "assets/img/mujeres/disfraces/031.jpg", 
+        "tags": ["Disfraz de monja", "Negro", "SMangas largas", "Una pieza"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 032",
-        "imagen": "assets/img/mujeres/disfraces/032.jpg"
+        "imagen": "assets/img/mujeres/disfraces/032.jpg", 
+        "tags": ["Disfraz", "Negro", "Amarillo", "Sin mangas", "Tirantes", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 033",
-        "imagen": "assets/img/mujeres/disfraces/033.jpg"
+        "imagen": "assets/img/mujeres/disfraces/033.jpg", 
+        "tags": ["Disfraz de bruja", "Negro", "Rosa", "Sin mangas", "Tirantes", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 034",
-        "imagen": "assets/img/mujeres/disfraces/034.jpg"
+        "imagen": "assets/img/mujeres/disfraces/034.jpg", 
+        "tags": ["Disfraz", "Tinto", "Manga larga", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 035",
-        "imagen": "assets/img/mujeres/disfraces/035.jpg"
+        "imagen": "assets/img/mujeres/disfraces/035.jpg", 
+        "tags": ["Disfraz", "Turquesa", "Sin mangas", "Tirantes", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 036",
-        "imagen": "assets/img/mujeres/disfraces/036.jpg"
+        "imagen": "assets/img/mujeres/disfraces/036.jpg", 
+        "tags": ["Disfraz de payasita", "Multicolor", "Manga corta", "Cuello redondo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 037",
-        "imagen": "assets/img/mujeres/disfraces/037.jpg"
+        "imagen": "assets/img/mujeres/disfraces/037.jpg", 
+        "tags": ["Disfraz de payasita", "Multicolor", "Manga corta", "Cuello redondo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 038",
-        "imagen": "assets/img/mujeres/disfraces/038.jpg"
+        "imagen": "assets/img/mujeres/disfraces/038.jpg", 
+        "tags": ["Top", "Rojo", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 039",
-        "imagen": "assets/img/mujeres/disfraces/039.jpg"
+        "imagen": "assets/img/mujeres/disfraces/039.jpg", 
+        "tags": ["Top", "Rojo", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 040",
-        "imagen": "assets/img/mujeres/disfraces/040.jpg"
+        "imagen": "assets/img/mujeres/disfraces/040.jpg", 
+        "tags": ["Top", "Amarillo", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 041",
-        "imagen": "assets/img/mujeres/disfraces/041.jpg"
+        "imagen": "assets/img/mujeres/disfraces/041.jpg", 
+        "tags": ["Top", "Amarillo", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 042",
-        "imagen": "assets/img/mujeres/disfraces/042.jpg"
+        "imagen": "assets/img/mujeres/disfraces/042.jpg", 
+        "tags": ["Top", "Blanco", "Manga corta", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 043",
-        "imagen": "assets/img/mujeres/disfraces/043.jpg"
+        "imagen": "assets/img/mujeres/disfraces/043.jpg", 
+        "tags": ["Disfraz mujer maravilla", "Rojo", "Sin mangas", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 044",
-        "imagen": "assets/img/mujeres/disfraces/044.jpg"
+        "imagen": "assets/img/mujeres/disfraces/044.jpg", 
+        "tags": ["Putivestido", "Verde", "Brilloso", "Escote en V", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 045",
-        "imagen": "assets/img/mujeres/disfraces/045.jpg"
+        "imagen": "assets/img/mujeres/disfraces/045.jpg", 
+        "tags": ["Disfraz vampira", "Negro", "Sin mangas", "Escote en V", "falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 046",
-        "imagen": "assets/img/mujeres/disfraces/046.jpg"
+        "imagen": "assets/img/mujeres/disfraces/046.jpg", 
+        "tags": ["Disfraz egipcio", "Negro y Doradoo", "Sin mangas", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 047",
-        "imagen": "assets/img/mujeres/disfraces/047.jpg"
+        "imagen": "assets/img/mujeres/disfraces/047.jpg", 
+        "tags": ["Disfraz sirenita", "Top Rojo", "Verde", "Peluca roja"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 048",
-        "imagen": "assets/img/mujeres/disfraces/048.jpg"
+        "imagen": "assets/img/mujeres/disfraces/048.jpg", 
+        "tags": ["Disfraz de payasita", "Blanco y rojo", "Manga corta", "Falda corta", "Medias altas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 049",
-        "imagen": "assets/img/mujeres/disfraces/049.jpg"
+        "imagen": "assets/img/mujeres/disfraces/049.jpg", 
+        "tags": ["Disfraz Cleopatra", "Negro y Doradoo", "Sin mangas", "Escote en V", "falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 050",
-        "imagen": "assets/img/mujeres/disfraces/050.jpg"
+        "imagen": "assets/img/mujeres/disfraces/050.jpg", 
+        "tags": ["Disfraz de vampira", "Negro", "Corset negro", "Dos piezas", "falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 051",
-        "imagen": "assets/img/mujeres/disfraces/051.jpg"
+        "imagen": "assets/img/mujeres/disfraces/051.jpg", 
+        "tags": ["Disfraz fantasía", "Rojo", "Dos piezas", "Peluche en escote"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 052",
-        "imagen": "assets/img/mujeres/disfraces/052.jpg"
+        "imagen": "assets/img/mujeres/disfraces/052.jpg", 
+        "tags": ["Disfraz fantasía", "Rosa", "Dos piezas", "Peluche en escote" ,"Medias altas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 053",
-        "imagen": "assets/img/mujeres/disfraces/053.jpg"
+        "imagen": "assets/img/mujeres/disfraces/053.jpg", 
+        "tags": ["Disfraz fantasía", "Rojo", "Navideño", "Dos piezas", "Peluche en escote"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 054",
-        "imagen": "assets/img/mujeres/disfraces/054.jpg"
+        "imagen": "assets/img/mujeres/disfraces/054.jpg", 
+        "tags": ["Disfraz fantasía duende", "Verde", "Dos piezas", "Manga corta" ,"Medias cortas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 055",
-        "imagen": "assets/img/mujeres/disfraces/055.jpg"
+        "imagen": "assets/img/mujeres/disfraces/055.jpg", 
+        "tags": ["Disfraz", "Blanco y negro", "Una pieza", "Peluche en mangas" ,"Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 056",
-        "imagen": "assets/img/mujeres/disfraces/056.jpg"
+        "imagen": "assets/img/mujeres/disfraces/056.jpg", 
+        "tags": ["Putivestido", "Azul y blanco", "Dos piezas", "Peluche en escote" ,"Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 057",
-        "imagen": "assets/img/mujeres/disfraces/057.jpg"
+        "imagen": "assets/img/mujeres/disfraces/057.jpg", 
+        "tags": ["Disfraz pirata", "Rojo y Negro", "Dos piezas", "Manga 3/4" ,"Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 058",
-        "imagen": "assets/img/mujeres/disfraces/058.jpg"
+        "imagen": "assets/img/mujeres/disfraces/058.jpg", 
+        "tags": ["Disfraz Mujer Araña", "Negro, Rosa, Blanco", "Una pieza"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 059",
-        "imagen": "assets/img/mujeres/disfraces/059.jpg"
+        "imagen": "assets/img/mujeres/disfraces/059.jpg", 
+        "tags": ["Disfraz Vikinga", "Café", "Dos piezas", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 060",
-        "imagen": "assets/img/mujeres/disfraces/060.jpg"
+        "imagen": "assets/img/mujeres/disfraces/060.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "Una pieza", "Peluche en escote" ,"Escote en v", "Manga larga", "Medias altas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 061",
-        "imagen": "assets/img/mujeres/disfraces/061.jpg"
+        "imagen": "assets/img/mujeres/disfraces/061.jpg", 
+        "tags": ["Peluca", "Negra", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 062",
-        "imagen": "assets/img/mujeres/disfraces/062.jpg"
+        "imagen": "assets/img/mujeres/disfraces/062.jpg", 
+        "tags": ["Disfraz Street Fighter", "Verde", "Dos piezas", "Bikini" ,"Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 063",
-        "imagen": "assets/img/mujeres/disfraces/063.jpg"
+        "imagen": "assets/img/mujeres/disfraces/063.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "Una pieza", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 064",
-        "imagen": "assets/img/mujeres/disfraces/064.jpg"
+        "imagen": "assets/img/mujeres/disfraces/064.jpg", 
+        "tags": ["Disfraz fantasía", "Rojo", "Manga larga", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 065",
-        "imagen": "assets/img/mujeres/disfraces/065.jpg"
+        "imagen": "assets/img/mujeres/disfraces/065.jpg", 
+        "tags": ["Disfraz Angel", "Blanco", "Una pieza", "Bikini" ,"Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 066",
-        "imagen": "assets/img/mujeres/disfraces/066.jpg"
+        "imagen": "assets/img/mujeres/disfraces/066.jpg", 
+        "tags": ["Disfraz de diabla", "Rojo", "Una pieza", "Escote amplio" ,"Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 067",
-        "imagen": "assets/img/mujeres/disfraces/067.jpg"
+        "imagen": "assets/img/mujeres/disfraces/067.jpg", 
+        "tags": ["Disfraz Street Fighter", "Azul", "Una pieza", "BManga corta" ,"Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 068",
-        "imagen": "assets/img/mujeres/disfraces/068.jpg"
+        "imagen": "assets/img/mujeres/disfraces/068.jpg", 
+        "tags": ["Disfraz Vikinga", "Café", "Dos piezas", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 069",
-        "imagen": "assets/img/mujeres/disfraces/069.jpg"
+        "imagen": "assets/img/mujeres/disfraces/069.jpg", 
+        "tags": ["Disfraz Diosa", "Blanco", "Vestido corto", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 070",
-        "imagen": "assets/img/mujeres/disfraces/070.jpg"
+        "imagen": "assets/img/mujeres/disfraces/070.jpg", 
+        "tags": ["Disfraz Heroína", "Negro", "Corset", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 071",
-        "imagen": "assets/img/mujeres/disfraces/071.jpg"
+        "imagen": "assets/img/mujeres/disfraces/071.jpg", 
+        "tags": ["Disfraz", "Azul", "Una pieza", "Escote amplio", "Manga larga", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 072",
-        "imagen": "assets/img/mujeres/disfraces/072.jpg"
+        "imagen": "assets/img/mujeres/disfraces/072.jpg", 
+        "tags": ["Putivestido", "ROjo", "Manga larga"]
       },
 
       {
