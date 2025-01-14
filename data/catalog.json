@@ -231,7 +231,7 @@
         "nombre": "Zapatillas 01",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01.jpg",
-        "tags": ["Tacón alto", "Coral"]
+        "tags": ["Tacón alto", "Coral", "Cerrados"]
       },  
 
       {
@@ -240,7 +240,7 @@
         "nombre": "Zapatillas 02",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/02.jpg",
-        "tags": ["Tacón alto", "Plateado"]
+        "tags": ["Tacón alto", "Plateado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -248,7 +248,7 @@
         "nombre": "Zapatillas 03",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/03.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -256,7 +256,7 @@
         "nombre": "Zapatillas 04",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/04.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -264,7 +264,7 @@
         "nombre": "Zapatillas 05",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/05.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -272,7 +272,7 @@
         "nombre": "Zapatillas 06",
         "medidas": ["22"],
         "imagen": "assets/img/mujeres/calzado/06.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -280,7 +280,7 @@
         "nombre": "Zapatillas 07",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/07.jpg",
-        "tags": ["Tacón alto", "Lila"]
+        "tags": ["Tacón alto", "Lila", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -288,7 +288,7 @@
         "nombre": "Zapatillas 08",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/08.jpg",
-        "tags": ["Tacón alto", "Coral"]
+        "tags": ["Tacón alto", "Coral", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -296,7 +296,7 @@
         "nombre": "Zapatillas 09",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/09.jpg",
-        "tags": ["Tacón alto", "Floreado"]
+        "tags": ["Tacón alto", "Floreado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -304,7 +304,7 @@
         "nombre": "Zapatillas 010",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/10.jpg",
-        "tags": ["Tacón alto", "Hueso"]
+        "tags": ["Tacón alto", "Hueso", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -312,7 +312,7 @@
         "nombre": "Zapatillas 011",
         "medidas": ["28"],
         "imagen": "assets/img/mujeres/calzado/11.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -320,7 +320,7 @@
         "nombre": "Zapatillas 012",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/12.jpg",
-        "tags": ["Tacón alto", "Hueso"]
+        "tags": ["Tacón alto", "Hueso", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -328,7 +328,7 @@
         "nombre": "Zapatillas 013",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/13.jpg",
-        "tags": ["Tacón alto", "Plateado"]
+        "tags": ["Tacón alto", "Plateado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -336,7 +336,7 @@
         "nombre": "Zapatillas 014",
         "medidas": ["24  1/2"],
         "imagen": "assets/img/mujeres/calzado/14.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -344,7 +344,7 @@
         "nombre": "Zapatillas 015",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/15.jpg",
-        "tags": ["Tacón alto", "Fiusha"]
+        "tags": ["Tacón alto", "Fiusha", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -352,7 +352,7 @@
         "nombre": "Zapatillas 016",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/16.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -360,7 +360,7 @@
         "nombre": "Zapatillas 017",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/17.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -368,7 +368,7 @@
         "nombre": "Zapatillas 018",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/18.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -376,7 +376,7 @@
         "nombre": "Zapatillas 019",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/19.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -384,7 +384,7 @@
         "nombre": "Zapatillas 020",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/20.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -392,7 +392,7 @@
         "nombre": "Zapatillas 021",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/21.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -400,7 +400,7 @@
         "nombre": "Zapatillas 022",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/22.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -408,7 +408,7 @@
         "nombre": "Zapatillas 023",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/23.jpg",
-        "tags": ["Tacón alto", "Gris"]
+        "tags": ["Tacón alto", "Gris", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -416,7 +416,7 @@
         "nombre": "Zapatillas 024",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/24.jpg",
-        "tags": ["Tacón alto", "Beige"]
+        "tags": ["Tacón alto", "Beige", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -424,7 +424,7 @@
         "nombre": "Zapatillas 025",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/25.jpg",
-        "tags": ["Tacón alto", "Floreado"]
+        "tags": ["Tacón alto", "Floreado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -432,7 +432,7 @@
         "nombre": "Zapatillas 026",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/26.jpg",
-        "tags": ["Tacón alto", "Blanco"]
+        "tags": ["Tacón alto", "Blanco", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -440,7 +440,7 @@
         "nombre": "Zapatillas 027",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/27.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -448,7 +448,7 @@
         "nombre": "Zapatillas 028",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/28.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -456,7 +456,7 @@
         "nombre": "Zapatillas 029",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/29.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -464,7 +464,7 @@
         "nombre": "Zapatillas 030",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/30.jpg",
-        "tags": ["Tacón alto", "Beige"]
+        "tags": ["Tacón alto", "Beige", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -472,7 +472,7 @@
         "nombre": "Zapatillas 031",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/31.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -480,7 +480,7 @@
         "nombre": "Zapatillas 032",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/32.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -488,7 +488,7 @@
         "nombre": "Zapatillas 033",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/33.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
 
       {
@@ -497,7 +497,7 @@
         "nombre": "Zapatillas 035",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/35.jpg",
-        "tags": ["Tacón alto", "Coral"]
+        "tags": ["Tacón alto", "Coral", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -505,7 +505,7 @@
         "nombre": "Zapatillas 036",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/36.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -513,7 +513,7 @@
         "nombre": "Zapatillas 037",
         "medidas": ["28 1/2"],
         "imagen": "assets/img/mujeres/calzado/37.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -521,7 +521,7 @@
         "nombre": "Zapatillas 038",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/38.jpg",
-        "tags": ["Tacón alto", "Ladrillo"]
+        "tags": ["Tacón alto", "Ladrillo", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -529,7 +529,7 @@
         "nombre": "Zapatillas 039",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/39.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -537,7 +537,7 @@
         "nombre": "Zapatillas 040",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/40.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -545,7 +545,7 @@
         "nombre": "Zapatillas 041",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/41.jpg",
-        "tags": ["Tacón alto", "Plateado"]
+        "tags": ["Tacón alto", "Plateado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -553,7 +553,7 @@
         "nombre": "Zapatillas 042",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/42.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
 
       {
@@ -562,7 +562,7 @@
         "nombre": "Zapatillas 044",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/44.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -570,7 +570,7 @@
         "nombre": "Zapatillas 045",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/45.jpg",
-        "tags": ["Tacón alto", "Plateado"]
+        "tags": ["Tacón alto", "Plateado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -578,7 +578,7 @@
         "nombre": "Zapatillas 046",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/46.jpg",
-        "tags": ["Tacón alto", "Café"]
+        "tags": ["Tacón alto", "Café", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -586,7 +586,7 @@
         "nombre": "Zapatillas 047",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/47.jpg",
-        "tags": ["Tacón alto", "Verde"]
+        "tags": ["Tacón alto", "Verde", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -594,7 +594,7 @@
         "nombre": "Zapatillas 048",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/48.jpg",
-        "tags": ["Tacón alto", "Verde"]
+        "tags": ["Tacón alto", "Verde", "Cerrados"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -602,7 +602,7 @@
         "nombre": "Zapatillas 049",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/49.jpg",
-        "tags": ["Tacón alto", "Beige"]
+        "tags": ["Tacón alto", "Beige", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -610,7 +610,7 @@
         "nombre": "Zapatillas 050",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/50.jpg",
-        "tags": ["Tacón alto", "Blanco"]
+        "tags": ["Tacón alto", "Blanco", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -618,7 +618,7 @@
         "nombre": "Zapatillas 051",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/51.jpg",
-        "tags": ["Tacón alto", "Dorado"]
+        "tags": ["Tacón alto", "Dorado", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -626,7 +626,7 @@
         "nombre": "Zapatillas 052",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/52.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -634,7 +634,7 @@
         "nombre": "Zapatillas 053",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/53.jpg",
-        "tags": ["Tacón alto", "Animal print"]
+        "tags": ["Tacón alto", "Animal print", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -642,7 +642,7 @@
         "nombre": "Zapatillas 054",
         "medidas": ["28"],
         "imagen": "assets/img/mujeres/calzado/54.jpg",
-        "tags": ["Tacón alto", "Negro"]
+        "tags": ["Tacón alto", "Negro", "Abiertos"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -650,14 +650,14 @@
         "nombre": "Zapatillas 055",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/55.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },{
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 055",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/56.jpg",
-        "tags": ["Tacón alto", "Rojo"]
+        "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
 
 
