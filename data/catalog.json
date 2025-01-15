@@ -697,7 +697,7 @@
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 05",
         "imagen": "assets/img/mujeres/disfraces/05.jpg",
-        "tags": ["Disfraz de caperucita roja", "Rojo con blanco", "Sin mangas", "falda corta", "Tirantes"]
+        "tags": ["Disfraz de caperucita roja", "Rojo con Blanco", "Sin mangas", "falda corta", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -817,7 +817,7 @@
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 022",
         "imagen": "assets/img/mujeres/disfraces/022.jpg", 
-        "tags": ["Putivestido", "Negro y blanco", "Sin mangas", "Tirantes"]
+        "tags": ["Putivestido", "Negro y Blanco", "Sin mangas", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -1062,7 +1062,7 @@
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 056",
         "imagen": "assets/img/mujeres/disfraces/056.jpg", 
-        "tags": ["Putivestido", "Azul y blanco", "Dos piezas", "Peluche en escote" ,"Escote amplio"]
+        "tags": ["Putivestido", "Azul y Blanco", "Dos piezas", "Peluche en escote" ,"Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -1970,7 +1970,7 @@
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 0117",
         "imagen": "assets/img/mujeres/puti-vestidos/0117.jpg",
-        "tags": ["Liso", "Azul y blanco", "Vestido con falda corta"] 
+        "tags": ["Liso", "Azul y Blanco", "Vestido con falda corta"] 
       },
 
       {
@@ -2237,7 +2237,7 @@
         "subcategoria": "Vestidos largos y Palazzos",
         "nombre": "Vestido largo 013",
         "imagen": "assets/img/mujeres/vestidos-largos_palazzos/013.jpg",
-        "tags": ["Liso", "Negro y blanco", "Vestido largo", "Cuello alto", "Manga larga"]
+        "tags": ["Liso", "Negro y Blanco", "Vestido largo", "Cuello alto", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -2346,283 +2346,330 @@
       "categoria": "Vestuario de hombre",
       "subcategoria": "Disfraces",
       "nombre": "Disfraz 01",
-      "imagen": "assets/img/hombres/disfraces/01.jpg"
+      "imagen": "assets/img/hombres/disfraces/01.jpg",
+      "tags": ["Disfraz Caesar","Emperador", "Tinto y Blanco", "Dos piezas"]
     },
     {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 02",
-        "imagen": "assets/img/hombres/disfraces/02.jpg"
+        "imagen": "assets/img/hombres/disfraces/02.jpg",
+        "tags": ["Disfraz Beetlejuice", "Emperador", "Traje Blanco a rayas", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 03",
-        "imagen": "assets/img/hombres/disfraces/03.jpg"
+        "imagen": "assets/img/hombres/disfraces/03.jpg",
+        "tags": ["Disfraz Gladiador Romano", "Emperador", "Tinto", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 04",
-        "imagen": "assets/img/hombres/disfraces/04.jpg"
+        "imagen": "assets/img/hombres/disfraces/04.jpg",
+        "tags": ["Disfraz Gladiador", "Piel", "Café", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 05",
-        "imagen": "assets/img/hombres/disfraces/05.jpg"
+        "imagen": "assets/img/hombres/disfraces/05.jpg",
+        "tags": ["Disfraz Payaso", "Multicolor", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 06",
-        "imagen": "assets/img/hombres/disfraces/06.jpg"
+        "imagen": "assets/img/hombres/disfraces/06.jpg",
+        "tags": ["Disfraz Duende", "Verde", "Manga larga", "Dos piezas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 07",
-        "imagen": "assets/img/hombres/disfraces/07.jpg"
+        "imagen": "assets/img/hombres/disfraces/07.jpg",
+        "tags": ["Disfraz Duende", "Verde", "Manga larga", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 08",
-        "imagen": "assets/img/hombres/disfraces/08.jpg"
+        "imagen": "assets/img/hombres/disfraces/08.jpg",
+        "tags": ["Disfraz Duende", "Verde", "Manga larga", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 09",
-        "imagen": "assets/img/hombres/disfraces/09.jpg"
+        "imagen": "assets/img/hombres/disfraces/09.jpg",
+        "tags": ["Disfraz Duende", "Rojo", "Manga larga", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 010",
-        "imagen": "assets/img/hombres/disfraces/010.jpg"
+        "imagen": "assets/img/hombres/disfraces/010.jpg",
+        "tags": ["Disfraz", "Azul", "Manga corta", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 011",
-        "imagen": "assets/img/hombres/disfraces/011.jpg"
+        "imagen": "assets/img/hombres/disfraces/011.jpg",
+        "tags": ["Disfraz Doctor", "Blanco", "Bata", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 012",
-        "imagen": "assets/img/hombres/disfraces/012.jpg"
+        "imagen": "assets/img/hombres/disfraces/012.jpg",
+        "tags": ["Disfraz Doctor", "Blanco", "Bata", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 013",
-        "imagen": "assets/img/hombres/disfraces/013.jpg"
+        "imagen": "assets/img/hombres/disfraces/013.jpg",
+        "tags": ["Disfraz Doctor", "Blanco", "Bata", "Dos piezas", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 014",
-        "imagen": "assets/img/hombres/disfraces/014.jpg"
+        "imagen": "assets/img/hombres/disfraces/014.jpg",
+        "tags": ["Disfraz Doctor", "Blanco", "Bata", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 015",
-        "imagen": "assets/img/hombres/disfraces/015.jpg"
+        "imagen": "assets/img/hombres/disfraces/015.jpg",
+        "tags": ["Disfraz", "Café", "Chaleco táctico", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 016",
-        "imagen": "assets/img/hombres/disfraces/016.jpg"
+        "imagen": "assets/img/hombres/disfraces/016.jpg",
+        "tags": ["Disfraz", "Café", "Chaleco táctico", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 017",
-        "imagen": "assets/img/hombres/disfraces/017.jpg"
+        "imagen": "assets/img/hombres/disfraces/017.jpg",
+        "tags": ["Disfraz Spiderman", "Rojo y Azul", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 018",
-        "imagen": "assets/img/hombres/disfraces/018.jpg"
+        "imagen": "assets/img/hombres/disfraces/018.jpg",
+        "tags": ["Disfraz Científico", "Blanco", "Completo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 019",
-        "imagen": "assets/img/hombres/disfraces/019.jpg"
+        "imagen": "assets/img/hombres/disfraces/019.jpg",
+        "tags": ["Disfraz Científico", "Blanco", "Completo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 020",
-        "imagen": "assets/img/hombres/disfraces/020.jpg"
+        "imagen": "assets/img/hombres/disfraces/020.jpg",
+        "tags": ["Disfraz Científico", "Blanco", "Completo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 021",
-        "imagen": "assets/img/hombres/disfraces/021.jpg"
+        "imagen": "assets/img/hombres/disfraces/021.jpg",
+        "tags": ["Disfraz Científico", "Blanco", "Completo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 022",
-        "imagen": "assets/img/hombres/disfraces/022.jpg"
+        "imagen": "assets/img/hombres/disfraces/022.jpg",
+        "tags": ["Disfraz Científico", "Blanco", "Completo", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 023",
-        "imagen": "assets/img/hombres/disfraces/023.jpg"
+        "imagen": "assets/img/hombres/disfraces/023.jpg",
+        "tags": ["Disfraz", "Amarillo", "Impermeable", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 024",
-        "imagen": "assets/img/hombres/disfraces/024.jpg"
+        "imagen": "assets/img/hombres/disfraces/024.jpg",
+        "tags": ["Disfraz Angel", "Blanco", "Completo", "Manga 3/4"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 025",
-        "imagen": "assets/img/hombres/disfraces/025.jpg"
+        "imagen": "assets/img/hombres/disfraces/025.jpg",
+        "tags": ["Disfraz Pennywise", "Blanco y Rojo", "Payaso", "Manga larga", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 026",
-        "imagen": "assets/img/hombres/disfraces/026.jpg"
+        "imagen": "assets/img/hombres/disfraces/026.jpg",
+        "tags": ["Overol", "Rojo", "Completo", "Manga larga", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 027",
-        "imagen": "assets/img/hombres/disfraces/027.jpg"
+        "imagen": "assets/img/hombres/disfraces/027.jpg",
+        "tags": ["Disfraz Gladiador", "ROjo", "Dos piezas", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 028",
-        "imagen": "assets/img/hombres/disfraces/028.jpg"
+        "imagen": "assets/img/hombres/disfraces/028.jpg",
+        "tags": ["Disfraz León", "Café", "Completo", "Manga 3/4", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 029",
-        "imagen": "assets/img/hombres/disfraces/029.jpg"
+        "imagen": "assets/img/hombres/disfraces/029.jpg",
+        "tags": ["Disfraz", "Negro", "Una pieza", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 030",
-        "imagen": "assets/img/hombres/disfraces/030.jpg"
+        "imagen": "assets/img/hombres/disfraces/030.jpg",
+        "tags": ["Pantalon largo", "Azul", "Completo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 031",
-        "imagen": "assets/img/hombres/disfraces/031.jpg"
+        "imagen": "assets/img/hombres/disfraces/031.jpg",
+        "tags": ["Camisa", "Blanco", "Una pieza", "Manga corta"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 032",
-        "imagen": "assets/img/hombres/disfraces/032.jpg"
+        "imagen": "assets/img/hombres/disfraces/032.jpg",
+        "tags": ["Disfraz Grinch", "Verde", "Una pieza", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 033",
-        "imagen": "assets/img/hombres/disfraces/033.jpg"
+        "imagen": "assets/img/hombres/disfraces/033.jpg",
+        "tags": ["Disfraz Santa Claus", "Rojo", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 034",
-        "imagen": "assets/img/hombres/disfraces/034.jpg"
+        "imagen": "assets/img/hombres/disfraces/034.jpg",
+        "tags": ["Disfraz Santa Claus", "Rojo", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 035",
-        "imagen": "assets/img/hombres/disfraces/035.jpg"
+        "imagen": "assets/img/hombres/disfraces/035.jpg",
+        "tags": ["Disfraz Santa Claus", "Rojo", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 036",
-        "imagen": "assets/img/hombres/disfraces/036.jpg"
+        "imagen": "assets/img/hombres/disfraces/036.jpg",
+        "tags": ["Pantalon largo", "Rojo", "Una pieza", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 037",
-        "imagen": "assets/img/hombres/disfraces/037.jpg"
+        "imagen": "assets/img/hombres/disfraces/037.jpg",
+        "tags": ["Pantalon largo", "Rojo", "Una pieza", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 038",
-        "imagen": "assets/img/hombres/disfraces/038.jpg"
+        "imagen": "assets/img/hombres/disfraces/038.jpg",
+        "tags": ["Pantalon largo", "Rojo", "Una pieza", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 039",
-        "imagen": "assets/img/hombres/disfraces/039.jpg"
+        "imagen": "assets/img/hombres/disfraces/039.jpg",
+        "tags": ["Pantalon largo", "Rojo", "Una pieza", "Afelpado"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 040",
-        "imagen": "assets/img/hombres/disfraces/040.jpg"
+        "imagen": "assets/img/hombres/disfraces/040.jpg",
+        "tags": ["Swater Santa Claus", "Rojo", "Una pieza", "Manga larga"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 041",
-        "imagen": "assets/img/hombres/disfraces/041.jpg"
+        "imagen": "assets/img/hombres/disfraces/041.jpg",
+        "tags": ["Disfraz Padrecito", "Negro", "Una pieza", "Manga corta"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 042",
-        "imagen": "assets/img/hombres/disfraces/042.jpg"
+        "imagen": "assets/img/hombres/disfraces/042.jpg",
+        "tags": ["Chaleco Táctico", "Negro", "Una pieza", "Policia"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 043",
-        "imagen": "assets/img/hombres/disfraces/043.jpg"
+        "imagen": "assets/img/hombres/disfraces/043.jpg",
+        "tags": ["Chaleco Táctico", "Negro", "Una pieza", "Policia"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 044",
-        "imagen": "assets/img/hombres/disfraces/044.jpg"
+        "imagen": "assets/img/hombres/disfraces/044.jpg",
+        "tags": ["Pantalon Táctico", "Negro", "Una pieza", "Policia", "Largo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 045",
-        "imagen": "assets/img/hombres/disfraces/045.jpg"
+        "imagen": "assets/img/hombres/disfraces/045.jpg",
+        "tags": ["Pantalon Táctico", "Negro", "Una pieza", "Policia", "Largo"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 046",
-        "imagen": "assets/img/hombres/disfraces/046.jpg"
+        "imagen": "assets/img/hombres/disfraces/046.jpg",
+        "tags": ["Playera Táctica", "Negro", "Una pieza", "Policia", "Manga corta"]
       },
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz 047",
-        "imagen": "assets/img/hombres/disfraces/047.jpg"
+        "imagen": "assets/img/hombres/disfraces/047.jpg",
+        "tags": ["Playera Táctica", "Negro", "Una pieza", "Policia", "Manga larga"]
       },
 
 
@@ -2638,24 +2685,24 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 01",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/01.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/01.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 02",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/02.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/02.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 03",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/03.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/03.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Largo", "Plastico"]
       }
 
       ,
@@ -2664,8 +2711,8 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 04",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/04.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/04.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Mediano", "Plastico"]
       }
 
       ,
@@ -2674,8 +2721,8 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 05",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/05.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/05.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Mediano", "Plastico"]
       }
 
       ,
@@ -2684,8 +2731,8 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 06",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/06.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/06.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Plastico", "Plastico"]
       }
 
       ,
@@ -2694,8 +2741,8 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 07",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/07.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/07.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       }
 
       ,
@@ -2704,40 +2751,40 @@
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 08",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/08.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/08.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 09",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/09.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/09.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 010",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/010.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/010.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 011",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/011.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/011.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
          "color": "Dorados",
         "nombre": "Jarron Dorado 012",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_dorados/012.jpg",
-        "tags": ["dorado", "moderno", "decorativo"]
+        "imagen": "assets/img/decoracion/jarrones/jarrones_Dorados/012.jpg",
+        "tags": ["Dorado", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
 
       {
@@ -2746,7 +2793,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 014",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/014.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Mediano", "Plastico"]
       }
       ,
       {
@@ -2755,7 +2802,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 015",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/015.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Mediano", "Plastico"]
       }
       ,
       {
@@ -2764,7 +2811,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 016",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/016.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       }
       ,
       {
@@ -2773,7 +2820,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 017",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/017.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       }
       ,
       {
@@ -2782,7 +2829,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 018",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/018.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       }
       ,
       {
@@ -2791,7 +2838,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 019",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/019.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       }
       ,
       {
@@ -2800,7 +2847,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 020",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/020.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2808,7 +2855,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 021",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/021.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2816,7 +2863,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 022",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/022.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2824,7 +2871,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 023",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/023.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2832,7 +2879,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 024",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/024.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2840,7 +2887,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 025",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/025.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2848,7 +2895,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 026",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/026.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2856,7 +2903,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 027",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/027.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2864,7 +2911,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 028",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/028.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2872,7 +2919,7 @@
         "color": "Blancos",
         "nombre": "Jarron Blanco 029",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/029.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2880,7 +2927,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 030",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/030.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2888,7 +2935,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 031",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/031.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Largo", "Plastico"]
       },
      
       {
@@ -2897,7 +2944,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 032",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/032.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2905,7 +2952,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 033",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/033.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2913,7 +2960,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 034",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/034.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2921,7 +2968,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 035",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/035.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2929,7 +2976,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 036",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/036.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2937,7 +2984,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 037",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/037.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2945,7 +2992,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 038",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/038.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2953,7 +3000,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 039",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/039.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo"]
       },
       {
         "categoria": "Decoración",
@@ -2961,7 +3008,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 040",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/040.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2969,7 +3016,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 041",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/041.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2977,7 +3024,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 042",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/042.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2985,7 +3032,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 043",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/043.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -2993,7 +3040,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 044",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/044.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3001,7 +3048,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 045",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/045.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3009,7 +3056,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 046",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/046.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3017,7 +3064,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 047",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/047.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3025,7 +3072,7 @@
          "color": "Negros",
         "nombre": "Jarron Negro 048",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/048.jpg",
-        "tags": ["negro", "moderno", "decorativo"]
+        "tags": ["negro", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3033,7 +3080,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 049",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/049.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3041,7 +3088,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 050",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/050.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3049,7 +3096,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 051",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/051.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3057,7 +3104,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 052",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/052.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3065,7 +3112,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 053",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/053.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3073,7 +3120,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 054",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/054.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3081,7 +3128,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 055",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/055.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3089,7 +3136,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 056",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/056.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Mediano", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3097,7 +3144,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 057",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/057.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3105,7 +3152,7 @@
          "color": "Verdes",
         "nombre": "Jarron Verde 058",
         "imagen": "assets/img/decoracion/jarrones/jarrones_verdes/058.jpg",
-        "tags": ["verde", "moderno", "decorativo"]
+        "tags": ["Verde", "Moderno", "Decorativo", "Mediano", "Metálico"]
       },
       {
         "categoria": "Decoración",
@@ -3113,7 +3160,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 059",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/059.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Mediano", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3121,7 +3168,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 060",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/060.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3129,7 +3176,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 061",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/061.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3137,7 +3184,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 062",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/062.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3145,7 +3192,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 063",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/063.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3153,7 +3200,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 064",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/064.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3161,7 +3208,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 065",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/065.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3169,7 +3216,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 066",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/066.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3177,7 +3224,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 067",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/067.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3185,7 +3232,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 068",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/068.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3193,7 +3240,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 069",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/069.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3201,7 +3248,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 070",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/070.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3209,7 +3256,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 071",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/071.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3217,7 +3264,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 066",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/066.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo"]
       },
       {
         "categoria": "Decoración",
@@ -3225,7 +3272,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 072",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/072.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3233,7 +3280,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 073",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/073.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3241,7 +3288,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 074",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/074.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3249,7 +3296,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 075",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/075.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3257,7 +3304,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 076",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/076.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3265,7 +3312,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 077",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/077.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3273,7 +3320,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 078",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/078.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
       {
         "categoria": "Decoración",
@@ -3281,15 +3328,7 @@
          "color": "Blancos",
         "nombre": "Jarron Blanco 079",
         "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/079.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
-      },
-      {
-        "categoria": "Decoración",
-        "subcategoria": "Jarrones",
-         "color": "Blancos",
-        "nombre": "Jarron Blanco 093",
-        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/093.jpg",
-        "tags": ["blanco", "moderno", "decorativo"]
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Plastico"]
       },
 
       {
@@ -3298,7 +3337,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 080",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/080.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3306,7 +3345,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 081",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/081.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3314,7 +3353,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 082",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/082.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3322,7 +3361,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 083",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/083.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3330,7 +3369,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 084",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/084.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3338,7 +3377,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 085",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/085.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3346,7 +3385,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 086",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/086.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3354,7 +3393,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 087",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/087.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3362,7 +3401,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 088",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/088.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3370,7 +3409,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 089",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/089.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Madera"]
       },
       {
         "categoria": "Decoración",
@@ -3378,7 +3417,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 090",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/090.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Marrón", "Moderno", "Decorativo", "Pequeño", "Tela"]
       },
       {
         "categoria": "Decoración",
@@ -3386,7 +3425,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 091",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/091.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Transparente", "Moderno", "Decorativo", "Pequeño", "Cristal"]
       },
       {
         "categoria": "Decoración",
@@ -3394,7 +3433,15 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 092",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/092.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Transparente", "Moderno", "Decorativo", "Pequeño", "Cristal"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Jarrones",
+         "color": "Marrones",
+        "nombre": "Jarron Marrón 092",
+        "imagen": "assets/img/decoracion/jarrones/jarrones_blancos/093.jpg",
+        "tags": ["Blanco", "Moderno", "Decorativo", "Pequeño", "Metálico"]
       },
 
       {
@@ -3403,7 +3450,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 094",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/094.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Negro", "Moderno", "Decorativo", "Pequeño", "Cristal"]
       },
       {
         "categoria": "Decoración",
@@ -3411,7 +3458,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 095",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/095.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Gris", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3419,7 +3466,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 096",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/096.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Gris", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3427,7 +3474,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 097",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/097.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Gris", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3435,7 +3482,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 098",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/098.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Negro", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
       {
         "categoria": "Decoración",
@@ -3443,7 +3490,7 @@
          "color": "Marrones",
         "nombre": "Jarron Marrón 099",
         "imagen": "assets/img/decoracion/jarrones/jarrones_marrones/099.jpg",
-        "tags": ["marrón", "moderno", "decorativo"]
+        "tags": ["Plata", "Moderno", "Decorativo", "Pequeño", "Cerámica"]
       },
 
 
@@ -3454,7 +3501,7 @@
          "color": "Plateada",
         "nombre": "Maceta lámpara 0100",
         "imagen": "assets/img/decoracion/jarrones/lamparas_macetas/0100.jpg",
-        "tags": ["plateado", "moderno", "decorativo"]
+        "tags": ["Plateado", "Moderno", "Decorativo", "Pequeño", "Metálico"]
       },
       {
         "categoria": "Decoración",
@@ -3462,7 +3509,7 @@
          "color": "Plateada",
         "nombre": "Maceta lámpara 0101",
         "imagen": "assets/img/decoracion/jarrones/lamparas_macetas/0101.jpg",
-        "tags": ["plateado", "moderno", "decorativo"]
+        "tags": ["Pateado", "Moderno", "Decorativo", "Pequeño", "Metálico"]
       }
       
 
