@@ -59,7 +59,11 @@
     <h3 id="currentCategory" class="mb-4 text-center"></h3>
     <div id="itemsContainer" class="row g-3">
       <!-- Los ítems filtrados se mostrarán aquí -->
-      <button id="install-btn" style="display: none;">Instalar en el dispositivo</button>
+      <div id="installAlert" class="alert alert-info alert-dismissible fade show d-none" role="alert">
+        <strong>¡Instala nuestra aplicación!</strong> Para una mejor experiencia, instala esta aplicación en tu dispositivo.
+        <button id="installBtn" class="btn btn-primary btn-sm ml-3">Instalar ahora</button>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
     </div>
   </div>
 

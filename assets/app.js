@@ -1,36 +1,35 @@
-let deferredPrompt; // Variable para guardar el evento de instalación
+let deferredPrompt;
 
-// Detectar cuando la PWA es elegible para ser instalada
 window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevenir que se muestre el prompt automáticamente
-  e.preventDefault();
-  // Guardar el evento para dispararlo más tarde
-  deferredPrompt = e;
+    // Prevenir que el navegador muestre el cuadro de diálogo de instalación por defecto
+    e.preventDefault();
 
-  // Mostrar un mensaje o alerta
-  alert('¡Puedes instalar esta aplicación en tu dispositivo!');
+    // Guardar el evento para usarlo más tarde
+    deferredPrompt = e;
 
-  // Opcional: Mostrar un botón para que el usuario pueda hacer clic para instalar la app
-  const installButton = document.getElementById('install-btn');
-  if (installButton) {
-    installButton.style.display = 'block'; // Muestra el botón de instalación
-  }
+    // Mostrar la alerta de Bootstrap
+    const installAlert = document.getElementById('installAlert');
+    installAlert.classList.remove('d-none');
 });
 
-// Escuchar cuando el usuario haga clic en el botón de instalación
-const installButton = document.getElementById('install-btn');
-installButton?.addEventListener('click', () => {
-  // Mostrar el prompt de instalación
-  deferredPrompt.prompt();
+// Maneja el clic en el botón de instalación
+const installBtn = document.getElementById('installBtn');
+installBtn.addEventListener('click', async () => {
+    if (deferredPrompt) {
+        deferredPrompt.prompt(); // Mostrar el cuadro de diálogo de instalación nativo
 
-  // Esperar a que el usuario responda
-  deferredPrompt.userChoice
-    .then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('El usuario aceptó la instalación');
-      } else {
-        console.log('El usuario rechazó la instalación');
-      }
-      deferredPrompt = null; // Restablecer el evento
-    });
+        const { outcome } = await deferredPrompt.userChoice; // Esperar la respuesta del usuario
+        if (outcome === 'accepted') {
+            console.log('¡Aplicación instalada!');
+        } else {
+            console.log('El usuario rechazó la instalación.');
+        }
+
+        // Limpia el evento después de usarlo
+        deferredPrompt = null;
+    }
+
+    // Ocultar la alerta de instalación
+    const installAlert = document.getElementById('installAlert');
+    installAlert.classList.add('d-none');
 });
