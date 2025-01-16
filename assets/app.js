@@ -1,35 +1,37 @@
 let deferredPrompt;
 
+// Escucha el evento `beforeinstallprompt`
 window.addEventListener('beforeinstallprompt', (e) => {
-    // Prevenir que el navegador muestre el cuadro de diálogo de instalación por defecto
-    e.preventDefault();
+    e.preventDefault(); // Previene la alerta nativa
+    deferredPrompt = e; // Guarda el evento
 
-    // Guardar el evento para usarlo más tarde
-    deferredPrompt = e;
-
-    // Mostrar la alerta de Bootstrap
+    // Muestra la alerta de Bootstrap
     const installAlert = document.getElementById('installAlert');
-    installAlert.classList.remove('d-none');
+    installAlert.classList.remove('d-none'); // Asegúrate de remover la clase para mostrarla
 });
 
-// Maneja el clic en el botón de instalación
-const installBtn = document.getElementById('installBtn');
-installBtn.addEventListener('click', async () => {
+// Manejador del botón "Instalar ahora"
+document.getElementById('installBtn').addEventListener('click', async () => {
     if (deferredPrompt) {
-        deferredPrompt.prompt(); // Mostrar el cuadro de diálogo de instalación nativo
+        deferredPrompt.prompt(); // Lanza el cuadro de diálogo de instalación nativo
 
-        const { outcome } = await deferredPrompt.userChoice; // Esperar la respuesta del usuario
+        const { outcome } = await deferredPrompt.userChoice; // Espera la respuesta del usuario
         if (outcome === 'accepted') {
             console.log('¡Aplicación instalada!');
         } else {
-            console.log('El usuario rechazó la instalación.');
+            console.log('Instalación rechazada.');
         }
 
-        // Limpia el evento después de usarlo
-        deferredPrompt = null;
-    }
+        deferredPrompt = null; // Limpia el evento después de usarlo
 
-    // Ocultar la alerta de instalación
+        // Ocultar la alerta de Bootstrap
+        const installAlert = document.getElementById('installAlert');
+        installAlert.classList.add('d-none');
+    }
+});
+
+// Opcional: Ocultar la alerta si el usuario la cierra
+document.querySelector('.btn-close').addEventListener('click', () => {
     const installAlert = document.getElementById('installAlert');
     installAlert.classList.add('d-none');
 });
