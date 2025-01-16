@@ -35,3 +35,21 @@ document.querySelector('.btn-close').addEventListener('click', () => {
     const installAlert = document.getElementById('installAlert');
     installAlert.classList.add('d-none');
 });
+
+
+
+
+// Función para detectar dispositivos iOS
+function isIOS() {
+    return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+// Mostrar alerta si es iOS
+document.addEventListener('DOMContentLoaded', () => {
+    if (isIOS()) {
+        const iosInstallAlert = document.getElementById('iosInstallAlert');
+        if (iosInstallAlert) {
+            iosInstallAlert.classList.remove('d-none');
+        }
+    }
+});
