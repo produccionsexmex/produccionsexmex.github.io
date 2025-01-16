@@ -2,12 +2,12 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
       caches.open('my-cache').then((cache) => {
         return cache.addAll([
-          '/',
           '/index.html',
           '/assets/styles.css',
-          '/assets/script.js',
-          // Añadir más archivos según sea necesario
+          '/assets/js/app.js'
         ]);
+      }).catch((error) => {
+        console.error('Error al almacenar en caché:', error);
       })
     );
   });
