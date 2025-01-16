@@ -59,16 +59,11 @@
     <h3 id="currentCategory" class="mb-4 text-center"></h3>
     <div id="itemsContainer" class="row g-3">
       <!-- Los ítems filtrados se mostrarán aquí -->
-      <div id="installAlert" class="alert alert-info alert-dismissible fade show d-none" role="alert">
-        <strong>¡Instala nuestra aplicación!</strong> Para una mejor experiencia, instala esta aplicación en tu dispositivo.
-        <button id="installBtn" class="btn btn-primary btn-sm ml-3">Instalar ahora</button>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <div id="installAlert" class="alert alert-info d-none" role="alert" style="position: fixed; bottom: 20px; left: 10px; right: 10px; z-index: 1050;">
+        <strong>¿Quieres instalar esta app?</strong>
+        <p id="installInstructions" style="margin: 0;"></p>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="position: absolute; top: 5px; right: 10px;"></button>
     </div>
-    <div id="iosInstallAlert" class="alert alert-info d-none" role="alert" style="position: fixed; bottom: 20px; left: 10px; right: 10px; z-index: 1050;">
-      <strong>¿Quieres instalar esta app?</strong> 
-      Pulsa en <span style="font-weight: bold;">"Compartir"</span> y luego selecciona <span style="font-weight: bold;">"Añadir a pantalla de inicio"</span>.
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="position: absolute; top: 5px; right: 10px;"></button>
-  </div>
     </div>
   </div>
 
