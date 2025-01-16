@@ -1,27 +1,36 @@
-let deferredPrompt;
+let deferredPrompt; // Variable para guardar el evento de instalación
 
+// Detectar cuando la PWA es elegible para ser instalada
 window.addEventListener('beforeinstallprompt', (e) => {
-  // Evita que el navegador muestre el banner por defecto
+  // Prevenir que se muestre el prompt automáticamente
   e.preventDefault();
+  // Guardar el evento para dispararlo más tarde
   deferredPrompt = e;
 
-  // Muestra un botón o enlace para que el usuario lo active
-  const installButton = document.getElementById('install-button');
-  installButton.style.display = 'block';
+  // Mostrar un mensaje o alerta
+  alert('¡Puedes instalar esta aplicación en tu dispositivo!');
 
-  // Cuando el usuario haga clic en el botón
-  installButton.addEventListener('click', () => {
-    // Muestra el cuadro de instalación
-    deferredPrompt.prompt();
+  // Opcional: Mostrar un botón para que el usuario pueda hacer clic para instalar la app
+  const installButton = document.getElementById('install-btn');
+  if (installButton) {
+    installButton.style.display = 'block'; // Muestra el botón de instalación
+  }
+});
 
-    // Espera la respuesta del usuario
-    deferredPrompt.userChoice.then((choiceResult) => {
+// Escuchar cuando el usuario haga clic en el botón de instalación
+const installButton = document.getElementById('install-btn');
+installButton?.addEventListener('click', () => {
+  // Mostrar el prompt de instalación
+  deferredPrompt.prompt();
+
+  // Esperar a que el usuario responda
+  deferredPrompt.userChoice
+    .then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('El usuario añadió la PWA a la pantalla de inicio');
+        console.log('El usuario aceptó la instalación');
       } else {
-        console.log('El usuario no añadió la PWA');
+        console.log('El usuario rechazó la instalación');
       }
-      deferredPrompt = null;
+      deferredPrompt = null; // Restablecer el evento
     });
-  });
 });
