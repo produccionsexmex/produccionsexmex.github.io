@@ -41,18 +41,18 @@
   <!-- Buscador -->
   <div class="container mt-3">
     <input type="text" id="searchBar" class="form-control" placeholder="Buscar por nombre, categoría, subcategoría o tags">
-
+    <nav id="subcategoriesNav">
+      <ul id="subcategoriesList" class="list-unstyled d-flex flex-wrap"></ul>
+    </nav>
     <div class="my-4">
         <!-- Barra de navegación de tallas (se muestra solo si la subcategoría es calzado) -->
-        <nav id="sizesNav" class="navbar navbar-expand-lg navbar-light bg-light" style="display:none;">
-            <div class="container-fluid">
-            <ul id="sizesList" class="nav">
-                <!-- Las tallas se insertarán aquí dinámicamente -->
-            </ul>
-            </div>
+        <nav id="sizesNav" class="d-none mt-3">
+          <h6>Tallas disponibles:</h6>
+          <ul id="sizesList" class="list-unstyled d-flex flex-wrap"></ul>
         </nav>
-    </div>
   </div>
+  </div>
+
 
   <!-- Contenido Principal -->
   <div class="container mt-3">
