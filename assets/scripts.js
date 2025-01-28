@@ -34,7 +34,7 @@ function displayItems(filteredItems) {
                 : "";
 
             return `
-                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
                     <div class="card h-100">
                         <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
                         <div class="card-body">
