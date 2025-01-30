@@ -1986,7 +1986,7 @@
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 0119",
         "imagen": "assets/img/mujeres/puti-vestidos/0119.jpg",
-        "tags": ["Liso", "ROsa", "Vestido con falda corta"] 
+        "tags": ["Liso", "Rosa", "Vestido con falda corta"] 
       },
 
       {
@@ -2341,24 +2341,129 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Blusas y Tops",
-        "nombre": "Top Azul",
-        "imagen": "assets/img/mujeres/blusas_tops/01.jpg",
-        "tags": ["Liso", "Azul",  "Sin tirantes", "Sin mangas"]
+        "subcategoria": "Playeras",
+        "nombre": "Playera Blanca",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/playeras/01.jpg",
+        "tags": ["Lisa", "Blanca",  "Manga corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Blusas y Tops",
-        "nombre": "Top Verde",
-        "imagen": "assets/img/mujeres/blusas_tops/02.jpg",
-        "tags": ["Liso", "verde",  "Tipo leotardo", "Con mangas"]
+        "subcategoria": "Playeras",
+        "nombre": "Playera Negra Sunset Strip",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/playeras/02.jpg",
+        "tags": ["Lisa", "Negra",  "Manga corta", "Sunset Strip"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Blusas y Tops",
-        "nombre": "Top Rojo",
-        "imagen": "assets/img/mujeres/blusas_tops/03.jpg",
-        "tags": ["Liso", "Azul",  "Sin tirantes", "Sin mangas"]
+        "subcategoria": "Playeras",
+        "nombre": "Playera Negra Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/playeras/03.jpg",
+        "tags": ["Lisa", "Negra",  "Manga corta", "Sexmex Girl"]
+      },
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Negra Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/01.jpg",
+        "tags": ["Lisa", "Negra",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Negra Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/02.jpg",
+        "tags": ["Lisa", "Negra",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Negra Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/03.jpg",
+        "tags": ["Lisa", "Negra",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Negra Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/04.jpg",
+        "tags": ["Lisa", "Negra",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/05.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/06.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/07.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Roja Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/08.jpg",
+        "tags": ["Lisa", "Roja",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/09.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/010.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/011.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Blanca Fortamore",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/012.jpg",
+        "tags": ["Lisa", "Blanca",  "Tirantes", "Sin mangas", "Fortamore"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Rosa Sexmex Girl",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/013.jpg",
+        "tags": ["Lisa", "Rosa",  "Tirantes", "Sin mangas", "Sexmex Girl"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Fiusha",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/014.jpg",
+        "tags": ["Lisa", "Fiusha",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Roja",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/015.jpg",
+        "tags": ["Lisa", "Roja",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Roja",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/016.jpg",
+        "tags": ["Lisa", "Roja",  "Tirantes", "Sin mangas"]
+      },{
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas Básicas",
+        "nombre": "Blusa Roja",
+        "imagen": "assets/img/mujeres/playeras-blusas-tops/basicas/017.jpg",
+        "tags": ["Lisa", "Roja",  "Tirantes", "Sin mangas"]
       },
 
 
