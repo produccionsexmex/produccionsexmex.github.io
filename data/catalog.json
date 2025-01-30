@@ -2339,6 +2339,29 @@
       },
 
 
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas y Tops",
+        "nombre": "Top Azul",
+        "imagen": "assets/img/mujeres/blusas_tops/01.jpg",
+        "tags": ["Liso", "Azul",  "Sin tirantes", "Sin mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas y Tops",
+        "nombre": "Top Verde",
+        "imagen": "assets/img/mujeres/blusas_tops/02.jpg",
+        "tags": ["Liso", "verde",  "Tipo leotardo", "Con mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas y Tops",
+        "nombre": "Top Rojo",
+        "imagen": "assets/img/mujeres/blusas_tops/03.jpg",
+        "tags": ["Liso", "Azul",  "Sin tirantes", "Sin mangas"]
+      },
+
+
 
 
     
