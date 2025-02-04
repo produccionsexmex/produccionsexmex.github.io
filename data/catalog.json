@@ -2536,6 +2536,25 @@
         "imagen": "assets/img/mujeres/vestidos-largos_palazzos/032.jpg",
         "tags": ["Liso", "Naranja", "Vestido largo", "Cuello redondo", "Sin mangas"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo rojo",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/033.jpg",
+        "tags": ["Encaje", "Rojo", "Vestido largo", "Escote en V", "Sin mangas", "Tirantes", "Dos piezas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo rosa",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/033.jpg",
+        "tags": ["Encaje", "Rosa", "Vestido largo", "Escote en V", "Sin mangas", "Tirantes", "Dos piezas"]
+      },
+
+
+
+
+
 
 
 
