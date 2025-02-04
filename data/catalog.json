@@ -659,6 +659,169 @@
         "imagen": "assets/img/mujeres/calzado/56.jpg",
         "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botas/01.jpg",
+        "tags": ["Tacón alto", "Negra", "Bota larga", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botas/02.jpg",
+        "tags": ["Tacón medio", "Negra", "Bota larga", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["26 1/2"],
+        "imagen": "assets/img/mujeres/botas/03.jpg",
+        "tags": ["Tacón alto", "Negra", "Bota larga", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["26 1/2"],
+        "imagen": "assets/img/mujeres/botas/04.jpg",
+        "tags": ["Tacón alto", "Negra", "Bota larga", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["7"],
+        "imagen": "assets/img/mujeres/botas/05.jpg",
+        "tags": ["Tacón alto", "Negra", "Bota larga", "Cintas al frente", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas negras",
+        "medidas": ["23 1/2"],
+        "imagen": "assets/img/mujeres/botas/06.jpg",
+        "tags": ["Tacón medio", "Negra", "Bota corta", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas cafés",
+        "medidas": ["24"],
+        "imagen": "assets/img/mujeres/botas/07.jpg",
+        "tags": ["Tacón alto", "Negra", "Bota larga", "Cuero", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas cafés",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botas/08.jpg",
+        "tags": ["Tacón medio", "Negra", "Bota larga", "Cuero", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas marrón",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botas/09.jpg",
+        "tags": ["Tacón alto", "Marrón", "Bota larga", "Cuero", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas doradas",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botas/010.jpg",
+        "tags": ["Tacón medio", "Dorada", "Bota larga", "Cuero", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas fiusha",
+        "medidas": ["28"],
+        "imagen": "assets/img/mujeres/botas/011.jpg",
+        "tags": ["Tacón alto", "Fiusha", "Bota media", "Cuero", "Peluche" , "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas",
+        "nombre": "Botas Grises",
+        "medidas": ["24"],
+        "imagen": "assets/img/mujeres/botas/012.jpg",
+        "tags": ["Tacón medio", "Gris", "Bota media", "Mezclilla", "Cerradas"]
+      },
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas negros",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botines/01.jpg",
+        "tags": ["Tacón medio", "Negro",  "Cuero", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas negros",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botines/02.jpg",
+        "tags": ["Tacón alto", "Negro",  "Cuero", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas negros",
+        "medidas": ["4 1/2"],
+        "imagen": "assets/img/mujeres/botines/03.jpg",
+        "tags": ["Tacón malto", "Negro",  "Gamuza", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas rojos",
+        "medidas": ["23"],
+        "imagen": "assets/img/mujeres/botines/05.jpg",
+        "tags": ["Tacón alto", "Rojo",  "Gamuza", "Plataforma", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas plateado",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botines/05.jpg",
+        "tags": ["Tacón medio", "Plata",  "Metálicos", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas cafés",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botines/06.jpg",
+        "tags": ["Tacón medio", "Cafe",  "Gamuza", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas rojos",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botines/07.jpg",
+        "tags": ["Tacón malto", "Rojo",  "Gamuza", "Cerrados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botines",
+        "nombre": "Botas blancos",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botines/08.jpg",
+        "tags": ["Tacón medio", "Blanco",  "Cuero", "Abiertos"]
+      },
+      
 
 
 
@@ -2371,8 +2534,392 @@
         "subcategoria": "Vestidos largos",
         "nombre": "Vestido largo naranja",
         "imagen": "assets/img/mujeres/vestidos-largos_palazzos/032.jpg",
-        "tags": ["Liso", "Naranja", "Vestido largo", "Cuellii redondo", "Sin mangas"]
+        "tags": ["Liso", "Naranja", "Vestido largo", "Cuello redondo", "Sin mangas"]
       },
+
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga roja",
+        "imagen": "assets/img/mujeres/faldas_largas/01.jpg",
+        "tags": ["Lisa", "Roja", "Falda Larga", "Metálica"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga naranja",
+        "imagen": "assets/img/mujeres/faldas_largas/02.jpg",
+        "tags": ["Lisa", "Naranja", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga café ",
+        "imagen": "assets/img/mujeres/faldas_largas/03.jpg",
+        "tags": ["Lisa", "Animal print", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga café ",
+        "imagen": "assets/img/mujeres/faldas_largas/04.jpg",
+        "tags": ["Texturizada", "Café", "Falda Larga", "Abertura lateral"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga beige ",
+        "imagen": "assets/img/mujeres/faldas_largas/05.jpg",
+        "tags": ["Lisa", "Beige", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga beige ",
+        "imagen": "assets/img/mujeres/faldas_largas/06.jpg",
+        "tags": ["Texturizada", "Animal print", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga floreada ",
+        "imagen": "assets/img/mujeres/faldas_largas/07.jpg",
+        "tags": ["Floreada", "Floreada", "Falda Larga", "Plisada"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga coral ",
+        "imagen": "assets/img/mujeres/faldas_largas/08.jpg",
+        "tags": ["Texturizada", "Punteada", "Falda Larga", "Abertura lateral"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga beige ",
+        "imagen": "assets/img/mujeres/faldas_largas/09.jpg",
+        "tags": ["Lisa", "Beige", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga verde ",
+        "imagen": "assets/img/mujeres/faldas_largas/010.jpg",
+        "tags": ["Lisa", "Verde", "Falda Larga", "Abertura media pierna"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga verde ",
+        "imagen": "assets/img/mujeres/faldas_largas/011.jpg",
+        "tags": ["Lisa", "Verde", "Falda Larga", "Tipo Sirena"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga gris ",
+        "imagen": "assets/img/mujeres/faldas_largas/012.jpg",
+        "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga gris ",
+        "imagen": "assets/img/mujeres/faldas_largas/013.jpg",
+        "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga gris ",
+        "imagen": "assets/img/mujeres/faldas_largas/015.jpg",
+        "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga azul cielo ",
+        "imagen": "assets/img/mujeres/faldas_largas/016.jpg",
+        "tags": ["Texturizada", "Floreada", "Azul cielo", "Falda Larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas largas",
+        "nombre": "Falda larga azul cielo ",
+        "imagen": "assets/img/mujeres/faldas_largas/017.jpg",
+        "tags": ["Texturizada", "Floreada", "Azul cielo", "Falda Larga", "Abertura lateral"]
+      },
+
+
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta coral ",
+        "imagen": "assets/img/mujeres/faldas_cortas/01.jpg",
+        "tags": ["Plisada", "Coral", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta fiusha ",
+        "imagen": "assets/img/mujeres/faldas_cortas/02.jpg",
+        "tags": ["Plisada", "Fiusha", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta roja ",
+        "imagen": "assets/img/mujeres/faldas_cortas/03.jpg",
+        "tags": ["Lisa", "Roja", "Falda corta", "Tipo tubo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta roja ",
+        "imagen": "assets/img/mujeres/faldas_cortas/04.jpg",
+        "tags": ["Lisa", "Roja", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta coral ",
+        "imagen": "assets/img/mujeres/faldas_cortas/05.jpg",
+        "tags": ["Texturizada", "Coral", "Falda corta", "Minifalda", "Lentejuelas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta verde limon ",
+        "imagen": "assets/img/mujeres/faldas_cortas/06.jpg",
+        "tags": ["Plisada", "Verde limon", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta verde olivo ",
+        "imagen": "assets/img/mujeres/faldas_cortas/07.jpg",
+        "tags": ["Plisada", "Verde olivo", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda verde neón ",
+        "imagen": "assets/img/mujeres/faldas_cortas/08.jpg",
+        "tags": ["Lisa", "Verde neón", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta gris ",
+        "imagen": "assets/img/mujeres/faldas_cortas/09.jpg",
+        "tags": ["Texturizada", "Gris", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta hueso ",
+        "imagen": "assets/img/mujeres/faldas_cortas/010.jpg",
+        "tags": ["Lisa", "Hueso", "Falda corta", "Minifalda", "Abertura lateral"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta coral ",
+        "imagen": "assets/img/mujeres/faldas_cortas/011.jpg",
+        "tags": ["Plisada", "Hueso", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta hueso ",
+        "imagen": "assets/img/mujeres/faldas_cortas/012.jpg",
+        "tags": ["Lisa", "Hueso", "Falda corta", "Minifalda", "Con vuelos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta naranja ",
+        "imagen": "assets/img/mujeres/faldas_cortas/013.jpg",
+        "tags": ["Plisada", "Naranja", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta ladrillo ",
+        "imagen": "assets/img/mujeres/faldas_cortas/014.jpg",
+        "tags": ["Lisa", "Ladrillo", "Falda corta", "Minifalda", "Abertura lateral"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta hueso ",
+        "imagen": "assets/img/mujeres/faldas_cortas/015.jpg",
+        "tags": ["Encaje floral", "Hueso", "Falda corta", "Con capas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta crema ",
+        "imagen": "assets/img/mujeres/faldas_cortas/016.jpg",
+        "tags": ["Plisada", "Crema", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta beige ",
+        "imagen": "assets/img/mujeres/faldas_cortas/017.jpg",
+        "tags": ["Plisada", "Beige", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta animal print",
+        "imagen": "assets/img/mujeres/faldas_cortas/018.jpg",
+        "tags": ["Lisa", "Animal print", "Falda corta", "Tipo tubo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta ladrillo ",
+        "imagen": "assets/img/mujeres/faldas_cortas/019.jpg",
+        "tags": ["Lisa", "Ladrillo", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta café ",
+        "imagen": "assets/img/mujeres/faldas_cortas/020.jpg",
+        "tags": ["Texturizada", "Café", "Falda corta", "Minifalda", "Lentejuelas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta gris ",
+        "imagen": "assets/img/mujeres/faldas_cortas/021.jpg",
+        "tags": ["Lisa", "Gris", "Falda corta", "Envolente"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta hueso",
+        "imagen": "assets/img/mujeres/faldas_cortas/022.jpg",
+        "tags": ["Plisada", "Hueso", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta verde olivo ",
+        "imagen": "assets/img/mujeres/faldas_cortas/023.jpg",
+        "tags": ["Lisa", "Verde olivo", "Falda corta", "Tipo tubo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta verde olivo ",
+        "imagen": "assets/img/mujeres/faldas_cortas/024.jpg",
+        "tags": ["Lisa", "Verde olivo", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/025.jpg",
+        "tags": ["Plisada", "Negra", "Falda corta", "Con vuelos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/026.jpg",
+        "tags": ["Plisada", "negra", "Falda corta", "Con vuelos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/027.jpg",
+        "tags": ["Plisada", "negra", "Falda corta", "Minifalda", "Drapeada"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/028.jpg",
+        "tags": ["Lisa", "negra", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/029.jpg",
+        "tags": ["Plisada", "Negra", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta gris ",
+        "imagen": "assets/img/mujeres/faldas_cortas/030.jpg",
+        "tags": ["Texturizada", "Gris", "Falda corta", "Lentejuelas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/031.jpg",
+        "tags": ["Lisa", "Negra", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/032.jpg",
+        "tags": ["Lisa", "Negra", "Falda corta", "Minifalda", "Tipo tubo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/033.jpg",
+        "tags": ["Lisa", "Negra", "Falda corta", "Minifalda", "Tipo tubo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/034.jpg",
+        "tags": ["Plisda", "Negra", "Falda corta", "Minifalda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta negra ",
+        "imagen": "assets/img/mujeres/faldas_cortas/035.jpg",
+        "tags": ["Lisa", "Negra y rojo", "Falda corta", "Minifalda", "Con vuelos"]
+      },
+
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Leotardos",
+        "nombre": "Leotardo fiusha",
+        "imagen": "assets/img/mujeres/leotardos/01.jpg",
+        "tags": ["Texturizado", "Fiusha", "Tirantes", "Escote amplio"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Leotardos",
+        "nombre": "Leotardo fiusha Barbie",
+        "imagen": "assets/img/mujeres/leotardos/01.jpg",
+        "tags": ["Liso", "Fiusha", "Tirantes", "Escote cerrado", "Barbie"]
+      },
+
+
+
 
 
 
@@ -2557,9 +3104,9 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Tops",
-        "nombre": "Top Naranha",
+        "nombre": "Top Naranja",
         "imagen": "assets/img/mujeres/playeras-blusas-tops/tops/06.jpg",
-        "tags": ["Liso", "Naranha",  "Sin mangas", "Sin tirantes"]
+        "tags": ["Liso", "Naranja",  "Sin mangas", "Sin tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -2736,7 +3283,7 @@
         "subcategoria": "Blusas Manga Larga",
         "nombre": "Blusa Roja",
         "imagen": "assets/img/mujeres/blusas_mangalarga/06.jpg",
-        "tags": ["Plizada", "Roja",  "Manga larga", "Cuello redondo"]
+        "tags": ["Plisada", "Roja",  "Manga larga", "Cuello redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
