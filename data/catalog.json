@@ -3619,6 +3619,22 @@
       },
 
 
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Deportivos",
+        "nombre": "Pants Deportivo Azul",
+        "imagen": "assets/img/mujeres/deportiva/01.jpg",
+        "tags": ["Completo", "Azul y blanco", "Dos piezas", "Capucha"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Deportivos",
+        "nombre": "Pants Deportivo Fiusha",
+        "imagen": "assets/img/mujeres/deportiva/02.jpg",
+        "tags": ["Completo", "Fiusha y blanco", "Dos piezas", "Capucha"]
+      },
+
+
     
     {
       "categoria": "Vestuario de hombre",
