@@ -3634,6 +3634,21 @@
         "tags": ["Completo", "Fiusha y blanco", "Dos piezas", "Capucha"]
       },
 
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego del Calamar",
+        "nombre": "Juego del Calamar 01",
+        "imagen": "assets/img/mujeres/juego_calamar/01.jpg",
+        "tags": ["Minifalda", "Amarillo y naranja", "Dos piezas", "Manga corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego del Calamar",
+        "nombre": "Juego del Calamar 02",
+        "imagen": "assets/img/mujeres/juego_calamar/02.jpg",
+        "tags": ["Completo", "Rojo", "Manga larga", "Capucha", "Máscara negra"]
+      },
+
 
     
     {
