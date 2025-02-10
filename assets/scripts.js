@@ -1,17 +1,29 @@
 // Variables globales
 const itemsContainer = document.getElementById("itemsContainer");
 const subcategoriesNav = document.getElementById("subcategoriesNav");
-const sizesNav = document.getElementById("sizesNav"); // Contenedor para las tallas
+const sizesNav = document.getElementById("sizesNav");
 const searchBar = document.getElementById("searchBar");
 const subcategoriesList = document.getElementById("subcategoriesList");
-const sizesList = document.getElementById("sizesList"); // Lista de tallas
+const sizesList = document.getElementById("sizesList");
 const currentCategoryHeading = document.getElementById('currentCategory');
 
-let items = []; // Ítems cargados desde el JSON
-let currentCategory = ''; // Categoría actual
-let currentSubcategory = ''; // Subcategoría actual
+let items = [];
+let currentCategory = '';
+let currentSubcategory = '';
 
-// Cargar ítems desde el archivo JSON
+// Estructura para agrupar subcategorías dentro de dropdowns
+const categoryMappings = {
+    "Vestuario de mujer": {
+        "Vestidos": ["Largos", "Brillosos", "Putivestidos"],
+        "Calzado": ["Zapatos", "Botas", "Botines"],
+        "Faldas": ["Faldas largas", "Faldas cortas"],
+        "Playeras": ["Playeras", "Blusas básicas", "Tops", "Blusas manga larga", "Leotardos"],
+        "Disfraces": ["Disfraces", "Juego del calamar"],
+        "Deportivos": []
+    }
+};
+
+// Cargar ítems desde el JSON
 async function loadItems() {
     try {
         const response = await fetch('data/catalog.json');
@@ -22,7 +34,7 @@ async function loadItems() {
     }
 }
 
-// Mostrar los ítems filtrados en la página
+// Mostrar ítems filtrados
 function displayItems(filteredItems) {
     if (filteredItems.length === 0) {
         itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta búsqueda.</p>';
@@ -67,20 +79,36 @@ function filterItems() {
     displayItems(filteredItems);
 }
 
-// Mostrar las subcategorías de una categoría
+// Mostrar las subcategorías en dropdowns dentro de la categoría seleccionada
+// Mostrar las subcategorías en dropdowns dentro de la categoría seleccionada
 function displaySubcategories(category) {
     currentCategory = category;
+    subcategoriesList.innerHTML = '';
 
-    const subcategories = [...new Set(items
-        .filter(item => item.categoria === category)
-        .map(item => item.subcategoria)
-    )];
+    if (categoryMappings[category]) {
+        Object.keys(categoryMappings[category]).forEach(mainSubcategory => {
+            const subcategories = categoryMappings[category][mainSubcategory];
 
-    subcategoriesList.innerHTML = subcategories.map(subcategory => `
-        <li class="nav-item">
-            <a class="nav-link" href="#" onclick="handleSubcategoryClick('${subcategory}')">${subcategory}</a>
-        </li>
-    `).join("");
+            // Si tiene subcategorías (un array), crear un dropdown
+            if (Array.isArray(subcategories) && subcategories.length > 0) {
+                let dropdownHTML = `
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="${mainSubcategory}-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ${mainSubcategory}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="${mainSubcategory}-dropdown">
+                            ${subcategories.map(sub => `<li><a class="dropdown-item" href="#" onclick="handleSubcategoryClick('${sub}')">${sub}</a></li>`).join("")}
+                        </ul>
+                    </li>
+                `;
+                subcategoriesList.innerHTML += dropdownHTML;
+            } else {
+                // Si no tiene subcategorías, agregarla como un enlace simple
+                let linkHTML = `<li class="nav-item"><a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory}')">${mainSubcategory}</a></li>`;
+                subcategoriesList.innerHTML += linkHTML;
+            }
+        });
+    }
 
     currentCategoryHeading.textContent = category;
     itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría para ver los ítems.</p>';
@@ -92,8 +120,7 @@ function handleSubcategoryClick(subcategory) {
     currentSubcategory = subcategory;
     currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
-    const filteredItems = items.filter(item => item.categoria === currentCategory && item.subcategoria === subcategory);
-
+    const filteredItems = items.filter(item => item.subcategoria === subcategory);
     displayItems(filteredItems);
 
     if (subcategory.toLowerCase() === 'zapatos') {
@@ -140,7 +167,7 @@ function handleCategoryClick(category) {
 }
 
 // Eventos
-searchBar.addEventListener("input", filterItems); // Búsqueda en tiempo real
+searchBar.addEventListener("input", filterItems);
 
 document.querySelectorAll('.nav-link[data-category]').forEach(link => {
     link.addEventListener('click', event => {
