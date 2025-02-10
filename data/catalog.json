@@ -695,7 +695,7 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Botas",
         "nombre": "Botas negras",
-        "medidas": ["7"],
+        "medidas": ["27"],
         "imagen": "assets/img/mujeres/botas/05.jpg",
         "tags": ["Tacón alto", "Negra", "Bota larga", "Cintas al frente", "Cerradas"]
       },
@@ -777,7 +777,7 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Botines",
         "nombre": "Botas negros",
-        "medidas": ["4 1/2"],
+        "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/botines/03.jpg",
         "tags": ["Tacón malto", "Negro",  "Gamuza", "Cerrados"]
       },
@@ -3636,17 +3636,27 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Juego del Calamar",
+        "subcategoria": "Juego Del Calamar",
         "nombre": "Juego del Calamar 01",
         "imagen": "assets/img/mujeres/juego_calamar/01.jpg",
         "tags": ["Minifalda", "Amarillo y naranja", "Dos piezas", "Manga corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Juego del Calamar",
+        "subcategoria": "Juego Del Calamar",
         "nombre": "Juego del Calamar 02",
         "imagen": "assets/img/mujeres/juego_calamar/02.jpg",
         "tags": ["Completo", "Rojo", "Manga larga", "Capucha", "Máscara negra"]
+      },
+
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Zapatos",
+        "nombre": "Zapatos negros",
+        "medidas": ["26"],
+        "imagen": "assets/img/hombres/zapatos/01.jpg",
+        "tags": ["Tacón medio", "Negra", "Bota larga", "Cerradas"]
       },
 
 
@@ -4201,7 +4211,7 @@
       {
         "categoria": "Decoración",
         "subcategoria": "Jarrones",
-         "color": "Negros",
+        "color": "Negros",
         "nombre": "Jarron Negro 026",
         "imagen": "assets/img/decoracion/jarrones/jarrones_negros/026.jpg",
         "tags": ["negro", "Moderno", "Decorativo", "Largo", "Plastico"]
