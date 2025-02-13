@@ -757,6 +757,42 @@
       },
 
 
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas Vaqueras",
+        "nombre": "Botas vaqueras cafés",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botas_vaqueras/01.jpg",
+        "tags": ["Tacón bajo", "Café", "Bota media", "Piel", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas Vaqueras",
+        "nombre": "Botas vaqueras cafés oscuro",
+        "medidas": ["25 1/2"],
+        "imagen": "assets/img/mujeres/botas_vaqueras/02.jpg",
+        "tags": ["Tacón bajo", "Café oscuro", "Bota media", "Piel", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas Vaqueras",
+        "nombre": "Botas vaqueras hueso",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/botas_vaqueras/03.jpg",
+        "tags": ["Tacón bajo", "Hueso", "Bota media", "Piel", "Cerradas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Botas Vaqueras",
+        "nombre": "Botas vaqueras doradas",
+        "medidas": ["25"],
+        "imagen": "assets/img/mujeres/botas_vaqueras/04.jpg",
+        "tags": ["Tacón bajo", "Dorada", "Bota media", "Piel", "Cerradas"]
+      },
+
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Botines",
@@ -3648,6 +3684,16 @@
         "imagen": "assets/img/mujeres/juego_calamar/02.jpg",
         "tags": ["Completo", "Rojo", "Manga larga", "Capucha", "Máscara negra"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 03",
+        "imagen": "assets/img/mujeres/juego_calamar/03.jpg",
+        "tags": ["Completo", "Gris", "Manga larga", "Capucha", "Máscara gris"]
+      },
+
+
+
 
 
       {
@@ -3989,6 +4035,162 @@
         "nombre": "Disfraz 047",
         "imagen": "assets/img/hombres/disfraces/047.jpg",
         "tags": ["Playera Táctica", "Negro", "Una pieza", "Policia", "Manga larga"]
+      },
+
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Texana beige",
+        "imagen": "assets/img/hombres/utileria/sombreros/01.jpg",
+        "tags": [ "Fieltro", "Beige", "Copa alta", "Mediana"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Texana marrón",
+        "imagen": "assets/img/hombres/utileria/sombreros/02.jpg",
+        "tags": [ "Clásica", "Marrón claro", "Copa alta", "Ala ancha"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Charro morado",
+        "imagen": "assets/img/hombres/utileria/sombreros/03.jpg",
+        "tags": [ "Charro", "Fieltro", "Morado", "Copa media", "Ala ancha", "Detalles en Dorado"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Charro café",
+        "imagen": "assets/img/hombres/utileria/sombreros/04.jpg",
+        "tags": [ "Charro", "Fieltro", "Café", "Copa media", "Ala ancha", "Detalles en Dorado"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Campesino beige",
+        "imagen": "assets/img/hombres/utileria/sombreros/05.jpg",
+        "tags": [ "Campesino", "FPaja", "Café", "Copa media", "Ala ancha"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Casco blano",
+        "imagen": "assets/img/hombres/utileria/sombreros/06.jpg",
+        "tags": [ "Obrero", "Plástico", "Blanco"]
+      },
+
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de terror",
+        "imagen": "assets/img/hombres/utileria/mascaras/01.jpg",
+        "tags": [ "Demonio", "Plástico", "Beige con rojo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Hombre Lobo",
+        "imagen": "assets/img/hombres/utileria/mascaras/02_1.jpg",
+        "tags": [ "Hombre lobo", "Plástico", "Café"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Gladiador",
+        "imagen": "assets/img/hombres/utileria/mascaras/02.jpg",
+        "tags": [ "Gladiador", "Dorado y madera", "Café"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de Viejito",
+        "imagen": "assets/img/hombres/utileria/mascaras/03.jpg",
+        "tags": [ "Viejo", "Plástico", "Beige"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de Viejo dientón",
+        "imagen": "assets/img/hombres/utileria/mascaras/04.jpg",
+        "tags": [ "Viejo", "Plástico", "Beige"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de Grinch",
+        "imagen": "assets/img/hombres/utileria/mascaras/05.jpg",
+        "tags": [ "Afelpado", "Plástico", "Verde", "Sombrero de Santa Claus"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de Diablo",
+        "imagen": "assets/img/hombres/utileria/mascaras/06.jpg",
+        "tags": [ "Diablo", "Plástico", "Roja"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara de Burro",
+        "imagen": "assets/img/hombres/utileria/mascaras/07.jpg",
+        "tags": [ "Animal", "Afelpado", "Plástico", "Café con beige"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara básica verde",
+        "imagen": "assets/img/hombres/utileria/mascaras/08.jpg",
+        "tags": [ "Básica", "Plástico", "Verde"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara básica negra",
+        "imagen": "assets/img/hombres/utileria/mascaras/09.jpg",
+        "tags": [ "Básica", "Plástico", "Negra"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara básica negra brillosa",
+        "imagen": "assets/img/hombres/utileria/mascaras/010.jpg",
+        "tags": [ "Básica", "Plástico", "Negra brillosa"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara básica negra de tela",
+        "imagen": "assets/img/hombres/utileria/mascaras/011.jpg",
+        "tags": [ "Básica", "Tela", "Negra"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Comedia básica blanca",
+        "imagen": "assets/img/hombres/utileria/mascaras/012.jpg",
+        "tags": [ "Básica", "Plástico", "Blanca"]
       },
 
 
@@ -4816,7 +5018,7 @@
 
       {
         "categoria": "Decoración",
-        "subcategoria": "Lamparas y macetas",
+        "subcategoria": "Lámparas y Macetas",
          "color": "Plateada",
         "nombre": "Maceta lámpara 0100",
         "imagen": "assets/img/decoracion/jarrones/lamparas_macetas/0100.jpg",
@@ -4824,11 +5026,11 @@
       },
       {
         "categoria": "Decoración",
-        "subcategoria": "Lamparas y macetas",
+        "subcategoria": "Lámparas y Macetas",
          "color": "Plateada",
         "nombre": "Maceta lámpara 0101",
         "imagen": "assets/img/decoracion/jarrones/lamparas_macetas/0101.jpg",
-        "tags": ["Pateado", "Moderno", "Decorativo", "Pequeño", "Metálico"]
+        "tags": ["Plateado", "Moderno", "Decorativo", "Pequeño", "Metálico"]
       }
       
 

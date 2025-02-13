@@ -15,14 +15,15 @@ let currentSubcategory = '';
 const categoryMappings = {
     "Vestuario de mujer": {
         "Vestidos": ["Vestidos largos", "Brillosos", "Putivestidos"],
-        "Calzado": ["Zapatos", "Botas", "Botines"],
+        "Calzado": ["Zapatos", "Botas", "Botas Vaqueras", "Botines"],
         "Faldas": ["Faldas largas", "Faldas cortas"],
         "Playeras": ["Playeras", "Blusas Básicas", "Tops", "Blusas Manga Larga", "Leotardos"],
         "Disfraces": ["Disfraces", "Juego Del Calamar"],
-        "Deportivos": ["Deportivos"]
+        "Deportivos": []
     },
     "Vestuario de hombre": {
         "Disfraces": ["Disfraces"],
+        "Utilería": ["Sombreros", "Máscaras"],
     },
     "Decoración": {
         "Jarrones": ["Jarrones"],
@@ -86,35 +87,17 @@ function filterItems() {
     displayItems(filteredItems);
 }
 
-// Función para mostrar las subcategorías y manejar las variaciones (por ejemplo, colores)
+// Mostrar las subcategorías
 function displaySubcategories(category) {
     currentCategory = category;
-    subcategoriesList.innerHTML = '';  // Limpiar los ítems previos
+    subcategoriesList.innerHTML = '';  
 
     if (categoryMappings[category]) {
         Object.keys(categoryMappings[category]).forEach(mainSubcategory => {
             const subcategories = categoryMappings[category][mainSubcategory];
 
-            if (subcategories.length === 1 && !Array.isArray(subcategories[0])) {
-                // Si la subcategoría tiene solo un ítem, mostrarla como un enlace
-                const subcategory = subcategories[0];
-                subcategoriesList.innerHTML += `
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="handleSubcategoryClick('${subcategory}')">${subcategory}</a>
-                    </li>
-                `;
-            } else if (subcategories.length === 1 && Array.isArray(subcategories[0])) {
-                // Si tiene una variación (como colores), mostrar cada variación como un enlace
-                const variations = subcategories[0];
-                variations.forEach(variation => {
-                    subcategoriesList.innerHTML += `
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory} - ${variation}')">${variation}</a>
-                        </li>
-                    `;
-                });
-            } else {
-                // Si tiene más de un ítem, mostrar un dropdown para esas subcategorías
+            // Si la subcategoría tiene elementos, mostrar dropdown
+            if (subcategories.length > 0) {
                 let dropdownHTML = `
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="${mainSubcategory}-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -126,6 +109,13 @@ function displaySubcategories(category) {
                     </li>
                 `;
                 subcategoriesList.innerHTML += dropdownHTML;
+            } else {
+                // Si la subcategoría está vacía, mostrarla como un enlace normal
+                subcategoriesList.innerHTML += `
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory}')">${mainSubcategory}</a>
+                    </li>
+                `;
             }
         });
     }
@@ -135,74 +125,27 @@ function displaySubcategories(category) {
     sizesNav.style.display = 'none';
 }
 
-// Manejar el clic en una subcategoría
+// Manejar clic en una subcategoría
 function handleSubcategoryClick(subcategory) {
     currentSubcategory = subcategory;
     currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
-    // Filtrar los ítems según la categoría y la subcategoría seleccionada
     const filteredItems = items.filter(item => 
         item.categoria === currentCategory && item.subcategoria === subcategory
     );
 
     displayItems(filteredItems);
 
-    // Si la subcategoría es "Zapatos" (o cualquier otra que tenga tallas), mostrar las tallas
-    if (subcategory.toLowerCase() === 'zapatos', 'botas', 'botines') {
+    // Mostrar tallas si es calzado
+    if (["Zapatos", "Botas", "Botas Vaqueras",  "Botines"].includes(subcategory)) {
         displaySizes(subcategory);
     } else {
         sizesNav.style.display = 'none';
     }
-
-    // Si la subcategoría es "Jarrones", mostrar los colores
-    if (subcategory.toLowerCase() === 'jarrones') {
-        displayColors(subcategory);
-    } else {
-        sizesNav.style.display = 'none';
-    }
 }
 
-// Mostrar items por color
-function displayColors(subcategory) {
-    // Filtrar solo los jarrones que tienen colores definidos
-    const itemsInSubcategory = items.filter(item => 
-        item.categoria === currentCategory && 
-        item.subcategoria === subcategory && 
-        item.color?.length > 0
-    );
-
-    if (itemsInSubcategory.length > 0) {
-        sizesNav.classList.remove("d-none");
-        sizesNav.style.display = "block";
-
-        // Obtener la lista de colores únicos
-        const colors = [...new Set(itemsInSubcategory.flatMap(item => item.color))].sort();
-
-        // Mostrar botones de colores
-        sizesList.innerHTML = colors.map(color => `
-            <li class="nav-item me-2 mb-2">
-                <a class="btn btn-outline-primary" href="#" onclick="filterByColor('${color}')">${color}</a>
-            </li>
-        `).join("");
-    } else {
-        sizesNav.style.display = 'none';
-        sizesList.innerHTML = "";
-    }
-}
-
-function filterByColor(color) {
-    const filteredItems = items.filter(item => 
-        item.categoria === currentCategory &&
-        item.subcategoria === currentSubcategory &&
-        item.color?.includes(color)
-    );
-
-    displayItems(filteredItems);
-}
-
-// Mostrar tallas para una subcategoría específica
+// Mostrar tallas
 function displaySizes(subcategory) {
-    // Filtrar solo los ítems de la categoría y subcategoría actual
     const itemsInSubcategory = items.filter(item => 
         item.categoria === currentCategory && 
         item.subcategoria === subcategory && 
@@ -213,7 +156,6 @@ function displaySizes(subcategory) {
         sizesNav.classList.remove("d-none");
         sizesNav.style.display = "block";
 
-        // Obtener solo las medidas de los ítems dentro de la categoría y subcategoría actual
         const sizes = [...new Set(itemsInSubcategory.flatMap(item => item.medidas))].sort();
 
         sizesList.innerHTML = sizes.map(size => `
@@ -227,7 +169,7 @@ function displaySizes(subcategory) {
     }
 }
 
-// Filtrar ítems por talla
+// Filtrar por talla
 function filterBySize(size) {
     const filteredItems = items.filter(item => 
         item.categoria === currentCategory &&
@@ -238,17 +180,17 @@ function filterBySize(size) {
     displayItems(filteredItems);
 }
 
+// Manejar clic en una categoría
 function handleCategoryClick(category) {
     const navbarCollapse = document.getElementById('navbarNav');
     const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
     bsCollapse.hide();
 
-    displaySubcategories(category);  // Esto ahora manejará cualquier categoría
+    displaySubcategories(category);
 }
 
 // Eventos
 searchBar.addEventListener("input", filterItems);
-
 document.querySelectorAll('.nav-link[data-category]').forEach(link => {
     link.addEventListener('click', event => {
         const category = event.target.getAttribute('data-category');
