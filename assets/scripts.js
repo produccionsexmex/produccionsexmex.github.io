@@ -11,7 +11,7 @@ let items = [];
 let currentCategory = '';
 let currentSubcategory = '';
 
-// Estructura para agrupar subcategorías dentro de dropdowns
+// Mapeo de subcategorías dentro de dropdowns
 const categoryMappings = {
     "Vestuario de mujer": {
         "Vestidos": ["Vestidos largos", "Brillosos", "Putivestidos"],
@@ -22,12 +22,12 @@ const categoryMappings = {
         "Deportivos": []
     },
     "Vestuario de hombre": {
-        "Disfraces": ["Disfraces"],
-        "Utilería": ["Sombreros", "Máscaras"],
+        "Disfraces": [],
+        "Utilería": [],
     },
     "Decoración": {
-        "Jarrones": ["Jarrones"],
-        "Lamparas y Macetas": ["Lamparas y macetas"],
+        "Jarrones": [],
+        "Lámparas y Macetas": [],
     }
 };
 
@@ -78,6 +78,7 @@ function filterItems() {
             item.nombre?.toLowerCase() || '',
             item.categoria?.toLowerCase() || '',
             item.subcategoria?.toLowerCase() || '',
+            item.tipo?.toLowerCase() || '',
             ...(item.tags ? item.tags.map(tag => tag.toLowerCase()) : [])
         ].join(' ');
 
@@ -87,16 +88,37 @@ function filterItems() {
     displayItems(filteredItems);
 }
 
+// Activar categoría
+function setActiveCategory(category) {
+    document.querySelectorAll('.nav-link[data-category]').forEach(link => link.classList.remove('active'));
+    const categoryLink = document.querySelector(`.nav-link[data-category="${category}"]`);
+    if (categoryLink) categoryLink.classList.add('active');
+}
+
+// Activar subcategoría
+function setActiveSubcategory(subcategory) {
+    document.querySelectorAll('.nav-link[data-subcategory]').forEach(link => link.classList.remove('active'));
+    const subcategoryLink = document.querySelector(`.nav-link[data-subcategory="${subcategory}"]`);
+    if (subcategoryLink) subcategoryLink.classList.add('active');
+}
+
+// Activar filtro
+function setActiveFilter(filter) {
+    document.querySelectorAll('.btn-filter').forEach(btn => btn.classList.remove('active'));
+    const filterButton = document.querySelector(`.btn-filter[data-filter="${filter}"]`);
+    if (filterButton) filterButton.classList.add('active');
+}
+
+
 // Mostrar las subcategorías
 function displaySubcategories(category) {
     currentCategory = category;
-    subcategoriesList.innerHTML = '';  
+    subcategoriesList.innerHTML = '';
 
     if (categoryMappings[category]) {
         Object.keys(categoryMappings[category]).forEach(mainSubcategory => {
             const subcategories = categoryMappings[category][mainSubcategory];
 
-            // Si la subcategoría tiene elementos, mostrar dropdown
             if (subcategories.length > 0) {
                 let dropdownHTML = `
                     <li class="nav-item dropdown">
@@ -110,7 +132,6 @@ function displaySubcategories(category) {
                 `;
                 subcategoriesList.innerHTML += dropdownHTML;
             } else {
-                // Si la subcategoría está vacía, mostrarla como un enlace normal
                 subcategoriesList.innerHTML += `
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory}')">${mainSubcategory}</a>
@@ -125,42 +146,83 @@ function displaySubcategories(category) {
     sizesNav.style.display = 'none';
 }
 
-// Manejar clic en una subcategoría
+// Manejar el clic en una subcategoría
 function handleSubcategoryClick(subcategory) {
     currentSubcategory = subcategory;
     currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
-    const filteredItems = items.filter(item => 
+    const filteredItems = items.filter(item =>
         item.categoria === currentCategory && item.subcategoria === subcategory
     );
 
     displayItems(filteredItems);
 
-    // Mostrar tallas si es calzado
-    if (["Zapatos", "Botas", "Botas Vaqueras",  "Botines"].includes(subcategory)) {
-        displaySizes(subcategory);
+    // Verificar si la subcategoría es de calzado y mostrar las medidas
+    const calzadoSubcategorias = ["Zapatos", "Botas", "Botas Vaqueras", "Botines"];
+    if (calzadoSubcategorias.includes(subcategory)) {
+        displaySizes(filteredItems); // ← Aquí pasamos los ítems filtrados
+    } else if (subcategory.toLowerCase() === 'utilería') {
+        displaySubcategoryFilters(subcategory, 'tipo');
+    } else if (subcategory.toLowerCase() === 'jarrones') {
+        displaySubcategoryFilters(subcategory, 'color');
     } else {
         sizesNav.style.display = 'none';
     }
 }
 
-// Mostrar tallas
-function displaySizes(subcategory) {
-    const itemsInSubcategory = items.filter(item => 
-        item.categoria === currentCategory && 
-        item.subcategoria === subcategory && 
-        item.medidas?.length > 0
+// Mostrar medidas para Calzado
+function displaySizes(filteredItems) {
+    const sizes = new Set();
+
+    filteredItems.forEach(item => {
+        if (item.medidas) {
+            item.medidas.forEach(medida => sizes.add(medida));
+        }
+    });
+
+    if (sizes.size > 0) {
+        sizesNav.classList.remove("d-none");
+        sizesNav.style.display = "block";
+
+        sizesList.innerHTML = [...sizes].sort().map(medida => `
+            <li class="nav-item me-2 mb-2">
+                <a class="btn btn-outline-primary" href="#" onclick="filterBySize('${medida}')">${medida}</a>
+            </li>
+        `).join("");
+    } else {
+        sizesNav.style.display = "none";
+        sizesList.innerHTML = "";
+    }
+}
+
+// Filtrar ítems por medida específica
+function filterBySize(size) {
+    const filteredItems = items.filter(item =>
+        item.categoria === currentCategory &&
+        item.subcategoria === currentSubcategory &&
+        item.medidas?.includes(size)
+    );
+
+    displayItems(filteredItems);
+}
+
+// Mostrar filtros para medidas en Calzado, tipo en Utilería y color en Jarrones
+function displaySubcategoryFilters(subcategory, filterKey) {
+    const itemsInSubcategory = items.filter(item =>
+        item.categoria === currentCategory &&
+        item.subcategoria === subcategory &&
+        item[filterKey]
     );
 
     if (itemsInSubcategory.length > 0) {
         sizesNav.classList.remove("d-none");
         sizesNav.style.display = "block";
 
-        const sizes = [...new Set(itemsInSubcategory.flatMap(item => item.medidas))].sort();
+        const filters = [...new Set(itemsInSubcategory.map(item => item[filterKey]))].sort();
 
-        sizesList.innerHTML = sizes.map(size => `
+        sizesList.innerHTML = filters.map(filterValue => `
             <li class="nav-item me-2 mb-2">
-                <a class="btn btn-outline-primary" href="#" onclick="filterBySize('${size}')">${size}</a>
+                <a class="btn btn-outline-primary" href="#" onclick="filterBySubcategoryAttribute('${filterKey}', '${filterValue}')">${filterValue}</a>
             </li>
         `).join("");
     } else {
@@ -169,12 +231,12 @@ function displaySizes(subcategory) {
     }
 }
 
-// Filtrar por talla
-function filterBySize(size) {
-    const filteredItems = items.filter(item => 
+// Filtrar ítems por atributo dinámico (medidas, tipo o color)
+function filterBySubcategoryAttribute(attribute, value) {
+    const filteredItems = items.filter(item =>
         item.categoria === currentCategory &&
         item.subcategoria === currentSubcategory &&
-        item.medidas?.includes(size)
+        item[attribute] === value
     );
 
     displayItems(filteredItems);
