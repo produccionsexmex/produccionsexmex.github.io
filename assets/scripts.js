@@ -19,7 +19,8 @@ const categoryMappings = {
         "Faldas": ["Faldas largas", "Faldas cortas"],
         "Playeras": ["Playeras", "Blusas Básicas", "Tops", "Blusas Manga Larga", "Leotardos"],
         "Disfraces": ["Disfraces", "Juego Del Calamar"],
-        "Deportivos": []
+        "Deportivos": [],
+        "Utilería": [],
     },
     "Vestuario de hombre": {
         "Disfraces": [],
@@ -28,6 +29,8 @@ const categoryMappings = {
     "Decoración": {
         "Jarrones": [],
         "Lámparas y Macetas": [],
+        "Lámparas": [],
+        "Utilería": [],
     }
 };
 
@@ -42,13 +45,20 @@ async function loadItems() {
     }
 }
 
+function toTitleCase(str) {
+    return str
+        .toLowerCase()
+        .replace(/(^|\s)([a-záéíóúñü])/g, (match) => match.toUpperCase());
+}
+
+
 // Mostrar ítems filtrados
 function displayItems(filteredItems) {
     if (filteredItems.length === 0) {
         itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta búsqueda.</p>';
     } else {
         itemsContainer.innerHTML = filteredItems.map(item => {
-            const displayName = item.nombre || '';
+            const displayName = item.nombre ? toTitleCase(item.nombre) : '';
             const tags = item.tags
                 ? item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("")
                 : "";
@@ -112,6 +122,7 @@ function setActiveFilter(filter) {
 
 // Mostrar las subcategorías
 function displaySubcategories(category) {
+    console.log("Mostrando subcategorías para:", category);
     currentCategory = category;
     subcategoriesList.innerHTML = '';
 
@@ -152,16 +163,17 @@ function handleSubcategoryClick(subcategory) {
     currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
     const filteredItems = items.filter(item =>
-        item.categoria === currentCategory && item.subcategoria === subcategory
+        item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
+        item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase()
     );
+
+    console.log(`Filtrando categoría: ${currentCategory}, subcategoría: ${subcategory}`);
+    console.log("Ítems encontrados:", filteredItems);
 
     displayItems(filteredItems);
 
-    // Verificar si la subcategoría es de calzado y mostrar las medidas
-    const calzadoSubcategorias = ["Zapatos", "Botas", "Botas Vaqueras", "Botines"];
-    if (calzadoSubcategorias.includes(subcategory)) {
-        displaySizes(filteredItems); // ← Aquí pasamos los ítems filtrados
-    } else if (subcategory.toLowerCase() === 'utilería') {
+    // Manejar filtros específicos para Utilería
+    if (subcategory.toLowerCase() === 'utilería') {
         displaySubcategoryFilters(subcategory, 'tipo');
     } else if (subcategory.toLowerCase() === 'jarrones') {
         displaySubcategoryFilters(subcategory, 'color');
@@ -209,10 +221,13 @@ function filterBySize(size) {
 // Mostrar filtros para medidas en Calzado, tipo en Utilería y color en Jarrones
 function displaySubcategoryFilters(subcategory, filterKey) {
     const itemsInSubcategory = items.filter(item =>
-        item.categoria === currentCategory &&
-        item.subcategoria === subcategory &&
+        item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
+        item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase() &&
         item[filterKey]
     );
+    
+    console.log(`Filtrando por ${filterKey} en ${currentCategory} > ${subcategory}`);
+    console.log("Ítems disponibles para filtro:", itemsInSubcategory);
 
     if (itemsInSubcategory.length > 0) {
         sizesNav.classList.remove("d-none");

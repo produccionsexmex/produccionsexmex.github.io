@@ -1585,6 +1585,14 @@
         "imagen": "assets/img/mujeres/disfraces/0103.jpg", 
         "tags": ["Completo", "Negro", "Manga larga", "Cuello redondo", "Orejas negras"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Mujer Mucama",
+        "imagen": "assets/img/mujeres/disfraces/0104.jpg", 
+        "tags": ["Body", "Negro", "Sin mangas", "Cuello redondo"]
+      },
+
 
 
 
@@ -3691,6 +3699,379 @@
         "imagen": "assets/img/mujeres/juego_calamar/03.jpg",
         "tags": ["Completo", "Gris", "Manga larga", "Capucha", "Máscara gris"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 04",
+        "imagen": "assets/img/mujeres/juego_calamar/04.jpg",
+        "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 05",
+        "imagen": "assets/img/mujeres/juego_calamar/05.jpg",
+         "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 06",
+        "imagen": "assets/img/mujeres/juego_calamar/06.jpg",
+         "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 07",
+        "imagen": "assets/img/mujeres/juego_calamar/07.jpg",
+         "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Juego Del Calamar",
+        "nombre": "Juego del Calamar 08",
+        "imagen": "assets/img/mujeres/juego_calamar/08.jpg",
+         "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
+      },
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Azul Bob",
+        "imagen": "assets/img/mujeres/utileria/pelucas/01.jpg",
+        "tags": [ "Azul", "Estilo Bob", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Rubia Larga",
+        "imagen": "assets/img/mujeres/utileria/pelucas/02.jpg",
+        "tags": [ "Rubia", "Larga", "Lacia"]
+      },
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Rubia",
+        "imagen": "assets/img/mujeres/utileria/pelucas/03.jpg",
+        "tags": [ "Rubia", "Con coletas", "Corta", "Lacia con rulos"]
+      },
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Roja",
+        "imagen": "assets/img/mujeres/utileria/pelucas/04.jpg",
+        "tags": [ "Roja", "Estilo Bob", "Corta"]
+      },
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Roja",
+        "imagen": "assets/img/mujeres/utileria/pelucas/05.jpg",
+        "tags": [ "Roja", "Estilo Bob", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Tinta",
+        "imagen": "assets/img/mujeres/utileria/pelucas/06.jpg",
+        "tags": [ "Tinta", "Estilo Bob", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Cobriza",
+        "imagen": "assets/img/mujeres/utileria/pelucas/07.jpg",
+        "tags": [ "Cobriza", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Naranja",
+        "imagen": "assets/img/mujeres/utileria/pelucas/08.jpg",
+        "tags": [ "Naranja", "Larga", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Blanca",
+        "imagen": "assets/img/mujeres/utileria/pelucas/09.jpg",
+        "tags": [ "Blanca", "Estilo Bob", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Gris Larga",
+        "imagen": "assets/img/mujeres/utileria/pelucas/010.jpg",
+        "tags": [ "Gris", "Larga", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Rubia Larga",
+        "imagen": "assets/img/mujeres/utileria/pelucas/011.jpg",
+        "tags": [ "Rubia", "Larga", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Castaña Larga",
+        "imagen": "assets/img/mujeres/utileria/pelucas/012.jpg",
+        "tags": [ "Castaña", "Larga", "Lacia", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Castaña Larga Cavernícola",
+        "imagen": "assets/img/mujeres/utileria/pelucas/013.jpg",
+        "tags": [ "Castaña", "Larga", "Hueso enredado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Castaña con Rayos",
+        "imagen": "assets/img/mujeres/utileria/pelucas/014.jpg",
+        "tags": [ "Castaña", "Corta", "Rayitos", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra con Rayos",
+        "imagen": "assets/img/mujeres/utileria/pelucas/015.jpg",
+        "tags": [ "Negra", "Larga", "Rayitos", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Larga",
+        "imagen": "assets/img/mujeres/utileria/pelucas/016.jpg",
+        "tags": [ "Negra", "Larga", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Mediana",
+        "imagen": "assets/img/mujeres/utileria/pelucas/017.jpg",
+        "tags": [ "Negra", "Mediana", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Corta",
+        "imagen": "assets/img/mujeres/utileria/pelucas/018.jpg",
+        "tags": [ "Negra", "Estilo Bob", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Corta",
+        "imagen": "assets/img/mujeres/utileria/pelucas/019.jpg",
+        "tags": [ "Negra", "Corta", "Canas", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Corta",
+        "imagen": "assets/img/mujeres/utileria/pelucas/020.jpg",
+        "tags": [ "Negra", "Corta", "Lacia"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Negra Mediana",
+        "imagen": "assets/img/mujeres/utileria/pelucas/011.jpg",
+        "tags": [ "Negra", "Mediana", "China"]
+      },
+
+
+
+
+
+
+
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Carnaval",
+        "imagen": "assets/img/mujeres/utileria/mascaras/01.jpg",
+        "tags": [ "Animal print", "Multicolor", "Tigresa", "Corona"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Carnaval Multicolor",
+        "imagen": "assets/img/mujeres/utileria/mascaras/02.jpg",
+        "tags": [ "Abstracta", "Multicolor", "Carnaval"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Conejo",
+        "imagen": "assets/img/mujeres/utileria/mascaras/03.jpg",
+        "tags": [ "Plastico", "Blanca", "Conejo", "Orejas largas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Gatita",
+        "imagen": "assets/img/mujeres/utileria/mascaras/04.jpg",
+        "tags": [ "Encaje", "Blanca", "Gatita"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Gatita",
+        "imagen": "assets/img/mujeres/utileria/mascaras/05.jpg",
+        "tags": [ "Encaje", "Negra", "Gatita"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Gatita",
+        "imagen": "assets/img/mujeres/utileria/mascaras/06.jpg",
+        "tags": [ "Plastico", "Plateada", "Gatita"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz con velo",
+        "imagen": "assets/img/mujeres/utileria/mascaras/07.jpg",
+        "tags": [ "Encaje", "Negro", "Velo en red"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz verde",
+        "imagen": "assets/img/mujeres/utileria/mascaras/08.jpg",
+        "tags": [ "Plastico", "Verde", "Básico"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz dorado",
+        "imagen": "assets/img/mujeres/utileria/mascaras/09.jpg",
+        "tags": [ "Plastico", "Dorado", "Básico"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/010.jpg",
+        "tags": [ "Plastico", "Negro y beige", "Básico"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/011.jpg",
+        "tags": [ "Piel", "Negro", "Básico"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/012.jpg",
+        "tags": [ "Piel", "Negro", "Fantasía"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/013.jpg",
+        "tags": [ "Piel", "Negro", "Fantasía"]
+      },
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/014.jpg",
+        "tags": [ "Piel", "Negro", "Fantasía"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Antifaz negro",
+        "imagen": "assets/img/mujeres/utileria/mascaras/015.jpg",
+        "tags": [ "Piel", "Negro", "Fantasía"]
+      },
+
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Diadema Flores",
+        "imagen": "assets/img/mujeres/utileria/varios/01.jpg",
+        "tags": [ "Plastico", "Flores multicolor"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Diadema Flores",
+        "imagen": "assets/img/mujeres/utileria/varios/02.jpg",
+        "tags": [ "Plastico", "Flores multicolor"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Diadema Flores",
+        "imagen": "assets/img/mujeres/utileria/varios/03.jpg",
+        "tags": [ "Plastico", "Rosas rojas", "Adornos dorados"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Bolsa de Dama",
+        "imagen": "assets/img/mujeres/utileria/varios/04.jpg",
+        "tags": [ "Plastico", "Multicolor", "Adornos florales"]
+      },
+      
+
+
 
 
 
@@ -4036,6 +4417,41 @@
         "imagen": "assets/img/hombres/disfraces/047.jpg",
         "tags": ["Playera Táctica", "Negro", "Una pieza", "Policia", "Manga larga"]
       },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Chamarra Verde Juego del Calamar",
+        "imagen": "assets/img/hombres/disfraces/048.jpg",
+        "tags": ["Chamarra", "Verde", "Una pieza"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Robin",
+        "imagen": "assets/img/hombres/disfraces/049.jpg",
+        "tags": ["Disfraz completo", "Verde, rojo y negro", "Capa negra"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Wolverine",
+        "imagen": "assets/img/hombres/disfraces/050.jpg",
+        "tags": ["Disfraz completo", "Amarillo y azul", "Una pieza"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Capitán América",
+        "imagen": "assets/img/hombres/disfraces/051.jpg",
+        "tags": ["Disfraz completo", "Azul, rojo y blanco", "Una pieza"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Spiderman",
+        "imagen": "assets/img/hombres/disfraces/052.jpg",
+        "tags": ["Disfraz completo", "Rojo y azul", "Una pieza"]
+      },
 
 
       {
@@ -4082,10 +4498,27 @@
         "categoria": "Vestuario de hombre",
         "subcategoria": "Utilería",
         "tipo": "Sombreros",
-        "nombre": "Casco blano",
+        "nombre": "Casco blanco",
         "imagen": "assets/img/hombres/utileria/sombreros/06.jpg",
         "tags": [ "Obrero", "Plástico", "Blanco"]
       },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Gorro Mario Bros",
+        "imagen": "assets/img/hombres/utileria/sombreros/07.jpg",
+        "tags": [ "Afelpado", "Rojo", "Amplio"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Sombreros",
+        "nombre": "Casco Football Americano",
+        "imagen": "assets/img/hombres/utileria/sombreros/08.jpg",
+        "tags": [ "Tela", "Multicolor"]
+      },
+
 
 
       {
@@ -4193,6 +4626,139 @@
         "tags": [ "Básica", "Plástico", "Blanca"]
       },
 
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca Gris",
+        "imagen": "assets/img/hombres/utileria/pelucas/01.jpg",
+        "tags": [ "Gris", "Grifo", "Corta"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Peluca y Barba Santa Claus",
+        "imagen": "assets/img/hombres/utileria/pelucas/02.jpg",
+        "tags": [ "Blanca", "Larga", "China"]
+      },
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Pelucas",
+        "nombre": "Barba Castaña",
+        "imagen": "assets/img/hombres/utileria/pelucas/03.jpg",
+        "tags": [ "Castaña", "Larga", "China"]
+      },
+
+
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Chaleco rojo",
+        "imagen": "assets/img/hombres/utileria/varios/01.jpg",
+        "tags": [ "Básica", "Plástico", "Rojo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Lentes y Gorro Azul",
+        "imagen": "assets/img/hombres/utileria/varios/02.jpg",
+        "tags": [ "Lentes plateados", "Gorro azul", "Peluche"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/03.jpg",
+        "tags": [ "Piel", "Café", "Hebilla dorada"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/04.jpg",
+        "tags": [ "Piel", "Café", "Hebilla dorada", "Alacrán"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/05.jpg",
+        "tags": [ "Piel", "Negro", "Hebilla en piel", "Gallo bordado"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/06.jpg",
+        "tags": [ "Piel", "Negro", "Hebilla en piel", "Gallo bordado"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/07.jpg",
+        "tags": [ "Piel", "Negro", "Hebilla en piel", "Vaquero bordaddo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cinturón Vaquero",
+        "imagen": "assets/img/hombres/utileria/varios/08.jpg",
+        "tags": [ "Piel", "Negro", "Hebilla en piel", "Vaquero bordaddo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Sarape mexicano",
+        "imagen": "assets/img/hombres/utileria/varios/09.jpg",
+        "tags": [ "Tela", "Multicolor"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Sarape mexicano",
+        "imagen": "assets/img/hombres/utileria/varios/010.jpg",
+        "tags": [ "Tela", "Multicolor"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Sarape mexicano",
+        "imagen": "assets/img/hombres/utileria/varios/011.jpg",
+        "tags": [ "Tela", "Multicolor"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Rodilleras Football Americano",
+        "imagen": "assets/img/hombres/utileria/varios/012.jpg",
+        "tags": [ "Tela acolchada", "Negro"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Balon Football Americano",
+        "imagen": "assets/img/hombres/utileria/varios/013.jpg",
+        "tags": [ "Piel", "Café oscuro"]
+      },
+      
 
 
 
@@ -5031,10 +5597,211 @@
         "nombre": "Maceta lámpara 0101",
         "imagen": "assets/img/decoracion/jarrones/lamparas_macetas/0101.jpg",
         "tags": ["Plateado", "Moderno", "Decorativo", "Pequeño", "Metálico"]
-      }
+      },
       
 
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Beige",
+        "nombre": "Lámpara Grande Redonda",
+        "imagen": "assets/img/decoracion/lamparas/01.jpg",
+        "tags": ["Lazo", "Moderno", "Decorativo", "Grande", "Beige"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Beige",
+        "nombre": "Lámpara Chica Redonda",
+        "imagen": "assets/img/decoracion/lamparas/02.jpg",
+        "tags": ["Lazo", "Moderno", "Decorativo", "Chica", "Beige"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Beige",
+        "nombre": "Lámpara Mediana Cilindro",
+        "imagen": "assets/img/decoracion/lamparas/03.jpg",
+        "tags": ["Lazo", "Moderno", "Decorativo", "Mediana", "Beige"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Café",
+        "nombre": "Lámpara Grande Cilindro",
+        "imagen": "assets/img/decoracion/lamparas/04.jpg",
+        "tags": ["Madera", "Moderno", "Decorativo", "Mediana", "Café"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Blanca",
+        "nombre": "Lámpara Grande Cilindro",
+        "imagen": "assets/img/decoracion/lamparas/05.jpg",
+        "tags": ["Madera", "Moderno", "Decorativo", "Mediana", "Blanca"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Blanca",
+        "nombre": "Lámpara Mediana Cilindro",
+        "imagen": "assets/img/decoracion/lamparas/06.jpg",
+        "tags": ["Madera", "Moderno", "Decorativo", "Mediana", "Blanca"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Café",
+        "nombre": "Lámpara Mediana Cilindro",
+        "imagen": "assets/img/decoracion/lamparas/07.jpg",
+        "tags": ["Madera", "Moderno", "Decorativo", "Mediana", "Café"]
+      },
 
+
+
+
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Control de XBOX",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/01.jpg",
+        "tags": [ "Plástico", "Gris", "Inalámbrico"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Juego de Mesa BASTA",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/02.jpg",
+        "tags": [ "Multijugador"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Juego de Mesa JENGA",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/03.jpg",
+        "tags": [ "Multijugador", "Madera"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Juego de Mesa UNO PARTY",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/04.jpg",
+        "tags": [ "Multijugador", "Juego de cartas"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Juego de Mesa TWISTER",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/05.jpg",
+        "tags": [ "Multijugador"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Juegos de Mesa y Videojuegos",
+        "nombre": "Juego de Mesa CUBILETE",
+        "imagen": "assets/img/decoracion/utileria/juegos_videojuegos/06.jpg",
+        "tags": [ "Multijugador", "Dados"]
+      },
+
+
+
+
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tapete Yoga",
+        "imagen": "assets/img/decoracion/utileria/varios/01.jpg",
+        "tags": [ "Hule", "Negro", "Enrollable"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tapete Yoga",
+        "imagen": "assets/img/decoracion/utileria/varios/02.jpg",
+        "tags": [ "Hule", "Verde", "Enrollable"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tapete Yoga",
+        "imagen": "assets/img/decoracion/utileria/varios/03.jpg",
+        "tags": [ "Hule", "Azul", "Enrollable"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tapete Yoga",
+        "imagen": "assets/img/decoracion/utileria/varios/04.jpg",
+        "tags": [ "Hule", "Naranja", "Enrollable"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tombola",
+        "imagen": "assets/img/decoracion/utileria/varios/05.jpg",
+        "tags": [ "Acrílico", "Transparente", "Bolitas de colores"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Tabla Ouija",
+        "imagen": "assets/img/decoracion/utileria/varios/06.jpg",
+        "tags": [ "Madera", "Café"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Almohada Buho",
+        "imagen": "assets/img/decoracion/utileria/varios/07.jpg",
+        "tags": [ "Afelpado", "Multicolor", "Almohada"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Mario Bros Cubos Cafés ",
+        "imagen": "assets/img/decoracion/utileria/varios/08.jpg",
+        "tags": [ "Tela", "Textura piedra"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Mario Bros Cilindro Verde",
+        "imagen": "assets/img/decoracion/utileria/varios/09.jpg",
+        "tags": [ "Plastico", "Verde"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Mario Bros Cubo Amarillo",
+        "imagen": "assets/img/decoracion/utileria/varios/010.jpg",
+        "tags": [ "Plastico", "Amarillo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Bastón",
+        "imagen": "assets/img/decoracion/utileria/varios/011.jpg",
+        "tags": [ "Plastico", "Largo"]
+      }
+
+ 
 
 
 
