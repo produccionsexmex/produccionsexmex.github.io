@@ -5658,6 +5658,57 @@
       },
 
 
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Rosa",
+        "imagen": "assets/img/decoracion/plantas/01.jpg",
+        "tags": ["Plastico", "Alto", "Decorativo", "Rosa"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Amarillo",
+        "imagen": "assets/img/decoracion/plantas/02.jpg",
+        "tags": ["Plastico", "Alto", "Decorativo", "Amarillo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Café",
+        "imagen": "assets/img/decoracion/plantas/03.jpg",
+        "tags": ["Plastico", "Mediano", "Decorativo", "Amarillo y Café"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Naranja",
+        "imagen": "assets/img/decoracion/plantas/04.jpg",
+        "tags": ["Plastico", "Mediano", "Decorativo", "Naranja"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Naranja",
+        "imagen": "assets/img/decoracion/plantas/05.jpg",
+        "tags": ["Plastico", "Alto", "Decorativo", "Naranja"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Plantas",
+         "color": "Rosa",
+        "nombre": "Arbolito Verde",
+        "imagen": "assets/img/decoracion/plantas/06.jpg",
+        "tags": ["Plastico", "Mediano", "Decorativo", "Verde"]
+      },
+
+
+
 
 
       {
@@ -5799,6 +5850,62 @@
         "nombre": "Bastón",
         "imagen": "assets/img/decoracion/utileria/varios/011.jpg",
         "tags": [ "Plastico", "Largo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Torso de Latex",
+        "imagen": "assets/img/decoracion/utileria/varios/012.jpg",
+        "tags": [ "Latex", "Piel"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Pistola",
+        "imagen": "assets/img/decoracion/utileria/varios/013.jpg",
+        "tags": [ "Plastico", "negra"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Audifonos Gamer",
+        "imagen": "assets/img/decoracion/utileria/varios/014.jpg",
+        "tags": [ "Plastico", "Negro", "Con Auricular", "Cableado"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cangurera Morada",
+        "imagen": "assets/img/decoracion/utileria/varios/015.jpg",
+        "tags": [ "Plastico", "Morada", "Chica"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Cangurera Azul",
+        "imagen": "assets/img/decoracion/utileria/varios/016.jpg",
+        "tags": [ "Plastico", "Azul", "Chica"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Nariz de Payaso",
+        "imagen": "assets/img/decoracion/utileria/varios/017.jpg",
+        "tags": [ "Plastico", "Roja"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Varios",
+        "nombre": "Sombrero Verde",
+        "imagen": "assets/img/decoracion/utileria/varios/018.jpg",
+        "tags": [ "Plastico", "Alto", "Verde"]
       }
 
  

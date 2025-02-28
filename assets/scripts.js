@@ -30,6 +30,7 @@ const categoryMappings = {
         "Jarrones": [],
         "Lámparas y Macetas": [],
         "Lámparas": [],
+        "Plantas": [],
         "Utilería": [],
     }
 };
