@@ -14,7 +14,7 @@ let currentSubcategory = '';
 // Mapeo de subcategorías dentro de dropdowns
 const categoryMappings = {
     "Vestuario de mujer": {
-        "Vestidos": ["Vestidos largos", "Brillosos", "Putivestidos"],
+        "Vestidos": ["Vestidos largos", "Brillosos", "Putivestidos", "Mamelucos y Enterizos"],
         "Calzado": ["Zapatos", "Botas", "Botas Vaqueras", "Botines"],
         "Faldas": ["Faldas largas", "Faldas cortas"],
         "Playeras": ["Playeras", "Blusas Básicas", "Tops", "Blusas Manga Larga", "Leotardos"],
@@ -24,6 +24,9 @@ const categoryMappings = {
     },
     "Vestuario de hombre": {
         "Disfraces": [],
+        "Utilería": [],
+    },
+    "Sado": {
         "Utilería": [],
     },
     "Decoración": {
@@ -178,6 +181,8 @@ function handleSubcategoryClick(subcategory) {
         displaySubcategoryFilters(subcategory, 'tipo');
     } else if (subcategory.toLowerCase() === 'jarrones') {
         displaySubcategoryFilters(subcategory, 'color');
+    } else if (subcategory.toLowerCase() === 'plantas') {
+        displaySubcategoryFilters(subcategory, 'tipo');
     } else {
         sizesNav.style.display = 'none';
     }
