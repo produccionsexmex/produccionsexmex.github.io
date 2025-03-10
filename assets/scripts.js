@@ -178,21 +178,26 @@ function handleSubcategoryClick(subcategory) {
 
     displayItems(filteredItems);
 
-    // 🚨 Separamos las condiciones para que se ejecuten todas correctamente
-    if (subcategory.toLowerCase() === 'utilería') {
-        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Utilería
-    }
-    
-    if (subcategory.toLowerCase() === 'jarrones') {
-        displaySubcategoryFilters(subcategory, 'color'); // Filtra por color en Jarrones
-    }
-    
-    if (subcategory.toLowerCase() === 'plantas') {
-        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Plantas
-    }
+    // Primero, ocultamos el menú por defecto
+    sizesNav.style.display = 'none';
 
+    // Si la subcategoría es de Calzado, mostrar medidas
     if (calzadoSubcategorias.includes(subcategory)) {
-        displaySizes(filteredItems); // Filtra por medidas en Calzado
+        displaySizes(filteredItems);
+    } 
+    // Si la subcategoría es Utilería en Vestuario o Decoración, mostrar tipos
+    else if (subcategory.toLowerCase() === 'utilería' && 
+            (currentCategory.toLowerCase().includes("vestuario") || 
+             currentCategory.toLowerCase().includes("decoración"))) {
+        displaySubcategoryFilters(subcategory, 'tipo');
+    } 
+    // Si la subcategoría es Jarrones, mostrar colores
+    else if (subcategory.toLowerCase() === 'jarrones') {
+        displaySubcategoryFilters(subcategory, 'color');
+    }
+    // Si la subcategoría es Plantas, mostrar colores
+    else if (subcategory.toLowerCase() === 'plantas') {
+        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Plantas
     }
 }
 
