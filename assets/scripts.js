@@ -171,20 +171,28 @@ function handleSubcategoryClick(subcategory) {
         item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase()
     );
 
+    const calzadoSubcategorias = ["Zapatos", "Botas", "Botas Vaqueras", "Botines"];
+
     console.log(`Filtrando categoría: ${currentCategory}, subcategoría: ${subcategory}`);
     console.log("Ítems encontrados:", filteredItems);
 
     displayItems(filteredItems);
 
-    // Manejar filtros específicos para Utilería
+    // 🚨 Separamos las condiciones para que se ejecuten todas correctamente
     if (subcategory.toLowerCase() === 'utilería') {
-        displaySubcategoryFilters(subcategory, 'tipo');
-    } else if (subcategory.toLowerCase() === 'jarrones') {
-        displaySubcategoryFilters(subcategory, 'color');
-    } else if (subcategory.toLowerCase() === 'plantas') {
-        displaySubcategoryFilters(subcategory, 'tipo');
-    } else {
-        sizesNav.style.display = 'none';
+        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Utilería
+    }
+    
+    if (subcategory.toLowerCase() === 'jarrones') {
+        displaySubcategoryFilters(subcategory, 'color'); // Filtra por color en Jarrones
+    }
+    
+    if (subcategory.toLowerCase() === 'plantas') {
+        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Plantas
+    }
+
+    if (calzadoSubcategorias.includes(subcategory)) {
+        displaySizes(filteredItems); // Filtra por medidas en Calzado
     }
 }
 
