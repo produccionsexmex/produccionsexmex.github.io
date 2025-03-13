@@ -5809,6 +5809,52 @@
         "imagen": "assets/img/decoracion/lamparas/07.jpg",
         "tags": ["Madera", "Moderno", "Decorativo", "Mediana", "Café"]
       },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Metal",
+        "nombre": "Tubo de luz chico",
+        "imagen": "assets/img/decoracion/lamparas/08.jpg",
+        "tags": ["Metálico", "Moderno", "Tubular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Metal",
+        "nombre": "Tubo de luz grande",
+        "imagen": "assets/img/decoracion/lamparas/09.jpg",
+        "tags": ["Metálico", "Negro",  "Moderno", "Tubular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Parota",
+        "nombre": "Base para Lámpara Decorativa",
+        "imagen": "assets/img/decoracion/lamparas/010.jpg",
+        "tags": ["Parota", "Moderno", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Blanco",
+        "nombre": "Cilindro de Luz",
+        "imagen": "assets/img/decoracion/lamparas/011.jpg",
+        "tags": ["Madera", "Tela", "Moderno", "Tubular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Metal",
+        "nombre": "Lámpara Decorativa con Pantalla Angosta",
+        "imagen": "assets/img/decoracion/lamparas/012.jpg",
+        "tags": ["Metálico", "Negro", "Moderno", "Tubular", "Alto"]
+      },
+      
+
+
+
+
+
 
 
       {
@@ -6050,6 +6096,63 @@
         "nombre": "Lentes Filtro Negro",
         "imagen": "assets/img/decoracion/utileria/lentes/011.jpg",
         "tags": [ "Lentes de sol", "Negro", "Filtro solar", "Lente grande", "Lentes cuadrados"]
+      },
+
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Librero Blanco con Café",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/01.jpg",
+        "tags": [ "Madera", "Blanco y Café", "Rectangular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Macetero Negro con Café",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/02.jpg",
+        "tags": [ "Madera", "Acero", "Negro y café", "Tubular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Macetero Blanco con Beige",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/03.jpg",
+        "tags": [ "Madera", "Acero", "Blanco y Beige", "Tubular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Librero",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/04.jpg",
+        "tags": [ "Madera", "Acero", "Negro y café", "Rectangular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Librero",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/05.jpg",
+        "tags": [ "Madera", "Acero", "Blanco y Beige", "Tubular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Librero de Parota",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/06.jpg",
+        "tags": [ "Parota", "Café", "Rectangular", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Librero Blanco",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/07.jpg",
+        "tags": [ "Madera", "Blanco", "Modular", "Alto"]
       },
       
 
