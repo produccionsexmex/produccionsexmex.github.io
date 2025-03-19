@@ -6121,7 +6121,7 @@
         "tipo": "Libros",
         "nombre": "Libros El Nuevo Tesoro de la Juventud",
         "imagen": "assets/img/decoracion/utileria/libros/03.jpg",
-        "tags": [ "Pasta dura", "Dorado y Negro"]
+        "tags": [ "Pasta Dura", "Dorado y Negro"]
       },
       {
         "categoria": "Decoración",
@@ -6129,7 +6129,7 @@
         "tipo": "Libros",
         "nombre": "Libros Monitor",
         "imagen": "assets/img/decoracion/utileria/libros/04.jpg",
-        "tags": [ "Pasta dura", "Dorado y Verde"]
+        "tags": [ "Pasta Dura", "Dorado y Verde"]
       },
       {
         "categoria": "Decoración",
@@ -6137,7 +6137,7 @@
         "tipo": "Libros",
         "nombre": "Libros Historia del Arte",
         "imagen": "assets/img/decoracion/utileria/libros/05.jpg",
-        "tags": [ "Pasta dura", "Rojo y Azul"]
+        "tags": [ "Pasta Dura", "Rojo y Azul"]
       },
 
 
