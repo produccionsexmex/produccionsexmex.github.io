@@ -6098,6 +6098,53 @@
         "tags": [ "Lentes de sol", "Negro", "Filtro solar", "Lente grande", "Lentes cuadrados"]
       },
 
+
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Libros",
+        "nombre": "Libros Flora",
+        "imagen": "assets/img/decoracion/utileria/libros/01.jpg",
+        "tags": [ "Pasta Dura", "Dorado y Verde"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Libros",
+        "nombre": "Libros Conocer el Mundo",
+        "imagen": "assets/img/decoracion/utileria/libros/02.jpg",
+        "tags": [ "Pasta Dura", "Verde y Rojo"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Libros",
+        "nombre": "Libros El Nuevo Tesoro de la Juventud",
+        "imagen": "assets/img/decoracion/utileria/libros/03.jpg",
+        "tags": [ "Pasta dura", "Dorado y Negro"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Libros",
+        "nombre": "Libros Monitor",
+        "imagen": "assets/img/decoracion/utileria/libros/04.jpg",
+        "tags": [ "Pasta dura", "Dorado y Verde"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Libros",
+        "nombre": "Libros Historia del Arte",
+        "imagen": "assets/img/decoracion/utileria/libros/05.jpg",
+        "tags": [ "Pasta dura", "Rojo y Azul"]
+      },
+
+
+
+
+
+
       {
         "categoria": "Decoración",
         "subcategoria": "Utilería",
@@ -6153,6 +6200,46 @@
         "nombre": "Librero Blanco",
         "imagen": "assets/img/decoracion/utileria/mobiliario/07.jpg",
         "tags": [ "Madera", "Blanco", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Buró Beige",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/08.jpg",
+        "tags": [ "Madera", "Beige", "Modular", "Chico"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Buró Blanco",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/09.jpg",
+        "tags": [ "Madera", "Blanco", "Modular", "Chico"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Buró Avellana",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/010.jpg",
+        "tags": [ "Madera", "Avellana", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Mesa Periquera Alta",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/011.jpg",
+        "tags": [ "Madera y Acero", "Avellana", "Modular", "Alto"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario",
+        "nombre": "Mesa",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/012.jpg",
+        "tags": [ "Madera", "Naranja", "Modular", "Chica"]
       },
       
 
@@ -6364,10 +6451,52 @@
         "categoria": "Decoración",
         "subcategoria": "Utilería",
         "tipo": "Médico",
-        "nombre": "ELámpara Revisión",
+        "nombre": "Lámpara Revisión",
         "imagen": "assets/img/decoracion/utileria/varios/026.jpg",
         "tags": [ "Plastico", "Chico", "Negro"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario Médico",
+        "nombre": "Tanque de Oxigeno",
+        "imagen": "assets/img/decoracion/utileria/mobiliario_medico/01.jpg",
+        "tags": [ "Metálico", "Chico", "Blanco", "Con ruedas"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario Médico",
+        "nombre": "Gabinete",
+        "imagen": "assets/img/decoracion/utileria/mobiliario_medico/02.jpg",
+        "tags": [ "Metal y vidrio", "Grande", "Blanco"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario Médico",
+        "nombre": "Mesa Dispensario",
+        "imagen": "assets/img/decoracion/utileria/mobiliario_medico/03.jpg",
+        "tags": [ "Metálico", "Chico", "Blanco", "Ventanas"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario Médico",
+        "nombre": "Silla de Ruedas",
+        "imagen": "assets/img/decoracion/utileria/mobiliario_medico/04.jpg",
+        "tags": [ "Metálico", "Chico", "Blanco", "Con ruedas"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Mobiliario Médico",
+        "nombre": "Tripie P/Sueros",
+        "imagen": "assets/img/decoracion/utileria/mobiliario_medico/05.jpg",
+        "tags": [ "Metálico", "Alto", "Tripie"]
       }
+
+
 
  
 
