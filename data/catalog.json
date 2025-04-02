@@ -5849,6 +5849,22 @@
         "imagen": "assets/img/decoracion/lamparas/012.jpg",
         "tags": ["Metálico", "Negro", "Moderno", "Tubular", "Alto"]
       },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Metal",
+        "nombre": "Pantalla Lámpara Grande Blanca",
+        "imagen": "assets/img/decoracion/lamparas/013.jpg",
+        "tags": ["Tela", "Blanca", "Textura", "Tubular", "Grande"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Lámparas",
+         "color": "Metal",
+        "nombre": "Pantalla Lámpara Chica Blanca",
+        "imagen": "assets/img/decoracion/lamparas/014.jpg",
+        "tags": ["Tela", "Blanca", "Textura", "Tubular", "Chica"]
+      },
       
 
 
