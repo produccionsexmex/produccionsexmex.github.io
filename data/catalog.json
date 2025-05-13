@@ -654,10 +654,18 @@
       },{
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
-        "nombre": "Zapatillas 055",
+        "nombre": "Zapatillas 056",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/56.jpg",
         "tags": ["Tacón alto", "Rojo", "Abiertos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Zapatos",
+        "nombre": "Zapatillas Rojas",
+        "medidas": ["26"],
+        "imagen": "assets/img/mujeres/calzado/057.jpg",
+        "tags": ["Tacón alto", "Rojo", "Cerrados", "Punta"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -2633,6 +2641,23 @@
         "imagen": "assets/img/mujeres/puti-vestidos/0140.jpg",
         "tags": ["Liso", "Negro", "Vestido con falda larga", "Tirantes"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Hueso",
+        "imagen": "assets/img/mujeres/puti-vestidos/0141.jpg",
+        "tags": ["Liso", "Hueso", "Falda corta", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0142.jpg",
+        "tags": ["Liso", "Rojo", "Sin tirantes", "Ajustado"]
+      },
+
+
+
 
 
 
@@ -2875,6 +2900,42 @@
         "imagen": "assets/img/mujeres/vestidos-largos_palazzos/034.jpg",
         "tags": ["Encaje", "Rosa", "Vestido largo", "Escote en V", "Sin mangas", "Tirantes", "Dos piezas"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo rojo",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/034_.jpg",
+        "tags": ["Estampado bolitas", "Rojo", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes", "Listones blancos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo blanco",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/035.jpg",
+        "tags": ["Estampado bolitas", "Blanco", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes", "Listones blancos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo blanco",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/036.jpg",
+        "tags": ["Rayado", "Blanco con rojo", "Vestido largo", "Escote cerrado", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo blanco",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/037.jpg",
+        "tags": ["Rayado", "Blanco con negro", "Vestido largo", "Escote cerrado", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo azul",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/038.jpg",
+        "tags": ["Estampado bolitas", "Azul", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes", "Listones blancos"]
+      },
+
 
 
 
@@ -6259,7 +6320,22 @@
       },
       
 
-
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Kits",
+        "nombre": "Kit Cuarto Jovencita",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/017.jpg",
+        "tags": [ "Peluche cerdito rosado", "Peluche castor rosado",  "Ventilador rosa"]
+      },
+      {
+        "categoria": "Decoración",
+        "subcategoria": "Utilería",
+        "tipo": "Kits",
+        "nombre": "Kit Minecraft",
+        "imagen": "assets/img/decoracion/utileria/mobiliario/018.jpg",
+        "tags": [ "Juegos de mesa", "Armas de juguete"]
+      },
 
 
       {
