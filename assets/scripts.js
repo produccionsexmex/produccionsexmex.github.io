@@ -11,6 +11,16 @@ let items = [];
 let currentCategory = '';
 let currentSubcategory = '';
 
+function ordenarPorImagenDesc(a, b) {
+  const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
+  const matchB = b.imagen && b.imagen.match(/(\d+)\.jpg$/i);
+
+  const numA = matchA ? parseInt(matchA[1]) : 0;
+  const numB = matchB ? parseInt(matchB[1]) : 0;
+
+  return numB - numA;
+}
+
 // Mapeo de subcategorías dentro de dropdowns
 const categoryMappings = {
     "Vestuario de mujer": {
@@ -40,13 +50,17 @@ const categoryMappings = {
 
 // Cargar ítems desde el JSON
 async function loadItems() {
-    try {
-        const response = await fetch('data/catalog.json');
-        items = await response.json();
-        console.log('Ítems cargados correctamente');
-    } catch (error) {
-        console.error('Error al cargar los ítems:', error);
-    }
+  try {
+    const response = await fetch('data/catalog.json');
+    items = await response.json();
+
+    // Ordenar los ítems del más nuevo al más viejo según número de imagen
+    items = items.sort(ordenarPorImagenDesc);
+
+    console.log('Ítems cargados y ordenados correctamente');
+  } catch (error) {
+    console.error('Error al cargar los ítems:', error);
+  }
 }
 
 function toTitleCase(str) {
@@ -99,8 +113,9 @@ function filterItems() {
         return keywords.every(keyword => itemData.includes(keyword));
     });
 
-    displayItems(filteredItems);
+    displayItems(ordenarPorImagenDesc(filteredItems));
 }
+
 
 // Activar categoría
 function setActiveCategory(category) {
@@ -166,10 +181,11 @@ function handleSubcategoryClick(subcategory) {
     currentSubcategory = subcategory;
     currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
-    const filteredItems = items.filter(item =>
-        item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
-        item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase()
-    );
+    const filteredItems = items
+  .filter(item => item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
+                  item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase())
+  .sort(ordenarPorImagenDesc);
+    displayItems(filteredItems);
 
     const calzadoSubcategorias = ["Zapatos", "Botas", "Botas Vaqueras", "Botines"];
 
@@ -234,7 +250,7 @@ function filterBySize(size) {
         item.medidas?.includes(size)
     );
 
-    displayItems(filteredItems);
+    displayItems(ordenarPorImagenDesc(filteredItems));
 }
 
 // Mostrar filtros para medidas en Calzado, tipo en Utilería y color en Jarrones
@@ -273,7 +289,7 @@ function filterBySubcategoryAttribute(attribute, value) {
         item[attribute] === value
     );
 
-    displayItems(filteredItems);
+    displayItems(ordenarPorImagenDesc(filteredItems));
 }
 
 // Manejar clic en una categoría
