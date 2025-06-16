@@ -26,16 +26,20 @@
         <form class="d-flex w-50" role="search">
           <input type="text" id="searchBar" class="form-control" placeholder="Buscar por nombre, categoría, subcategoría o tags">
         </form>
+        <!-- Botón de orden en desktop, alineado a la derecha -->
       </div>
     </div>
   </nav>
 
   <!-- Barra de navegación secundaria para subcategorías -->
   <div id="subcategoriesNav" class="container pt-4">
-    <nav>
+    <nav class="d-flex justify-content-between">
       <ul class="nav nav-pills" id="subcategoriesList">
         <!-- Subcategorías dinámicas se insertarán aquí -->
       </ul>
+      <div id="orderControlContainer" class="text-end my-2">
+        <button id="toggleOrderBtn" class="btn btn-sm btn-outline-primary">Ordenar: Más nuevo</button>
+      </div>
     </nav>
   </div>
 

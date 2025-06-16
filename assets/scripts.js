@@ -10,6 +10,7 @@ const currentCategoryHeading = document.getElementById('currentCategory');
 let items = [];
 let currentCategory = '';
 let currentSubcategory = '';
+let currentOrder = 'desc'; // o 'asc'
 
 function ordenarPorImagenDesc(a, b) {
   const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
@@ -19,6 +20,21 @@ function ordenarPorImagenDesc(a, b) {
   const numB = matchB ? parseInt(matchB[1]) : 0;
 
   return numB - numA;
+}
+
+// 🔧 Función para extraer el último número de una ruta de imagen
+function extraerNumeroDeImagen(ruta) {
+    const match = ruta.match(/(\d+)/); // Solo el primer número
+    return match ? parseInt(match[1], 10) : 0;
+}
+
+// 🔃 Función para ordenar por número en la imagen (más nuevo = número más alto)
+function ordenarPorImagenDesc(a, b) {
+    const numA = extraerNumeroDeImagen(a.imagen);
+    const numB = extraerNumeroDeImagen(b.imagen);
+    return currentOrder === 'desc'
+        ? numB - numA
+        : numA - numB;
 }
 
 // Mapeo de subcategorías dentro de dropdowns
@@ -171,6 +187,19 @@ function displaySubcategories(category) {
         });
     }
 
+    // Mostrar o agregar botón de orden
+    const toggleBtn = document.getElementById('toggleOrderBtn');
+    if (!toggleBtn) {
+        const btn = document.createElement('button');
+        btn.id = 'toggleOrderBtn';
+        btn.className = 'btn btn-sm btn-outline-primary ms-auto';
+        btn.innerText = 'Ordenar: Más nuevo';
+        btn.onclick = toggleOrder;
+        subcategoriesContainer.appendChild(btn);
+    } else {
+        toggleBtn.style.display = 'inline-block';
+    }
+
     currentCategoryHeading.textContent = category;
     itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría para ver los ítems.</p>';
     sizesNav.style.display = 'none';
@@ -308,6 +337,18 @@ document.querySelectorAll('.nav-link[data-category]').forEach(link => {
         const category = event.target.getAttribute('data-category');
         handleCategoryClick(category);
     });
+});
+
+//Toggle btn
+document.getElementById('toggleOrderBtn').addEventListener('click', () => {
+    currentOrder = currentOrder === 'desc' ? 'asc' : 'desc';
+    document.getElementById('toggleOrderBtn').textContent = 
+        currentOrder === 'desc' ? 'Orden: Más nuevo' : 'Orden: Más viejo';
+
+    // Recarga la subcategoría actual si está seleccionada
+    if (currentSubcategory) {
+        handleSubcategoryClick(currentSubcategory);
+    }
 });
 
 // Inicialización
