@@ -12,6 +12,14 @@ let currentCategory = '';
 let currentSubcategory = '';
 let currentOrder = 'desc'; // o 'asc'
 
+function ordenarItemsPorImagen(array) {
+    return [...array].sort((a, b) => {
+        const numA = extraerNumeroDeImagen(a.imagen);
+        const numB = extraerNumeroDeImagen(b.imagen);
+        return currentOrder === 'desc' ? numB - numA : numA - numB;
+    });
+}
+
 function ordenarPorImagenDesc(a, b) {
   const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
   const matchB = b.imagen && b.imagen.match(/(\d+)\.jpg$/i);
@@ -129,7 +137,7 @@ function filterItems() {
         return keywords.every(keyword => itemData.includes(keyword));
     });
 
-    displayItems(ordenarPorImagenDesc(filteredItems));
+    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
 }
 
 
@@ -279,7 +287,7 @@ function filterBySize(size) {
         item.medidas?.includes(size)
     );
 
-    displayItems(ordenarPorImagenDesc(filteredItems));
+    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
 }
 
 // Mostrar filtros para medidas en Calzado, tipo en Utilería y color en Jarrones
@@ -318,7 +326,7 @@ function filterBySubcategoryAttribute(attribute, value) {
         item[attribute] === value
     );
 
-    displayItems(ordenarPorImagenDesc(filteredItems));
+    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
 }
 
 // Manejar clic en una categoría

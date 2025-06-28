@@ -592,7 +592,7 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Zapatos",
         "nombre": "Zapatillas 048",
-        "medidas": ["25"],
+        "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/48.jpg",
         "tags": ["Tacón alto", "Verde", "Cerrados"]
       },
@@ -1599,6 +1599,13 @@
         "nombre": "Disfraz Mujer Mucama",
         "imagen": "assets/img/mujeres/disfraces/0104.jpg", 
         "tags": ["Body", "Negro", "Sin mangas", "Cuello redondo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Robot",
+        "imagen": "assets/img/mujeres/disfraces/0105.jpg", 
+        "tags": ["Completo", "Negro", "Manga larga", "Cuello redondo"]
       },
 
 
@@ -2654,6 +2661,97 @@
         "nombre": "Putivestido Rojo",
         "imagen": "assets/img/mujeres/puti-vestidos/0142.jpg",
         "tags": ["Liso", "Rojo", "Sin tirantes", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Verde Limón",
+        "imagen": "assets/img/mujeres/puti-vestidos/0143.jpg",
+        "tags": ["Liso", "Verde limon", "Sin mangas", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Negro",
+        "imagen": "assets/img/mujeres/puti-vestidos/0144.jpg",
+        "tags": ["Liso", "Negro", "Sin tirantes", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0145.jpg",
+        "tags": ["Liso", "Bñanco", "Sin tirantes", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Blanco",
+        "imagen": "assets/img/mujeres/puti-vestidos/0146.jpg",
+        "tags": ["Liso", "Blanco", "Tirantes", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0147.jpg",
+        "tags": ["Encaje", "Rojo", "Sin tirantes", "Sin mangas", "Ajustado", "Con medias rojas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Naranja",
+        "imagen": "assets/img/mujeres/puti-vestidos/0148.jpg",
+        "tags": ["Liso", "Naranja", "Sin tirantes", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0149.jpg",
+        "tags": ["Liso", "Rojo", "Sin tirantes", "Sin mangas", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Fiusha",
+        "imagen": "assets/img/mujeres/puti-vestidos/0150.jpg",
+        "tags": ["Liso", "Fiusha", "Tirantes", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0151.jpg",
+        "tags": ["Liso", "Rojo", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Lila",
+        "imagen": "assets/img/mujeres/puti-vestidos/0152.jpg",
+        "tags": ["Liso", "Lila", "Sin tirantes", "Sin mangas", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0153.jpg",
+        "tags": ["Liso", "Rojo", "Sin tirantes", "Sin mangas", "Ajustado", "Aberturas laterales"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Naranja",
+        "imagen": "assets/img/mujeres/puti-vestidos/0154.jpg",
+        "tags": ["Liso", "Naranja", "Tirantes", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0155.jpg",
+        "tags": ["Liso", "Rojo", "Tirantes", "Ajustado"]
       },
 
 
@@ -4570,9 +4668,25 @@
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
         "nombre": "Disfraz Spiderman",
-        "imagen": "assets/img/hombres/disfraces/052.jpg",
+        "imagen": "assets/img/hombres/disfraces/052_.jpg",
         "tags": ["Disfraz completo", "Rojo y azul", "Una pieza"]
       },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Marciano",
+        "imagen": "assets/img/hombres/disfraces/052.jpg",
+        "tags": ["Disfraz completo", "Gris metálico", "Una pieza", "Capucha"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Jedi",
+        "imagen": "assets/img/hombres/disfraces/053.jpg",
+        "tags": ["Dos piezas", "Café con beige", "Manga larga"]
+      },
+
+
 
 
       {
@@ -4745,6 +4859,14 @@
         "nombre": "Máscara Comedia básica blanca",
         "imagen": "assets/img/hombres/utileria/mascaras/012.jpg",
         "tags": [ "Básica", "Plástico", "Blanca"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Marciano",
+        "imagen": "assets/img/hombres/utileria/mascaras/013.jpg",
+        "tags": [ "Verde", "Plástico", "Marciano"]
       },
 
 
