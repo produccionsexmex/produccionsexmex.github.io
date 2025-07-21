@@ -1607,6 +1607,41 @@
         "imagen": "assets/img/mujeres/disfraces/0105.jpg", 
         "tags": ["Completo", "Negro", "Manga larga", "Cuello redondo"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Mujer Invisible - Los 4 Fantásticos",
+        "imagen": "assets/img/mujeres/disfraces/0106.jpg", 
+        "tags": ["Completo", "Azul y Blanco", "Manga larga", "Cuello redondo"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Mujer Minions",
+        "imagen": "assets/img/mujeres/disfraces/0107.jpg", 
+        "tags": ["Dos piezas", "Azul y Amarillo", "Falda corta", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Sexy Brasil",
+        "imagen": "assets/img/mujeres/disfraces/0108.jpg", 
+        "tags": ["Dos piezas", "Azul y Amarillo", "Tanga", "Tirantes", "Mini blusa"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Sexy Gatita",
+        "imagen": "assets/img/mujeres/disfraces/0109.jpg", 
+        "tags": ["Una pieza", "Negro", "Tanga abierta", "Tirantes", "Orejas negras"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Spiderwoman",
+        "imagen": "assets/img/mujeres/disfraces/0110.jpg", 
+        "tags": ["Una pieza", "Negro y Blanco", "Cuello redondo", "Manga larga"]
+      },
 
 
 
@@ -2544,7 +2579,7 @@
         "subcategoria": "Putivestidos",
         "nombre": "Putivestido 0126",
         "imagen": "assets/img/mujeres/puti-vestidos/0126.jpg",
-        "tags": ["Liso", "Azul cielo", "Vestido con falda clarga", "Escote amplio", "Tirantes"] 
+        "tags": ["Liso", "Azul cielo", "Vestido con falda larga", "Escote amplio", "Tirantes"] 
       },
 
       {
@@ -2753,6 +2788,72 @@
         "imagen": "assets/img/mujeres/puti-vestidos/0155.jpg",
         "tags": ["Liso", "Rojo", "Tirantes", "Ajustado"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Rojo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0156.jpg",
+        "tags": ["Liso", "Rojo", "Tirantes", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Floral",
+        "imagen": "assets/img/mujeres/puti-vestidos/0157.jpg",
+        "tags": ["Liso", "Blanco con flores azules", "Sin tirantes", "Ajustado", "Sin mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Azul Cielo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0158.jpg",
+        "tags": ["Liso", "Azul Cielo", "Sin tirantes", "Ajustado", "Sin mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Marrón",
+        "imagen": "assets/img/mujeres/puti-vestidos/0159.jpg",
+        "tags": ["Liso", "Piel", "Marrón", "Sin tirantes", "Ajustado", "Sin mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Azul Cielo",
+        "imagen": "assets/img/mujeres/puti-vestidos/0160.jpg",
+        "tags": ["Liso", "Azul Cielo", "Tirantes", "Ajustado", "Sin mangas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Lila",
+        "imagen": "assets/img/mujeres/puti-vestidos/0161.jpg",
+        "tags": ["Liso", "Lila", "Tirantes", "Ajustado", "Falda larga abierta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Azul",
+        "imagen": "assets/img/mujeres/puti-vestidos/0162.jpg",
+        "tags": ["Liso", "Azul", "Tirantes", "Ajustado", "Falda larga abierta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Blanco",
+        "imagen": "assets/img/mujeres/puti-vestidos/0163.jpg",
+        "tags": ["Liso", "Blanco", "Sin tirantes", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Putivestidos",
+        "nombre": "Putivestido Negro y Dorado",
+        "imagen": "assets/img/mujeres/puti-vestidos/0163_.jpg",
+        "tags": ["Liso", "Negro y Doradoo", "Manga larga", "Ajustado"]
+      },
+
+
+
 
 
 
@@ -3032,6 +3133,13 @@
         "nombre": "Vestido largo azul",
         "imagen": "assets/img/mujeres/vestidos-largos_palazzos/038.jpg",
         "tags": ["Estampado bolitas", "Azul", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes", "Listones blancos"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos largos",
+        "nombre": "Vestido largo rojo",
+        "imagen": "assets/img/mujeres/vestidos-largos_palazzos/039.jpg",
+        "tags": ["Liso", "Rojo", "Vestido largo", "Escote cerrado", "Sin mangas", "Tirantes", "Vestido con falda larga"]
       },
 
 
@@ -3403,6 +3511,24 @@
         "imagen": "assets/img/mujeres/faldas_cortas/035.jpg",
         "tags": ["Lisa", "Negra y rojo", "Falda corta", "Minifalda", "Con vuelos"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta Lila con rayas ",
+        "imagen": "assets/img/mujeres/faldas_cortas/036.jpg",
+        "tags": ["Lisa", "Lila con rayas blancas", "Falda corta", "Minifalda", "Plisada"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas cortas",
+        "nombre": "Falda corta Beige ",
+        "imagen": "assets/img/mujeres/faldas_cortas/037.jpg",
+        "tags": ["Lisa", "Beige", "Falda corta", "Minifalda", "Plisada"]
+      },
+
+
+
+
 
 
 
@@ -4685,6 +4811,77 @@
         "imagen": "assets/img/hombres/disfraces/053.jpg",
         "tags": ["Dos piezas", "Café con beige", "Manga larga"]
       },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Faraón",
+        "imagen": "assets/img/hombres/disfraces/054.jpg",
+        "tags": ["Dos piezas", "Negro, Dorado y Naranja", "Sin mangas", "Capucha"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Darth Vader",
+        "imagen": "assets/img/hombres/disfraces/055.jpg",
+        "tags": ["Dos piezas", "Negro", "Capa negra"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Jedi",
+        "imagen": "assets/img/hombres/disfraces/056.jpg",
+        "tags": ["Dos piezas", "Café con beige", "Manga larga", "Capcucha"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Superman",
+        "imagen": "assets/img/hombres/disfraces/057.jpg",
+        "tags": ["Dos piezas", "Azul y Rojo", "Manga larga", "Capa roja"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz La Mole - Los 4 Fantásticos",
+        "imagen": "assets/img/hombres/disfraces/058.jpg",
+        "tags": ["Una pierza", "Azul y Blanco", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Antorcha Humana - Los 4 Fantásticos",
+        "imagen": "assets/img/hombres/disfraces/059.jpg",
+        "tags": ["Una pierza", "Azul y Blanco", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Mr. Fantástico - Los 4 Fantásticos",
+        "imagen": "assets/img/hombres/disfraces/060.jpg",
+        "tags": ["Una pieza", "Azul y Blanco", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Astronauta",
+        "imagen": "assets/img/hombres/disfraces/061.jpg",
+        "tags": ["Una pieza", "Metalico y azul", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz El Chapulín Colorado",
+        "imagen": "assets/img/hombres/disfraces/062.jpg",
+        "tags": ["Una pieza", "Rojo y Amarillo", "Manga larga", "Capucha", "Antenas"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Beetlejuice",
+        "imagen": "assets/img/hombres/disfraces/063.jpg",
+        "tags": ["Dos piezas", "Blanco y Negro", "Corbata negra", "Traje a rayas"]
+      },
+
 
 
 
@@ -4727,7 +4924,7 @@
         "tipo": "Sombreros",
         "nombre": "Campesino beige",
         "imagen": "assets/img/hombres/utileria/sombreros/05.jpg",
-        "tags": [ "Campesino", "FPaja", "Café", "Copa media", "Ala ancha"]
+        "tags": [ "Campesino", "Paja", "Café", "Copa media", "Ala ancha"]
       },
       {
         "categoria": "Vestuario de hombre",
@@ -4867,6 +5064,22 @@
         "nombre": "Máscara Marciano",
         "imagen": "assets/img/hombres/utileria/mascaras/013.jpg",
         "tags": [ "Verde", "Plástico", "Marciano"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Marciano",
+        "imagen": "assets/img/hombres/utileria/mascaras/014.jpg",
+        "tags": [ "Café", "Plástico", "Marciano", "Ojos Rojos"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Utilería",
+        "tipo": "Máscaras",
+        "nombre": "Máscara Darth Vader",
+        "imagen": "assets/img/hombres/utileria/mascaras/015.jpg",
+        "tags": [ "Negra", "Plástico", "Star Wars"]
       },
 
 
