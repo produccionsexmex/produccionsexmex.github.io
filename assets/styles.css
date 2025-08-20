@@ -17,7 +17,13 @@ body {
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
 }
-
+.sticky-subcategories {
+  position: sticky;
+  top: 56px; /* ajusta dependiendo de la altura del navbar principal */
+  z-index: 1020;
+  background: #fff; /* que no quede transparente */
+  padding: 10px 0;
+}
 /* Títulos de categorías */
 h2 {
     font-size: 2rem;

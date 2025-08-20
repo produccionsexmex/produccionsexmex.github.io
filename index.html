@@ -32,36 +32,28 @@
   </nav>
 
   <!-- Barra de navegación secundaria para subcategorías -->
-  <div id="subcategoriesNav" class="container pt-4">
-    <nav class="d-flex justify-content-between">
-      <ul class="nav nav-pills" id="subcategoriesList">
-        <!-- Subcategorías dinámicas se insertarán aquí -->
-      </ul>
-      <div id="orderControlContainer" class="text-end my-2">
-        <button id="toggleOrderBtn" class="btn btn-sm btn-outline-primary">Ordenar: Más nuevo</button>
-      </div>
+<!-- Barra de navegación secundaria para subcategorías -->
+<div id="subcategoriesNav" class="container pt-4 sticky-subcategories">
+  <nav class="d-flex justify-content-between align-items-center">
+    <ul class="nav nav-pills" id="subcategoriesList">
+      <!-- Subcategorías dinámicas se insertarán aquí -->
+    </ul>
+    <div id="orderControlContainer" class="text-end my-2">
+      <button id="toggleOrderBtn" class="btn btn-sm btn-outline-primary">Ordenar: Más nuevo</button>
+    </div>
+  </nav>
+  <div class="row">
+     <h1 id="currentCategory" class="my-2 text-center"></h3>
+    <!-- Barra de navegación de tallas (se muestra solo si la subcategoría es calzado) -->
+    <nav id="sizesNav" class="d-none mt-3">
+      <ul id="sizesList" class="list-unstyled d-flex flex-wrap"></ul>
     </nav>
   </div>
-
-  <hr>
-  
-  <!-- Buscador -->
-  <div class="container mt-3">
-    <nav id="subcategoriesNav">
-      <ul id="subcategoriesList" class="list-unstyled d-flex flex-wrap"></ul>
-    </nav>
-    <div class="my-4">
-        <!-- Barra de navegación de tallas (se muestra solo si la subcategoría es calzado) -->
-        <nav id="sizesNav" class="d-none mt-3">
-          <ul id="sizesList" class="list-unstyled d-flex flex-wrap"></ul>
-        </nav>
-  </div>
-  </div>
+</div>
 
 
   <!-- Contenido Principal -->
   <div class="container mt-3">
-    <h1 id="currentCategory" class="my-4 text-center"></h3>
     <div id="itemsContainer" class="row g-3 mt-4">
       <!-- Los ítems filtrados se mostrarán aquí -->
       <div id="installAlert" class="alert alert-info d-none" role="alert" style="position: fixed; bottom: 20px; left: 10px; right: 10px; z-index: 1050;">
