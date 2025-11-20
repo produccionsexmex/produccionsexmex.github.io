@@ -48,11 +48,27 @@ function ordenarPorImagenDesc(a, b) {
 // Mapeo de subcategorías dentro de dropdowns
 const categoryMappings = {
     "Vestuario de mujer": {
-        "Vestidos": ["Vestidos largos", "Brillosos", "Putivestidos", "Mamelucos y Enterizos"],
+        "Vestidos": [
+            "Putivestidos",
+            "Largos",
+            "Mezclilla",
+            "Brillosos cortos",
+            "Brillosos largos"],
+        "Enterizos":[
+            "Normales",
+            "Brillosos",
+        ],
         "Calzado": ["Zapatos", "Botas", "Botas Vaqueras", "Botines"],
-        "Faldas": ["Faldas largas", "Faldas cortas"],
-        "Playeras": ["Playeras", "Blusas Básicas", "Tops", "Blusas Manga Larga", "Leotardos"],
-        "Disfraces": ["Disfraces", "Juego Del Calamar"],
+        "Faldas": ["Cortas", "Mezclilla", "Cortas brillosas", "Largas", "Largas brillosas"],
+        "Blusas": [
+            "Blusas básicas",
+            "Blusas de vestir",
+            "Blusas manga larga",
+            "Tops",
+            "Playeras",
+            "Pantiblusas",
+        ],
+        "Disfraces": ["Enfermeras", "Sexys", "Heroínas", "Personajes", "Juego Del Calamar"],
         "Deportivos": [],
         "Utilería": [],
     },
