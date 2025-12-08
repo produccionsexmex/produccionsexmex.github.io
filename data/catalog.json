@@ -1105,7 +1105,7 @@
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Caperucita Roja",
-        "imagen": "assets/img/mujeres/disfraces/04-personajes/05.jpg",
+        "imagen": "assets/img/mujeres/disfraces/05.jpg",
         "tags": ["Disfraz de caperucita roja", "Rojo con Blanco", "Sin mangas", "falda corta", "Tirantes"]
       },
       {
@@ -1113,7 +1113,7 @@
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Vampireza",
-        "imagen": "assets/img/mujeres/disfraces/04-personajes/06.jpg",
+        "imagen": "assets/img/mujeres/disfraces/06.jpg",
         "tags": ["Disfraz de vampireza", "Negro", "Manga larga", "falda larga"]
       },
       {
@@ -1121,7 +1121,7 @@
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Monja",
-        "imagen": "assets/img/mujeres/disfraces/04-personajes/07.jpg",
+        "imagen": "assets/img/mujeres/disfraces/07.jpg",
         "tags": ["Disfraz", "Negro", "Manga larga", "falda corta"]
       },
       {
@@ -1477,22 +1477,7 @@
         "imagen": "assets/img/mujeres/disfraces/050.jpg", 
         "tags": ["Disfraz de vampira", "Negro", "Corset negro", "Dos piezas", "falda larga"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Disfraces",
-        "tipo": "Fantasía",
-        "nombre": "Disfraz Fantasía",
-        "imagen": "assets/img/mujeres/disfraces/051.jpg", 
-        "tags": ["Disfraz fantasía", "Rojo", "Dos piezas", "Peluche en escote"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Disfraces",
-        "tipo": "Fantasía",
-        "nombre": "Disfraz Fantasía",
-        "imagen": "assets/img/mujeres/disfraces/052.jpg", 
-        "tags": ["Disfraz fantasía", "Rosa", "Dos piezas", "Peluche en escote" ,"Medias altas"]
-      },
+
       
       {
         "categoria": "Vestuario de mujer",
@@ -1984,7 +1969,7 @@
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Mujer Pirata",
-        "imagen": "assets/img/mujeres/disfraces/04-personajes/0108.jpg", 
+        "imagen": "assets/img/mujeres/disfraces/0108_.jpg", 
         "tags": ["Dos piezas", "Negro, Rojo, Dorado", "Falda corta", "Tirantes", "Sombrero pirata"]
       },
 
@@ -2015,6 +2000,47 @@
         "imagen": "assets/img/mujeres/disfraces/0110.jpg", 
         "tags": ["Una pieza", "Negro y Blanco", "Cuello redondo", "Manga larga"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Fantasía",
+        "nombre": "Disfraz Fantasía Hada",
+        "imagen": "assets/img/mujeres/disfraces/0112.jpg", 
+        "tags": ["Disfraz fantasía", "Verde limon", "Top sin mangas", "Escote en V", "Micro falda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Sexys",
+        "nombre": "Disfraz Vaquita",
+        "imagen": "assets/img/mujeres/disfraces/0115.jpg", 
+        "tags": ["Disfraz Sexy", "Negro con blanco", "Top sin mangas", "Escote en V", "Afelpado"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Sexys",
+        "nombre": "Disfraz Colegiala",
+        "imagen": "assets/img/mujeres/disfraces/0116.jpg", 
+        "tags": ["Disfraz Sexy", "Rojo con blanco", "Manga corta", "Tirantes", "2 piezas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Sexys",
+        "nombre": "Disfraz Colegiala",
+        "imagen": "assets/img/mujeres/disfraces/0120.jpg", 
+        "tags": ["Disfraz Sexy", "Gris", "Manga larga", "2 piezas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Sexys",
+        "nombre": "Disfraz Colegiala",
+        "imagen": "assets/img/mujeres/disfraces/0121.jpg", 
+        "tags": ["Disfraz Sexy", "Blanco", "Manga corta", "2 piezas", "Micro falda"]
+      },
+
 
 
 

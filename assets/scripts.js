@@ -53,7 +53,8 @@ const categoryMappings = {
             "Superheroínas",
             "Personajes",
             "Navideños",
-            "Juego Del Calamar"
+            "Juego Del Calamar", 
+            "Fantasía"
         ], 
         "Deportivos": [],
         "Utilería": [],
