@@ -354,7 +354,69 @@
 
 
 
-
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Negro",
+      "imagen": "assets/img/mujeres/bodysuits/01.jpg",
+      "tags": ["Liso", "Negro", "Escote en V", "1 pieza", "Tirantes"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Negro",
+      "imagen": "assets/img/mujeres/bodysuits/02.jpg",
+      "tags": ["Liso", "Negro", "Cierre frontal", "1 pieza", "Manga larga"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Café",
+      "imagen": "assets/img/mujeres/bodysuits/03.jpg",
+      "tags": ["Liso", "Café", "Cierre frontal", "1 pieza", "Manga larga"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Rojo",
+      "imagen": "assets/img/mujeres/bodysuits/04.jpg",
+      "tags": ["Liso", "Rojo", "Escote en V", "1 pieza", "Manga larga"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Crema",
+      "imagen": "assets/img/mujeres/bodysuits/05.jpg",
+      "tags": ["Animal print", "Crema", "Escote amplio", "1 pieza", "Sin mangas"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Animal Print",
+      "imagen": "assets/img/mujeres/bodysuits/06.jpg",
+      "tags": ["Animal print",  "Abertura en escote", "1 pieza", "Sin mangas"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Dragón",
+      "imagen": "assets/img/mujeres/bodysuits/07.jpg",
+      "tags": ["Liso", "Multicolor", "Cuello redondo", "1 pieza", "Manga corta"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Animal Print",
+      "imagen": "assets/img/mujeres/bodysuits/08.jpg",
+      "tags": ["Liso", "Animal Print", "Escote en V", "1 pieza", "Sin mangas"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Bodysuits",
+      "nombre": "Bodysuit Rojo",
+      "imagen": "assets/img/mujeres/bodysuits/09.jpg",
+      "tags": ["Encaje", "Rojo", "Completo", "1 pieza", "Manga larga"]
+      },   
 
 
 
