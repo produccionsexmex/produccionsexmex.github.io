@@ -1,229 +1,364 @@
 [
     {
       "categoria": "Vestuario de mujer",
-      "subcategoria": "Brillosos largos",
+       "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
       "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/01.jpg",
       "tags": ["Vestido Largo", "Café", "Cuello alto"]
     },
     {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Negro",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/02.jpg",
         "tags": ["Corte completo", "Negro", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Dorado",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/03.jpg",
         "tags": ["Vestido largo", "Dorado", "Tirantes", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Dorado",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/04.jpg",
         "tags": ["Vestido largo", "Dorado", "Tirantes", "Escote amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Coral",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/05.jpg",
         "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
+     
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos cortos",
-      "nombre": "Brilloso Rojo",
-        "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/06.jpg",
-        "tags": ["Vestido corto", "Rojo", "Tirantes", "Escote amplio"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Negro",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/07.jpg",
         "tags": ["Corte completo", "Negro", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Verde",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/08.jpg",
         "tags": ["Corte completo", "Verde", "Manga larga", "Escote en V"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Coral",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/09.jpg",
         "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Coral",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/10.jpg",
         "tags": ["Manga corta", "Coral", "Escote redondo", "Peluche en mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Dorado",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/11.jpg",
         "tags": ["Pantalon corto", "Dorado", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Dorado",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/12.jpg",
         "tags": ["Manga larga", "Dorado", "Cuello redondo", "Ombliguera"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Coral",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/13.jpg",
         "tags": ["Manga corta", "Coral", "Escote redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Rojo",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14_1.jpg",
         "tags": ["Manga larga", "Rojo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Tinto",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/15.jpg",
         "tags": ["Sin mangas", "Tinto", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/16.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/17.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Rosa",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/18.jpg",
         "tags": ["Manga larga", "Rosa", "Escote en V", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/19.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Dorado",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/20.jpg",
         "tags": ["Dorado", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Coral",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/21.jpg",
         "tags": ["Largo", "Coral", "Corte amplio"]
       },
+      
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos cortos",
-      "nombre": "Brilloso Rojo",
-        "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/22.jpg",
-        "tags": ["Sin mangas", "Rojo", "Escote en V", "Falda corta"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Rojo",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/23.jpg",
         "tags": ["Manga larga", "Rojo", "Cuello redondo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Tinto",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/24.jpg",
         "tags": ["Largo", "Tinto", "Escote en V", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Tinto",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/25.jpg",
         "tags": ["Largo", "Tinto", "Peluche en escote", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Rojo",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/26.jpg",
         "tags": ["Largo", "Rojo", "Escote en V", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Tinto",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/27.jpg",
         "tags": ["Corto", "Tinto", "Cadena dorada en escote", "Manga 3/4"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Tinto",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/30.jpg",
         "tags": ["Largo", "Tinto", "Escote en V", "Sin mangas", "Tirantes", "Corte acampanado"]
       },
+
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
-      "nombre": "Brilloso Dorado",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/31.jpg",
-        "tags": ["Corto", "Dorado", "Escote en V", "Sin mangas", "Tirantes"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Beige",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/32.jpg",
         "tags": ["Largo", "Beige", "Escote en V", "Manga 3/4"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Brillosos largos",
+         "subcategoria": "Vestidos",
+        "tipo": "Brillosos largos",
       "nombre": "Brilloso Negro",
         "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/33.jpg",
         "tags": ["Largo", "Negro", "Escote amplio", "Sin mangas", "Tirantes"]
       },
-            
+
+
+
+
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Rojo",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/04.jpg",
+      "tags": ["Vestido corto", "Rojo", "Tirantes", "Escote amplio"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Rojo",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/06.jpg",
+      "tags": ["Vestido corto", "Rojo", "Tirantes", "Escote amplio"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Dorado",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/07.jpg",
+      "tags": ["Vestido corto", "Dorado", "Manga larga", "Escote en V", "Falda brillosa"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Negro",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/08.jpg",
+      "tags": ["Vestido corto", "Negro", "Manga larga", "Escote en V", "Líneas con pedreria"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Verde",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/09.jpg",
+      "tags": ["Vestido corto", "Verde", "Manga larga", "Escote en V", "Líneas con pedreria"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Rojo",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/22.jpg",
+      "tags": ["Sin mangas", "Rojo", "Escote en V", "Falda corta"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos cortos",
+      "nombre": "Brilloso Dorado",
+      "imagen": "assets/img/mujeres/vestidos/04_vestidos_brillosos_cortos/031.jpg",
+      "tags": ["Sin mangas", "Dorado", "Escote en V", "Falda corta"]
+      },
+
+
+
+
+
+
+
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Rosa Transparente",
+      "imagen": "assets/img/mujeres/lenceria/01.jpg",
+      "tags": ["Encaje", "Rosa", "Escote en V", "3 piezas"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Lavanda Transparente",
+      "imagen": "assets/img/mujeres/lenceria/02.jpg",
+      "tags": ["Encaje", "Lavanda", "Escote en V", "3 piezas", "Falda corta"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Azul Cielo Transparente",
+      "imagen": "assets/img/mujeres/lenceria/03.jpg",
+      "tags": ["Encaje", "Azul Cielo", "Escote en V", "3 piezas", "falda corta"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Negro Transparente",
+      "imagen": "assets/img/mujeres/lenceria/04.jpg",
+      "tags": ["Encaje", "Negro", "Escote en V", "2 piezas"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Babydoll Rojo",
+      "imagen": "assets/img/mujeres/lenceria/05.jpg",
+      "tags": ["Encaje", "Rojo", "Escote en V", "1 pieza"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Negro",
+      "imagen": "assets/img/mujeres/lenceria/06.jpg",
+      "tags": ["Piel", "Negro", "Escote amplio", "2 piezas", "Falda Corta"]
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Blanco / Rojo",
+      "imagen": "assets/img/mujeres/lenceria/07.jpg",
+      "tags": ["Encaje", "Blanco con rojo", "Escote en V", "2 piezas", "Tirantes"]
+      },  
+
+
+
+
+
+
+
+
+          
       
       {
         "categoria": "Vestuario de mujer",

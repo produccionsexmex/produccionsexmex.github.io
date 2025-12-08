@@ -43,6 +43,7 @@ const categoryMappings = {
             "Playeras",
             "Pantiblusas",
         ],
+        "Lencería": [],
         "Disfraces": [ // 👈 REVERTIDO: Vuelve a ser un desplegable
             "Enfermeras",
             "Sexys",
