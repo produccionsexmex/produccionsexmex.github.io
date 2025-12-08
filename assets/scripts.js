@@ -1,3 +1,7 @@
+// =========================================================
+// 1. VARIABLES GLOBALES Y UTILIDADES
+// =========================================================
+
 // Variables globales
 const itemsContainer = document.getElementById("itemsContainer");
 const subcategoriesNav = document.getElementById("subcategoriesNav");
@@ -6,51 +10,22 @@ const searchBar = document.getElementById("searchBar");
 const subcategoriesList = document.getElementById("subcategoriesList");
 const sizesList = document.getElementById("sizesList");
 const currentCategoryHeading = document.getElementById('currentCategory');
+const toggleOrderBtn = document.getElementById('toggleOrderBtn');
 
 let items = [];
 let currentCategory = '';
 let currentSubcategory = '';
-let currentOrder = 'desc'; // o 'asc'
+let currentMainSubcategory = ''; 
+let currentFilterAttribute = ''; 
+let currentFilterValue = ''; 
+let currentOrder = 'desc'; 
 
-function ordenarItemsPorImagen(array) {
-    return [...array].sort((a, b) => {
-        const numA = extraerNumeroDeImagen(a.imagen);
-        const numB = extraerNumeroDeImagen(b.imagen);
-        return currentOrder === 'desc' ? numB - numA : numA - numB;
-    });
-}
-
-function ordenarPorImagenDesc(a, b) {
-  const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
-  const matchB = b.imagen && b.imagen.match(/(\d+)\.jpg$/i);
-
-  const numA = matchA ? parseInt(matchA[1]) : 0;
-  const numB = matchB ? parseInt(matchB[1]) : 0;
-
-  return numB - numA;
-}
-
-// 🔧 Función para extraer el último número de una ruta de imagen
-function extraerNumeroDeImagen(ruta) {
-    const match = ruta.match(/(\d+)/); // Solo el primer número
-    return match ? parseInt(match[1], 10) : 0;
-}
-
-// 🔃 Función para ordenar por número en la imagen (más nuevo = número más alto)
-function ordenarPorImagenDesc(a, b) {
-    const numA = extraerNumeroDeImagen(a.imagen);
-    const numB = extraerNumeroDeImagen(b.imagen);
-    return currentOrder === 'desc'
-        ? numB - numA
-        : numA - numB;
-}
-
-// Mapeo de subcategorías dentro de dropdowns
+// Mapeo de subcategorías (AJUSTADO: Disfraces vuelve a ser un desplegable con tipos)
 const categoryMappings = {
     "Vestuario de mujer": {
         "Vestidos": [
             "Putivestidos",
-            "Largos",
+            "Vestidos largos",
             "Mezclilla",
             "Brillosos cortos",
             "Brillosos largos"],
@@ -58,17 +33,23 @@ const categoryMappings = {
             "Normales",
             "Brillosos",
         ],
-        "Calzado": ["Zapatos", "Botas", "Botas Vaqueras", "Botines"],
-        "Faldas": ["Cortas", "Mezclilla", "Cortas brillosas", "Largas", "Largas brillosas"],
+        "Calzado": ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"],
+        "Faldas": ["Faldas cortas", "Mezclilla", "Cortas brillosas", "Faldas largas", "Largas brillosas"],
         "Blusas": [
-            "Blusas básicas",
-            "Blusas de vestir",
-            "Blusas manga larga",
+            "Básicas",
+            "De vestir",
+            "Manga Larga",
             "Tops",
             "Playeras",
             "Pantiblusas",
         ],
-        "Disfraces": ["Enfermeras", "Sexys", "Heroínas", "Personajes", "Juego Del Calamar"],
+        "Disfraces": [ // 👈 REVERTIDO: Vuelve a ser un desplegable
+            "Enfermeras",
+            "Sexys",
+            "Superheroínas",
+            "Personajes",
+            "Juego Del Calamar"
+        ], 
         "Deportivos": [],
         "Utilería": [],
     },
@@ -88,19 +69,27 @@ const categoryMappings = {
     }
 };
 
-// Cargar ítems desde el JSON
-async function loadItems() {
-  try {
-    const response = await fetch('data/catalog.json');
-    items = await response.json();
+// ... (El resto de funciones auxiliares)
 
-    // Ordenar los ítems del más nuevo al más viejo según número de imagen
-    items = items.sort(ordenarPorImagenDesc);
+function ordenarItemsPorImagen(array) {
+    return [...array].sort((a, b) => {
+        const numA = extraerNumeroDeImagen(a.imagen);
+        const numB = extraerNumeroDeImagen(b.imagen);
+        return currentOrder === 'desc' ? numB - numA : numA - numB;
+    });
+}
 
-    console.log('Ítems cargados y ordenados correctamente');
-  } catch (error) {
-    console.error('Error al cargar los ítems:', error);
-  }
+function ordenarPorImagenDesc(a, b) {
+    const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
+    const matchB = b.imagen && b.imagen.match(/(\d+)\.jpg$/i);
+    const numA = matchA ? parseInt(matchA[1]) : 0;
+    const numB = matchB ? parseInt(matchB[1]) : 0;
+    return numB - numA;
+}
+
+function extraerNumeroDeImagen(ruta) {
+    const match = ruta.match(/(\d+)/); 
+    return match ? parseInt(match[1], 10) : 0;
 }
 
 function toTitleCase(str) {
@@ -109,6 +98,36 @@ function toTitleCase(str) {
         .replace(/(^|\s)([a-záéíóúñü])/g, (match) => match.toUpperCase());
 }
 
+
+// -----------------------------------------------------------------------------------------------------------------
+// FUNCIÓN DE CARGA INICIAL (SIN SELECCIÓN AUTOMÁTICA)
+// -----------------------------------------------------------------------------------------------------------------
+async function loadItems() {
+  try {
+    const response = await fetch('data/catalog.json');
+    items = await response.json();
+
+    items = items.sort(ordenarPorImagenDesc);
+
+    // Estado de inicio: limpia y lista para la selección del usuario.
+    currentCategory = '';
+    currentSubcategory = '';
+    currentMainSubcategory = '';
+    currentFilterAttribute = '';
+    currentFilterValue = '';
+    
+    // Ocultar listas de subcategorías y filtros
+    subcategoriesList.innerHTML = '';
+    sizesNav.style.display = 'none';
+
+    // Mostrar mensaje de bienvenida
+    currentCategoryHeading.textContent = 'Catálogo General';
+    itemsContainer.innerHTML = '<p class="text-muted">Por favor, usa el menú superior para seleccionar una Categoría Principal.</p>';
+    
+  } catch (error) {
+    console.error('Error al cargar los ítems:', error);
+  }
+}
 
 // Mostrar ítems filtrados
 function displayItems(filteredItems) {
@@ -140,8 +159,35 @@ function displayItems(filteredItems) {
 function filterItems() {
     const query = searchBar.value.toLowerCase().trim();
     const keywords = query.split(/\s+/);
+    
+    // 1. Obtener los ítems base filtrados por la categoría y subcategoría principal (o tipo)
+    let baseItems = items;
+    if (currentCategory) {
+        baseItems = items.filter(item => 
+            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase()
+        );
 
-    const filteredItems = items.filter(item => {
+        if (currentMainSubcategory) {
+            // Filtrar por la subcategoría base (e.g., 'Calzado', 'Disfraces')
+            baseItems = baseItems.filter(item => 
+                item.subcategoria.trim().toLowerCase() === currentMainSubcategory.trim().toLowerCase()
+            );
+        }
+
+        if (currentFilterAttribute === 'tipo' && currentFilterValue) {
+             // Si hay un filtro de tipo activo (e.g., 'Enfermeras')
+            baseItems = baseItems.filter(item => 
+                item.tipo && item.tipo.trim().toLowerCase() === currentFilterValue.trim().toLowerCase()
+            );
+        }
+    } else {
+        // Búsqueda en todo el catálogo si no hay categoría seleccionada
+        baseItems = items;
+    }
+
+
+    // 2. Aplicar filtro de búsqueda de texto
+    const filteredItemsBySearch = baseItems.filter(item => {
         const itemData = [
             item.nombre?.toLowerCase() || '',
             item.categoria?.toLowerCase() || '',
@@ -152,36 +198,33 @@ function filterItems() {
 
         return keywords.every(keyword => itemData.includes(keyword));
     });
+    
+    // 3. Aplicar filtros dinámicos (medidas/color) si existen, aunque ya no deberían usarse con Disfraces.
+    let finalFilteredItems = filteredItemsBySearch;
+    if (currentFilterAttribute === 'medidas' && currentFilterValue) {
+        finalFilteredItems = filteredItemsBySearch.filter(item => {
+            return item.medidas && item.medidas.includes(currentFilterValue);
+        });
+    } else if (currentFilterAttribute === 'color' && currentFilterValue) {
+        finalFilteredItems = filteredItemsBySearch.filter(item => {
+            return item.color && item.color.toLowerCase() === currentFilterValue.toLowerCase();
+        });
+    }
 
-    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
+    displayItems(ordenarItemsPorImagen(finalFilteredItems)); 
 }
 
 
-// Activar categoría
-function setActiveCategory(category) {
-    document.querySelectorAll('.nav-link[data-category]').forEach(link => link.classList.remove('active'));
-    const categoryLink = document.querySelector(`.nav-link[data-category="${category}"]`);
-    if (categoryLink) categoryLink.classList.add('active');
-}
-
-// Activar subcategoría
-function setActiveSubcategory(subcategory) {
-    document.querySelectorAll('.nav-link[data-subcategory]').forEach(link => link.classList.remove('active'));
-    const subcategoryLink = document.querySelector(`.nav-link[data-subcategory="${subcategory}"]`);
-    if (subcategoryLink) subcategoryLink.classList.add('active');
-}
-
-// Activar filtro
 function setActiveFilter(filter) {
-    document.querySelectorAll('.btn-filter').forEach(btn => btn.classList.remove('active'));
-    const filterButton = document.querySelector(`.btn-filter[data-filter="${filter}"]`);
+    // Esta función no es necesaria para los desplegables, solo para botones.
+    document.querySelectorAll('.btn-outline-primary').forEach(btn => btn.classList.remove('active'));
+    const filterButton = document.querySelector(`.btn[onclick*="'${filter}'"]`);
     if (filterButton) filterButton.classList.add('active');
 }
 
 
-// Mostrar las subcategorías
+// Mostrar las subcategorías (Genera enlaces directos o desplegables)
 function displaySubcategories(category) {
-    console.log("Mostrando subcategorías para:", category);
     currentCategory = category;
     subcategoriesList.innerHTML = '';
 
@@ -190,18 +233,23 @@ function displaySubcategories(category) {
             const subcategories = categoryMappings[category][mainSubcategory];
 
             if (subcategories.length > 0) {
+                // Genera el Dropdown (para Vestidos, Disfraces, etc.)
                 let dropdownHTML = `
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="${mainSubcategory}-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             ${mainSubcategory}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="${mainSubcategory}-dropdown">
-                            ${subcategories.map(sub => `<li><a class="dropdown-item" href="#" onclick="handleSubcategoryClick('${sub}')">${sub}</a></li>`).join("")}
+                            ${subcategories.map(sub => 
+                                // El clic en el ítem del desplegable llama a handleSubcategoryClick con un indicador de que es un 'tipo'.
+                                `<li><a class="dropdown-item" href="#" onclick="handleSubcategoryClick('${sub}', 'type')">${sub}</a></li>` 
+                            ).join("")}
                         </ul>
                     </li>
                 `;
                 subcategoriesList.innerHTML += dropdownHTML;
             } else {
+                // Genera el enlace directo (para Deportivos, Utilería, etc.)
                 subcategoriesList.innerHTML += `
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory}')">${mainSubcategory}</a>
@@ -210,70 +258,87 @@ function displaySubcategories(category) {
             }
         });
     }
-
-    // Mostrar o agregar botón de orden
-    const toggleBtn = document.getElementById('toggleOrderBtn');
-    if (!toggleBtn) {
-        const btn = document.createElement('button');
-        btn.id = 'toggleOrderBtn';
-        btn.className = 'btn btn-sm btn-outline-primary ms-auto';
-        btn.innerText = 'Ordenar: Más nuevo';
-        btn.onclick = toggleOrder;
-        subcategoriesContainer.appendChild(btn);
-    } else {
-        toggleBtn.style.display = 'inline-block';
-    }
+    
+    // Al cambiar de categoría principal, ocultamos cualquier filtro avanzado
+    sizesNav.style.display = 'none';
+    currentFilterValue = '';
 
     currentCategoryHeading.textContent = category;
     itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría para ver los ítems.</p>';
-    sizesNav.style.display = 'none';
 }
 
-// Manejar el clic en una subcategoría
-function handleSubcategoryClick(subcategory) {
-    currentSubcategory = subcategory;
-    currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
 
-    const filteredItems = items
-  .filter(item => item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
-                  item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase())
-  .sort(ordenarPorImagenDesc);
-    displayItems(filteredItems);
+// -----------------------------------------------------------------------------------------------------------------
+// FUNCIÓN CLAVE MODIFICADA: Manejar el clic en una subcategoría (o tipo)
+// -----------------------------------------------------------------------------------------------------------------
+function handleSubcategoryClick(subcategory, isTypeClick = false) {
+    // 1. Reiniciar estados de filtro
+    currentSubcategory = subcategory; 
+    currentMainSubcategory = ''; // Se definirá en base al tipo de clic
+    currentFilterAttribute = '';
+    currentFilterValue = '';
+    
+    let filteredItems = [];
 
-    const calzadoSubcategorias = ["Zapatos", "Botas", "Botas Vaqueras", "Botines"];
+    if (isTypeClick) {
+        // Caso 2: Clic en un elemento del desplegable (e.g., 'Enfermeras')
+        
+        let mainSubcategory = '';
+        const currentSubcategoryMap = categoryMappings[currentCategory] || {};
+        
+        // 1. Buscamos la subcategoría principal (clave) que contiene este tipo (valor)
+        for (const [key, values] of Object.entries(currentSubcategoryMap)) {
+            if (values.includes(subcategory)) { // Si 'Enfermeras' está dentro de ['Enfermeras', 'Sexys', ...]
+                mainSubcategory = key; // mainSubcategory = 'Disfraces'
+                break;
+            }
+        }
 
-    console.log(`Filtrando categoría: ${currentCategory}, subcategoría: ${subcategory}`);
-    console.log("Ítems encontrados:", filteredItems);
+        currentMainSubcategory = mainSubcategory;
+        currentFilterAttribute = 'tipo';
+        currentFilterValue = subcategory; // 'Enfermeras'
 
-    displayItems(filteredItems);
+        // 2. Aplicar el filtro doble: subcategoría principal + el tipo clicqueado
+        filteredItems = items.filter(item => 
+            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
+            item.subcategoria.trim().toLowerCase() === mainSubcategory.trim().toLowerCase() &&
+            item.tipo && item.tipo.trim().toLowerCase() === subcategory.trim().toLowerCase()
+        );
 
-    // Primero, ocultamos el menú por defecto
+        currentCategoryHeading.textContent = `${currentCategory} > ${mainSubcategory} > ${subcategory}`;
+
+    } else {
+        // Caso 1: Clic en un enlace directo (e.g., 'Deportivos' o 'Calzado')
+        currentMainSubcategory = subcategory;
+
+        // Aplicar el filtro base: solo por subcategoría
+        filteredItems = items.filter(item => 
+            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
+            item.subcategoria.trim().toLowerCase() === currentMainSubcategory.trim().toLowerCase()
+        );
+
+        currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
+    }
+
+    displayItems(ordenarItemsPorImagen(filteredItems));
+
+    // Lógica de filtros avanzados (Solo para Calzado o Jarrones)
     sizesNav.style.display = 'none';
+    const calzadoSubcategorias = ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"];
 
-    // Si la subcategoría es de Calzado, mostrar medidas
-    if (calzadoSubcategorias.includes(subcategory)) {
+    if (calzadoSubcategorias.includes(currentMainSubcategory)) {
         displaySizes(filteredItems);
     } 
-    // Si la subcategoría es Utilería en Vestuario o Decoración, mostrar tipos
-    else if (subcategory.toLowerCase() === 'utilería' && 
-            (currentCategory.toLowerCase().includes("vestuario") || 
-             currentCategory.toLowerCase().includes("decoración"))) {
-        displaySubcategoryFilters(subcategory, 'tipo');
+    else if (currentMainSubcategory.toLowerCase() === 'jarrones') {
+        displaySubcategoryFilters(currentMainSubcategory, 'color');
     } 
-    // Si la subcategoría es Jarrones, mostrar colores
-    else if (subcategory.toLowerCase() === 'jarrones') {
-        displaySubcategoryFilters(subcategory, 'color');
-    }
-    // Si la subcategoría es Plantas, mostrar colores
-    else if (subcategory.toLowerCase() === 'plantas') {
-        displaySubcategoryFilters(subcategory, 'tipo'); // Filtra por tipo en Plantas
-    }
+    // Si fue un clic de 'tipo' (Disfraces), no hay filtros adicionales.
 }
+
 
 // Mostrar medidas para Calzado
 function displaySizes(filteredItems) {
     const sizes = new Set();
-
     filteredItems.forEach(item => {
         if (item.medidas) {
             item.medidas.forEach(medida => sizes.add(medida));
@@ -283,73 +348,99 @@ function displaySizes(filteredItems) {
     if (sizes.size > 0) {
         sizesNav.classList.remove("d-none");
         sizesNav.style.display = "block";
-
-        sizesList.innerHTML = [...sizes].sort().map(medida => `
-            <li class="nav-item me-2 mb-2">
-                <a class="btn btn-outline-primary" href="#" onclick="filterBySize('${medida}')">${medida}</a>
-            </li>
-        `).join("");
+        
+        let filterHTML = `<li class="nav-item me-2 mb-2"><a class="btn btn-outline-primary ${currentFilterValue === '' ? 'active' : ''}" href="#" onclick="handleClearFilter('${currentMainSubcategory}')">TODOS</a></li>`;
+        
+        filterHTML += [...sizes].sort().map(medida => {
+            const isActive = currentFilterValue === medida ? 'active' : '';
+            return `
+                <li class="nav-item me-2 mb-2">
+                    <a class="btn btn-outline-primary ${isActive}" href="#" onclick="filterBySubcategoryAttribute('medidas', '${medida}')">${medida}</a>
+                </li>
+            `;
+        }).join("");
+        sizesList.innerHTML = filterHTML;
     } else {
         sizesNav.style.display = "none";
         sizesList.innerHTML = "";
     }
 }
 
-// Filtrar ítems por medida específica
-function filterBySize(size) {
-    const filteredItems = items.filter(item =>
-        item.categoria === currentCategory &&
-        item.subcategoria === currentSubcategory &&
-        item.medidas?.includes(size)
-    );
 
-    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
-}
-
-// Mostrar filtros para medidas en Calzado, tipo en Utilería y color en Jarrones
+// Mostrar filtros avanzados (color para Jarrones)
 function displaySubcategoryFilters(subcategory, filterKey) {
     const itemsInSubcategory = items.filter(item =>
         item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
         item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase() &&
         item[filterKey]
     );
-    
-    console.log(`Filtrando por ${filterKey} en ${currentCategory} > ${subcategory}`);
-    console.log("Ítems disponibles para filtro:", itemsInSubcategory);
 
-    if (itemsInSubcategory.length > 0) {
+    let filterHTML = `<li class="nav-item me-2 mb-2"><a class="btn btn-outline-primary ${currentFilterValue === '' ? 'active' : ''}" href="#" onclick="handleClearFilter('${subcategory}')">TODOS</a></li>`;
+    
+    const filters = [...new Set(itemsInSubcategory.map(item => item[filterKey]))].sort();
+
+    filterHTML += filters.map(filterValue => {
+        const isActive = currentFilterValue === filterValue ? 'active' : '';
+
+        return `
+            <li class="nav-item me-2 mb-2">
+                <a class="btn btn-outline-primary ${isActive}" href="#" onclick="filterBySubcategoryAttribute('${filterKey}', '${filterValue}')">${filterValue}</a>
+            </li>
+        `;
+    }).join("");
+    
+    if (filters.length > 0) {
         sizesNav.classList.remove("d-none");
         sizesNav.style.display = "block";
-
-        const filters = [...new Set(itemsInSubcategory.map(item => item[filterKey]))].sort();
-
-        sizesList.innerHTML = filters.map(filterValue => `
-            <li class="nav-item me-2 mb-2">
-                <a class="btn btn-outline-primary" href="#" onclick="filterBySubcategoryAttribute('${filterKey}', '${filterValue}')">${filterValue}</a>
-            </li>
-        `).join("");
+        sizesList.innerHTML = filterHTML;
     } else {
         sizesNav.style.display = 'none';
         sizesList.innerHTML = "";
     }
 }
 
-// Filtrar ítems por atributo dinámico (medidas, tipo o color)
+// Filtrar ítems por atributo dinámico (medidas o color)
 function filterBySubcategoryAttribute(attribute, value) {
-    const filteredItems = items.filter(item =>
-        item.categoria === currentCategory &&
-        item.subcategoria === currentSubcategory &&
-        item[attribute] === value
-    );
-
-    displayItems(ordenarItemsPorImagen(filteredItems)); // ✅ Correcto
+    currentFilterAttribute = attribute;
+    currentFilterValue = value;
+    
+    const filteredItems = items.filter(item => {
+        const matchesCategory = item.categoria === currentCategory;
+        const matchesSubcategory = item.subcategoria === currentMainSubcategory;
+        
+        if (attribute === 'medidas' && Array.isArray(item.medidas)) {
+             return matchesCategory && matchesSubcategory && item.medidas.includes(value);
+        } else {
+            return matchesCategory && matchesSubcategory && item[attribute] === value;
+        }
+    });
+    
+    currentCategoryHeading.textContent = `${currentCategory} > ${currentMainSubcategory} > ${toTitleCase(value)}`;
+    
+    displayItems(ordenarItemsPorImagen(filteredItems)); 
+    setActiveFilter(value);
 }
+
+// Limpiar filtro de Medida/Color (llamada por el botón 'TODOS')
+function handleClearFilter(mainSubcategory) {
+    currentFilterAttribute = '';
+    currentFilterValue = '';
+    
+    // Simplemente volvemos a llamar a handleSubcategoryClick para cargar solo la subcategoría base
+    handleSubcategoryClick(mainSubcategory, false);
+}
+
 
 // Manejar clic en una categoría
 function handleCategoryClick(category) {
     const navbarCollapse = document.getElementById('navbarNav');
     const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
     bsCollapse.hide();
+    
+    // Activa la clase 'active' en la navbar
+    document.querySelectorAll('.nav-link[data-category]').forEach(link => link.classList.remove('active'));
+    const categoryLink = document.querySelector(`.nav-link[data-category="${category}"]`);
+    if (categoryLink) categoryLink.classList.add('active');
 
     displaySubcategories(category);
 }
@@ -358,6 +449,7 @@ function handleCategoryClick(category) {
 searchBar.addEventListener("input", filterItems);
 document.querySelectorAll('.nav-link[data-category]').forEach(link => {
     link.addEventListener('click', event => {
+        event.preventDefault(); 
         const category = event.target.getAttribute('data-category');
         handleCategoryClick(category);
     });
@@ -369,9 +461,14 @@ document.getElementById('toggleOrderBtn').addEventListener('click', () => {
     document.getElementById('toggleOrderBtn').textContent = 
         currentOrder === 'desc' ? 'Orden: Más nuevo' : 'Orden: Más viejo';
 
-    // Recarga la subcategoría actual si está seleccionada
+    // Si hay una subcategoría o tipo seleccionado, recargar para reordenar
     if (currentSubcategory) {
-        handleSubcategoryClick(currentSubcategory);
+         // Si hay un filtro de tipo activo, lo recargamos
+        if (currentFilterAttribute === 'tipo') {
+            handleSubcategoryClick(currentFilterValue, true);
+        } else {
+            handleSubcategoryClick(currentSubcategory, false);
+        }
     }
 });
 
