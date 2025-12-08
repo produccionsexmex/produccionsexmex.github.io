@@ -1105,23 +1105,23 @@
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Caperucita Roja",
-        "imagen": "assets/img/mujeres/disfraces/05.jpg",
+        "imagen": "assets/img/mujeres/disfraces/04-personajes/05.jpg",
         "tags": ["Disfraz de caperucita roja", "Rojo con Blanco", "Sin mangas", "falda corta", "Tirantes"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
-        "tipo": "Sexys",
+        "tipo": "Personajes",
         "nombre": "Disfraz Vampireza",
-        "imagen": "assets/img/mujeres/disfraces/06.jpg",
+        "imagen": "assets/img/mujeres/disfraces/04-personajes/06.jpg",
         "tags": ["Disfraz de vampireza", "Negro", "Manga larga", "falda larga"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
-        "tipo": "Sexys",
+        "tipo": "Personajes",
         "nombre": "Disfraz Monja",
-        "imagen": "assets/img/mujeres/disfraces/07.jpg",
+        "imagen": "assets/img/mujeres/disfraces/04-personajes/07.jpg",
         "tags": ["Disfraz", "Negro", "Manga larga", "falda corta"]
       },
       {
@@ -1493,14 +1493,7 @@
         "imagen": "assets/img/mujeres/disfraces/052.jpg", 
         "tags": ["Disfraz fantasía", "Rosa", "Dos piezas", "Peluche en escote" ,"Medias altas"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Disfraces",
-        "tipo": "Navideño",
-        "nombre": "Disfraz Fantasía",
-        "imagen": "assets/img/mujeres/disfraces/053.jpg", 
-        "tags": ["Disfraz navideño", "Rojo", "Dos piezas", "Peluche en escote"]
-      },
+      
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
@@ -1552,11 +1545,74 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
-        "tipo": "Navideño",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Fantasía",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav01.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "Dos piezas", "Peluche en escote"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
         "nombre": "Disfraz Navideño",
-        "imagen": "assets/img/mujeres/disfraces/060.jpg", 
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav02.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "2 piezas", "Medias altas", "Micro falda"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Navideño",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav03.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "2 piezas", "Gorrito"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Navideño",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav04.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "Una pieza", "Escote amplio", "Manga larga", "Capucha"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Navideño",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav05.jpg", 
         "tags": ["Disfraz navideño", "Rojo", "Una pieza", "Peluche en escote" ,"Escote en V", "Manga larga", "Medias altas"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Navideño",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav06.jpg", 
+        "tags": ["Disfraz navideño", "Rojo con Blanco", "2 piezas", "Escote amplio", "Capa roja"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Navideños",
+        "nombre": "Disfraz Navideño",
+        "imagen": "assets/img/mujeres/disfraces/06-navideno/nav07.jpg", 
+        "tags": ["Disfraz navideño", "Rojo", "3 piezas", "Afelpado"]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
@@ -1565,6 +1621,7 @@
         "imagen": "assets/img/mujeres/disfraces/061.jpg", 
         "tags": ["Peluca", "Negra", "Dos piezas"]
       },
+      
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
@@ -1573,14 +1630,7 @@
         "imagen": "assets/img/mujeres/disfraces/062.jpg", 
         "tags": ["Disfraz Street Fighter", "Verde", "Dos piezas", "Bikini" ,"Escote en V"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Disfraces",
-        "tipo": "Navideño",
-        "nombre": "Disfraz Navideño",
-        "imagen": "assets/img/mujeres/disfraces/063.jpg", 
-        "tags": ["Disfraz navideño", "Rojo", "Una pieza", "Escote amplio"]
-      },
+      
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
@@ -1693,6 +1743,8 @@
         "imagen": "assets/img/mujeres/disfraces/078.jpg", 
         "tags": ["Dos piezas", "Fiusha", "Manga larga", "Escote abierto"]
       },
+
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
@@ -1869,12 +1921,15 @@
         "imagen": "assets/img/mujeres/disfraces/0100.jpg", 
         "tags": ["Minifalda", "Negro", "Sin mangas", "Tirantes", "Escote en V", "Dos piezas"]
       },
+
+
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",
         "tipo": "Personajes",
         "nombre": "Disfraz Reina de Corazones",
-        "imagen": "assets/img/mujeres/disfraces/0101.jpg", 
+        "imagen": "assets/img/mujeres/disfraces/04-personajes/0101.jpg", 
         "tags": ["Putivestido", "Coral y rojo", "Sin mangas", "Tirantes"]
       },
       {
@@ -1924,6 +1979,18 @@
         "imagen": "assets/img/mujeres/disfraces/0107.jpg", 
         "tags": ["Dos piezas", "Azul y Amarillo", "Falda corta", "Tirantes"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz Mujer Pirata",
+        "imagen": "assets/img/mujeres/disfraces/04-personajes/0108.jpg", 
+        "tags": ["Dos piezas", "Negro, Rojo, Dorado", "Falda corta", "Tirantes", "Sombrero pirata"]
+      },
+
+ 
+
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Disfraces",

@@ -1,8 +1,7 @@
 // =========================================================
-// 1. VARIABLES GLOBALES Y UTILIDADES
+// VARIABLES GLOBALES
 // =========================================================
 
-// Variables globales
 const itemsContainer = document.getElementById("itemsContainer");
 const subcategoriesNav = document.getElementById("subcategoriesNav");
 const sizesNav = document.getElementById("sizesNav");
@@ -15,12 +14,15 @@ const toggleOrderBtn = document.getElementById('toggleOrderBtn');
 let items = [];
 let currentCategory = '';
 let currentSubcategory = '';
-let currentMainSubcategory = ''; 
-let currentFilterAttribute = ''; 
-let currentFilterValue = ''; 
-let currentOrder = 'desc'; 
+let currentMainSubcategory = '';
+let currentFilterAttribute = '';
+let currentFilterValue = '';
+let currentOrder = 'desc';
 
-// Mapeo de subcategorías (AJUSTADO: Disfraces vuelve a ser un desplegable con tipos)
+// =========================================================
+// SUBCATEGORÍAS
+// =========================================================
+
 const categoryMappings = {
     "Vestuario de mujer": {
         "Vestidos": [
@@ -45,11 +47,12 @@ const categoryMappings = {
         ],
         "Lencería": [],
         "Bodysuits": [],
-        "Disfraces": [ // 👈 REVERTIDO: Vuelve a ser un desplegable
+        "Disfraces": [
             "Enfermeras",
             "Sexys",
             "Superheroínas",
             "Personajes",
+            "Navideños",
             "Juego Del Calamar"
         ], 
         "Deportivos": [],
@@ -71,252 +74,210 @@ const categoryMappings = {
     }
 };
 
-// ... (El resto de funciones auxiliares)
+
+// =========================================================
+// ORDENAMIENTO POR IMAGEN
+// =========================================================
+
+function extraerNumeroDeImagen(ruta) {
+    const match = ruta.match(/(\d+)/);
+    return match ? parseInt(match[1], 10) : 0;
+}
 
 function ordenarItemsPorImagen(array) {
     return [...array].sort((a, b) => {
-        const numA = extraerNumeroDeImagen(a.imagen);
-        const numB = extraerNumeroDeImagen(b.imagen);
-        return currentOrder === 'desc' ? numB - numA : numA - numB;
+        const A = extraerNumeroDeImagen(a.imagen);
+        const B = extraerNumeroDeImagen(b.imagen);
+        return currentOrder === "desc" ? B - A : A - B;
     });
 }
 
 function ordenarPorImagenDesc(a, b) {
-    const matchA = a.imagen && a.imagen.match(/(\d+)\.jpg$/i);
-    const matchB = b.imagen && b.imagen.match(/(\d+)\.jpg$/i);
-    const numA = matchA ? parseInt(matchA[1]) : 0;
-    const numB = matchB ? parseInt(matchB[1]) : 0;
-    return numB - numA;
-}
-
-function extraerNumeroDeImagen(ruta) {
-    const match = ruta.match(/(\d+)/); 
-    return match ? parseInt(match[1], 10) : 0;
-}
-
-function toTitleCase(str) {
-    return str
-        .toLowerCase()
-        .replace(/(^|\s)([a-záéíóúñü])/g, (match) => match.toUpperCase());
+    const matchA = a.imagen?.match(/(\d+)\.jpg$/i);
+    const matchB = b.imagen?.match(/(\d+)\.jpg$/i);
+    const A = matchA ? parseInt(matchA[1]) : 0;
+    const B = matchB ? parseInt(matchB[1]) : 0;
+    return B - A;
 }
 
 
-// -----------------------------------------------------------------------------------------------------------------
-// FUNCIÓN DE CARGA INICIAL (SIN SELECCIÓN AUTOMÁTICA)
-// -----------------------------------------------------------------------------------------------------------------
+// =========================================================
+// CARGA INICIAL
+// =========================================================
 async function loadItems() {
-  try {
-    const response = await fetch('data/catalog.json');
-    items = await response.json();
+    try {
+        const response = await fetch('data/catalog.json');
+        items = await response.json();
 
-    items = items.sort(ordenarPorImagenDesc);
+        items = items.sort(ordenarPorImagenDesc);
 
-    // Estado de inicio: limpia y lista para la selección del usuario.
-    currentCategory = '';
-    currentSubcategory = '';
-    currentMainSubcategory = '';
-    currentFilterAttribute = '';
-    currentFilterValue = '';
-    
-    // Ocultar listas de subcategorías y filtros
-    subcategoriesList.innerHTML = '';
-    sizesNav.style.display = 'none';
+        currentCategory = '';
+        currentSubcategory = '';
+        currentMainSubcategory = '';
+        currentFilterAttribute = '';
+        currentFilterValue = '';
 
-    // Mostrar mensaje de bienvenida
-    currentCategoryHeading.textContent = 'Catálogo General';
-    itemsContainer.innerHTML = '<p class="text-muted">Por favor, usa el menú superior para seleccionar una Categoría Principal.</p>';
-    
-  } catch (error) {
-    console.error('Error al cargar los ítems:', error);
-  }
-}
+        subcategoriesList.innerHTML = '';
+        sizesNav.style.display = 'none';
 
-// Mostrar ítems filtrados
-function displayItems(filteredItems) {
-    if (filteredItems.length === 0) {
-        itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles para esta búsqueda.</p>';
-    } else {
-        itemsContainer.innerHTML = filteredItems.map(item => {
-            const displayName = item.nombre ? toTitleCase(item.nombre) : '';
-            const tags = item.tags
-                ? item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("")
-                : "";
+        currentCategoryHeading.textContent = 'Catálogo General';
+        itemsContainer.innerHTML =
+            '<p class="text-muted">Por favor, selecciona una categoría.</p>';
 
-            return `
-                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
-                    <div class="card h-100">
-                        <img src="${item.imagen}" class="card-img-top" alt="${displayName}">
-                        <div class="card-body">
-                            ${displayName ? `<h5 class="card-title">${displayName}</h5>` : ""}
-                            ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
-                            ${tags ? `<div class="mt-2">${tags}</div>` : ""}
-                        </div>
-                    </div>
-                </div>`;
-        }).join("");
+    } catch (error) {
+        console.error('Error al cargar los ítems:', error);
     }
 }
 
-// Filtrar ítems según el texto de búsqueda
+
+// =========================================================
+// MOSTRAR ITEMS
+// =========================================================
+function displayItems(filteredItems) {
+    if (filteredItems.length === 0) {
+        itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles.</p>';
+        return;
+    }
+
+    itemsContainer.innerHTML = filteredItems.map(item => {
+        const name = item.nombre ? item.nombre : '';
+        const tags = item.tags ? item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("") : "";
+
+        return `
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
+                <div class="card h-100">
+                    <img src="${item.imagen}" class="card-img-top" alt="${name}">
+                    <div class="card-body">
+                        ${name ? `<h5 class="card-title">${name}</h5>` : ""}
+                        ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
+                        ${tags ? `<div class="mt-2">${tags}</div>` : ""}
+                    </div>
+                </div>
+            </div>`;
+    }).join("");
+}
+
+
+// =========================================================
+// BUSCADOR
+// =========================================================
 function filterItems() {
     const query = searchBar.value.toLowerCase().trim();
     const keywords = query.split(/\s+/);
-    
-    // 1. Obtener los ítems base filtrados por la categoría y subcategoría principal (o tipo)
+
     let baseItems = items;
+
     if (currentCategory) {
-        baseItems = items.filter(item => 
-            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase()
+        baseItems = items.filter(item =>
+            item.categoria.toLowerCase() === currentCategory.toLowerCase()
         );
 
         if (currentMainSubcategory) {
-            // Filtrar por la subcategoría base (e.g., 'Calzado', 'Disfraces')
-            baseItems = baseItems.filter(item => 
-                item.subcategoria.trim().toLowerCase() === currentMainSubcategory.trim().toLowerCase()
+            baseItems = baseItems.filter(item =>
+                item.subcategoria.toLowerCase() === currentMainSubcategory.toLowerCase()
             );
         }
 
-        if (currentFilterAttribute === 'tipo' && currentFilterValue) {
-             // Si hay un filtro de tipo activo (e.g., 'Enfermeras')
-            baseItems = baseItems.filter(item => 
-                item.tipo && item.tipo.trim().toLowerCase() === currentFilterValue.trim().toLowerCase()
+        if (currentFilterAttribute === 'tipo') {
+            baseItems = baseItems.filter(item =>
+                item.tipo?.toLowerCase() === currentFilterValue.toLowerCase()
             );
         }
-    } else {
-        // Búsqueda en todo el catálogo si no hay categoría seleccionada
-        baseItems = items;
     }
 
+    const filteredSearch = baseItems.filter(item => {
+        const text = [
+            item.nombre,
+            item.categoria,
+            item.subcategoria,
+            item.tipo,
+            ...(item.tags || [])
+        ].join(" ").toLowerCase();
 
-    // 2. Aplicar filtro de búsqueda de texto
-    const filteredItemsBySearch = baseItems.filter(item => {
-        const itemData = [
-            item.nombre?.toLowerCase() || '',
-            item.categoria?.toLowerCase() || '',
-            item.subcategoria?.toLowerCase() || '',
-            item.tipo?.toLowerCase() || '',
-            ...(item.tags ? item.tags.map(tag => tag.toLowerCase()) : [])
-        ].join(' ');
-
-        return keywords.every(keyword => itemData.includes(keyword));
+        return keywords.every(k => text.includes(k));
     });
-    
-    // 3. Aplicar filtros dinámicos (medidas/color) si existen, aunque ya no deberían usarse con Disfraces.
-    let finalFilteredItems = filteredItemsBySearch;
-    if (currentFilterAttribute === 'medidas' && currentFilterValue) {
-        finalFilteredItems = filteredItemsBySearch.filter(item => {
-            return item.medidas && item.medidas.includes(currentFilterValue);
-        });
-    } else if (currentFilterAttribute === 'color' && currentFilterValue) {
-        finalFilteredItems = filteredItemsBySearch.filter(item => {
-            return item.color && item.color.toLowerCase() === currentFilterValue.toLowerCase();
-        });
-    }
 
-    displayItems(ordenarItemsPorImagen(finalFilteredItems)); 
+    displayItems(ordenarItemsPorImagen(filteredSearch));
 }
 
 
-function setActiveFilter(filter) {
-    // Esta función no es necesaria para los desplegables, solo para botones.
-    document.querySelectorAll('.btn-outline-primary').forEach(btn => btn.classList.remove('active'));
-    const filterButton = document.querySelector(`.btn[onclick*="'${filter}'"]`);
-    if (filterButton) filterButton.classList.add('active');
-}
-
-
-// Mostrar las subcategorías (Genera enlaces directos o desplegables)
+// =========================================================
+// SUBCATEGORÍAS
+// =========================================================
 function displaySubcategories(category) {
     currentCategory = category;
-    subcategoriesList.innerHTML = '';
+    subcategoriesList.innerHTML = "";
 
-    if (categoryMappings[category]) {
-        Object.keys(categoryMappings[category]).forEach(mainSubcategory => {
-            const subcategories = categoryMappings[category][mainSubcategory];
+    const submap = categoryMappings[category];
 
-            if (subcategories.length > 0) {
-                // Genera el Dropdown (para Vestidos, Disfraces, etc.)
-                let dropdownHTML = `
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="${mainSubcategory}-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            ${mainSubcategory}
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="${mainSubcategory}-dropdown">
-                            ${subcategories.map(sub => 
-                                // El clic en el ítem del desplegable llama a handleSubcategoryClick con un indicador de que es un 'tipo'.
-                                `<li><a class="dropdown-item" href="#" onclick="handleSubcategoryClick('${sub}', 'type')">${sub}</a></li>` 
-                            ).join("")}
-                        </ul>
-                    </li>
-                `;
-                subcategoriesList.innerHTML += dropdownHTML;
-            } else {
-                // Genera el enlace directo (para Deportivos, Utilería, etc.)
-                subcategoriesList.innerHTML += `
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="handleSubcategoryClick('${mainSubcategory}')">${mainSubcategory}</a>
-                    </li>
-                `;
-            }
-        });
-    }
-    
-    // Al cambiar de categoría principal, ocultamos cualquier filtro avanzado
+    Object.keys(submap).forEach(main => {
+        const subs = submap[main];
+
+        if (subs.length > 0) {
+            subcategoriesList.innerHTML += `
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">${main}</a>
+                    <ul class="dropdown-menu">
+                        ${subs.map(s => `<li><a class="dropdown-item" href="#" onclick="handleSubcategoryClick('${s}', true)">${s}</a></li>`).join("")}
+                    </ul>
+                </li>
+            `;
+        } else {
+            subcategoriesList.innerHTML += `
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="handleSubcategoryClick('${main}', false)">${main}</a>
+                </li>
+            `;
+        }
+    });
+
     sizesNav.style.display = 'none';
-    currentFilterValue = '';
 
     currentCategoryHeading.textContent = category;
-    itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría para ver los ítems.</p>';
+    itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría.</p>';
 }
 
 
-// -----------------------------------------------------------------------------------------------------------------
-// FUNCIÓN CLAVE MODIFICADA: Manejar el clic en una subcategoría (o tipo)
-// -----------------------------------------------------------------------------------------------------------------
-function handleSubcategoryClick(subcategory, isTypeClick = false) {
-    // 1. Reiniciar estados de filtro
-    currentSubcategory = subcategory; 
-    currentMainSubcategory = ''; // Se definirá en base al tipo de clic
-    currentFilterAttribute = '';
-    currentFilterValue = '';
-    
+// =========================================================
+// MANEJO DE SUBCATEGORÍAS Y TIPOS
+// =========================================================
+function handleSubcategoryClick(subcategory, isType) {
+    currentSubcategory = subcategory;
+    currentFilterAttribute = "";
+    currentFilterValue = "";
+
     let filteredItems = [];
 
-    if (isTypeClick) {
-        // Caso 2: Clic en un elemento del desplegable (e.g., 'Enfermeras')
-        
-        let mainSubcategory = '';
-        const currentSubcategoryMap = categoryMappings[currentCategory] || {};
-        
-        // 1. Buscamos la subcategoría principal (clave) que contiene este tipo (valor)
-        for (const [key, values] of Object.entries(currentSubcategoryMap)) {
-            if (values.includes(subcategory)) { // Si 'Enfermeras' está dentro de ['Enfermeras', 'Sexys', ...]
-                mainSubcategory = key; // mainSubcategory = 'Disfraces'
+    if (isType) {
+        let main = '';
+        const map = categoryMappings[currentCategory];
+
+        for (const [key, values] of Object.entries(map)) {
+            if (values.includes(subcategory)) {
+                main = key;
                 break;
             }
         }
 
-        currentMainSubcategory = mainSubcategory;
-        currentFilterAttribute = 'tipo';
-        currentFilterValue = subcategory; // 'Enfermeras'
+        currentMainSubcategory = main;
+        currentFilterAttribute = "tipo";
+        currentFilterValue = subcategory;
 
-        // 2. Aplicar el filtro doble: subcategoría principal + el tipo clicqueado
-        filteredItems = items.filter(item => 
-            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
-            item.subcategoria.trim().toLowerCase() === mainSubcategory.trim().toLowerCase() &&
-            item.tipo && item.tipo.trim().toLowerCase() === subcategory.trim().toLowerCase()
+        filteredItems = items.filter(item =>
+            item.categoria.toLowerCase() === currentCategory.toLowerCase() &&
+            item.subcategoria.toLowerCase() === main.toLowerCase() &&
+            item.tipo?.toLowerCase() === subcategory.toLowerCase()
         );
 
-        currentCategoryHeading.textContent = `${currentCategory} > ${mainSubcategory} > ${subcategory}`;
+        currentCategoryHeading.textContent = `${currentCategory} > ${main} > ${subcategory}`;
+    }
 
-    } else {
-        // Caso 1: Clic en un enlace directo (e.g., 'Deportivos' o 'Calzado')
+    else {
         currentMainSubcategory = subcategory;
 
-        // Aplicar el filtro base: solo por subcategoría
-        filteredItems = items.filter(item => 
-            item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
-            item.subcategoria.trim().toLowerCase() === currentMainSubcategory.trim().toLowerCase()
+        filteredItems = items.filter(item =>
+            item.categoria.toLowerCase() === currentCategory.toLowerCase() &&
+            item.subcategoria.toLowerCase() === subcategory.toLowerCase()
         );
 
         currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
@@ -324,155 +285,100 @@ function handleSubcategoryClick(subcategory, isTypeClick = false) {
 
     displayItems(ordenarItemsPorImagen(filteredItems));
 
-    // Lógica de filtros avanzados (Solo para Calzado o Jarrones)
-    sizesNav.style.display = 'none';
-    const calzadoSubcategorias = ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"];
+    sizesNav.style.display = "none";
 
-    if (calzadoSubcategorias.includes(currentMainSubcategory)) {
+    const calzado = ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"];
+
+    if (calzado.includes(currentMainSubcategory)) {
         displaySizes(filteredItems);
-    } 
-    else if (currentMainSubcategory.toLowerCase() === 'jarrones') {
-        displaySubcategoryFilters(currentMainSubcategory, 'color');
-    } 
-    // Si fue un clic de 'tipo' (Disfraces), no hay filtros adicionales.
+    }
 }
 
 
-// Mostrar medidas para Calzado
+// =========================================================
+// FILTRO POR MEDIDAS (Calzado)
+// =========================================================
+
 function displaySizes(filteredItems) {
     const sizes = new Set();
+
     filteredItems.forEach(item => {
-        if (item.medidas) {
-            item.medidas.forEach(medida => sizes.add(medida));
-        }
+        item.medidas?.forEach(m => sizes.add(m));
     });
 
-    if (sizes.size > 0) {
-        sizesNav.classList.remove("d-none");
-        sizesNav.style.display = "block";
-        
-        let filterHTML = `<li class="nav-item me-2 mb-2"><a class="btn btn-outline-primary ${currentFilterValue === '' ? 'active' : ''}" href="#" onclick="handleClearFilter('${currentMainSubcategory}')">TODOS</a></li>`;
-        
-        filterHTML += [...sizes].sort().map(medida => {
-            const isActive = currentFilterValue === medida ? 'active' : '';
-            return `
-                <li class="nav-item me-2 mb-2">
-                    <a class="btn btn-outline-primary ${isActive}" href="#" onclick="filterBySubcategoryAttribute('medidas', '${medida}')">${medida}</a>
-                </li>
-            `;
-        }).join("");
-        sizesList.innerHTML = filterHTML;
-    } else {
-        sizesNav.style.display = "none";
-        sizesList.innerHTML = "";
-    }
-}
-
-
-// Mostrar filtros avanzados (color para Jarrones)
-function displaySubcategoryFilters(subcategory, filterKey) {
-    const itemsInSubcategory = items.filter(item =>
-        item.categoria.trim().toLowerCase() === currentCategory.trim().toLowerCase() &&
-        item.subcategoria.trim().toLowerCase() === subcategory.trim().toLowerCase() &&
-        item[filterKey]
-    );
-
-    let filterHTML = `<li class="nav-item me-2 mb-2"><a class="btn btn-outline-primary ${currentFilterValue === '' ? 'active' : ''}" href="#" onclick="handleClearFilter('${subcategory}')">TODOS</a></li>`;
-    
-    const filters = [...new Set(itemsInSubcategory.map(item => item[filterKey]))].sort();
-
-    filterHTML += filters.map(filterValue => {
-        const isActive = currentFilterValue === filterValue ? 'active' : '';
-
-        return `
-            <li class="nav-item me-2 mb-2">
-                <a class="btn btn-outline-primary ${isActive}" href="#" onclick="filterBySubcategoryAttribute('${filterKey}', '${filterValue}')">${filterValue}</a>
-            </li>
-        `;
-    }).join("");
-    
-    if (filters.length > 0) {
-        sizesNav.classList.remove("d-none");
-        sizesNav.style.display = "block";
-        sizesList.innerHTML = filterHTML;
-    } else {
+    if (sizes.size === 0) {
         sizesNav.style.display = 'none';
-        sizesList.innerHTML = "";
+        return;
     }
+
+    sizesNav.style.display = 'block';
+
+    let html = `
+        <li class="nav-item me-2 mb-2">
+            <a class="btn btn-outline-primary" href="#" onclick="handleClearFilter('${currentMainSubcategory}')">TODOS</a>
+        </li>
+    `;
+
+    html += [...sizes].sort().map(s => `
+        <li class="nav-item me-2 mb-2">
+            <a class="btn btn-outline-primary" href="#" onclick="filterBySubcategoryAttribute('medidas', '${s}')">${s}</a>
+        </li>
+    `).join("");
+
+    sizesList.innerHTML = html;
 }
 
-// Filtrar ítems por atributo dinámico (medidas o color)
 function filterBySubcategoryAttribute(attribute, value) {
     currentFilterAttribute = attribute;
     currentFilterValue = value;
-    
-    const filteredItems = items.filter(item => {
-        const matchesCategory = item.categoria === currentCategory;
-        const matchesSubcategory = item.subcategoria === currentMainSubcategory;
-        
-        if (attribute === 'medidas' && Array.isArray(item.medidas)) {
-             return matchesCategory && matchesSubcategory && item.medidas.includes(value);
-        } else {
-            return matchesCategory && matchesSubcategory && item[attribute] === value;
-        }
-    });
-    
-    currentCategoryHeading.textContent = `${currentCategory} > ${currentMainSubcategory} > ${toTitleCase(value)}`;
-    
-    displayItems(ordenarItemsPorImagen(filteredItems)); 
-    setActiveFilter(value);
+
+    const filteredItems = items.filter(item =>
+        item.categoria === currentCategory &&
+        item.subcategoria === currentMainSubcategory &&
+        item.medidas?.includes(value)
+    );
+
+    displayItems(ordenarItemsPorImagen(filteredItems));
 }
 
-// Limpiar filtro de Medida/Color (llamada por el botón 'TODOS')
+
+// =========================================================
+// LIMPIAR FILTRO
+// =========================================================
+
 function handleClearFilter(mainSubcategory) {
-    currentFilterAttribute = '';
-    currentFilterValue = '';
-    
-    // Simplemente volvemos a llamar a handleSubcategoryClick para cargar solo la subcategoría base
+    currentFilterAttribute = "";
+    currentFilterValue = "";
     handleSubcategoryClick(mainSubcategory, false);
 }
 
 
-// Manejar clic en una categoría
-function handleCategoryClick(category) {
-    const navbarCollapse = document.getElementById('navbarNav');
-    const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
-    bsCollapse.hide();
-    
-    // Activa la clase 'active' en la navbar
-    document.querySelectorAll('.nav-link[data-category]').forEach(link => link.classList.remove('active'));
-    const categoryLink = document.querySelector(`.nav-link[data-category="${category}"]`);
-    if (categoryLink) categoryLink.classList.add('active');
-
-    displaySubcategories(category);
-}
-
-// Eventos
-searchBar.addEventListener("input", filterItems);
+// =========================================================
+// EVENTOS
+// =========================================================
 document.querySelectorAll('.nav-link[data-category]').forEach(link => {
-    link.addEventListener('click', event => {
-        event.preventDefault(); 
-        const category = event.target.getAttribute('data-category');
-        handleCategoryClick(category);
+    link.addEventListener("click", e => {
+        e.preventDefault();
+        const category = e.target.dataset.category;
+        displaySubcategories(category);
     });
 });
 
-//Toggle btn
-document.getElementById('toggleOrderBtn').addEventListener('click', () => {
-    currentOrder = currentOrder === 'desc' ? 'asc' : 'desc';
-    document.getElementById('toggleOrderBtn').textContent = 
-        currentOrder === 'desc' ? 'Orden: Más nuevo' : 'Orden: Más viejo';
+searchBar?.addEventListener("input", filterItems);
 
-    // Si hay una subcategoría o tipo seleccionado, recargar para reordenar
+toggleOrderBtn.addEventListener("click", () => {
+    currentOrder = currentOrder === "desc" ? "asc" : "desc";
+
+    toggleOrderBtn.textContent =
+        currentOrder === "desc" ? "Ordenar: Más nuevo" : "Ordenar: Más viejo";
+
     if (currentSubcategory) {
-         // Si hay un filtro de tipo activo, lo recargamos
-        if (currentFilterAttribute === 'tipo') {
-            handleSubcategoryClick(currentFilterValue, true);
-        } else {
-            handleSubcategoryClick(currentSubcategory, false);
-        }
+        handleSubcategoryClick(currentSubcategory, currentFilterAttribute === "tipo");
     }
 });
 
-// Inicialización
+
+// =========================================================
+// INICIO
+// =========================================================
 loadItems();
