@@ -2043,6 +2043,41 @@
 
 
 
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Bata Roja",
+        "imagen": "assets/img/mujeres/variado/01.jpg", 
+        "tags": ["Encaje", "Rojo", "Manga larga", "1 pieza"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Bata Blanca",
+        "imagen": "assets/img/mujeres/variado/02.jpg", 
+        "tags": ["Encaje", "Blanco", "Manga corta", "1 pieza"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Mallas Negras",
+        "imagen": "assets/img/mujeres/variado/03.jpg", 
+        "tags": ["Encaje", "Negro", "Cintura alta", "1 pieza"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Pantalon de vestir menta",
+        "imagen": "assets/img/mujeres/variado/04.jpg", 
+        "tags": ["Liso", "Menta", "Cintura alta", "Pinzas"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Pantalon de vestir coral",
+        "imagen": "assets/img/mujeres/variado/05.jpg", 
+        "tags": ["Liso", "Coral", "Cintura alta", "Pinzas"]
+      },
 
 
 

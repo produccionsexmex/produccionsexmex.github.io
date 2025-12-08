@@ -39,7 +39,7 @@ const categoryMappings = {
         "Faldas": ["Faldas cortas", "Mezclilla", "Cortas brillosas", "Faldas largas", "Largas brillosas"],
         "Blusas": [
             "Básicas",
-            "De vestir",
+            //"De vestir",
             "Manga Larga",
             "Tops",
             "Playeras",
@@ -56,6 +56,7 @@ const categoryMappings = {
             "Juego Del Calamar", 
             "Fantasía"
         ], 
+        "Variado": [],
         "Deportivos": [],
         "Utilería": [],
     },
