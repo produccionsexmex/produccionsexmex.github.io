@@ -1,11 +1,26 @@
 [
     {
       "categoria": "Vestuario de mujer",
+      "subcategoria": "Vestidos",
+      "tipo": "Brillosos largos",
+      "nombre": "Brilloso Rojo",
+      "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/01.jpg",
+      "tags": ["Vestido Largo", "Rojo", "Cuello alto", "Sin mangas", "Líneas con pedreria"]
+    },
+    {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Conjuntos brillosos",
+      "nombre": "Blusa brillosa Roja",
+      "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/01_.jpg",
+      "tags": ["Vestido Largo", "Rojo", "Cuello alto", "Sin mangas", "Líneas con pedreria"]
+    },
+    {
+      "categoria": "Vestuario de mujer",
        "subcategoria": "Vestidos",
         "tipo": "Brillosos largos",
       "nombre": "Brilloso Café",
       "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/01.jpg",
-      "tags": ["Vestido Largo", "Café", "Cuello alto"]
+      "tags": ["Vestido Largo", "Café", "Cuello alto", "Sin mangas", "Líneas con pedreria"]
     },
     {
         "categoria": "Vestuario de mujer",
@@ -33,10 +48,9 @@
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Coral",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/05.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Pantalon Brilloso Coral",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/05_.jpg",
         "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
      
@@ -58,26 +72,23 @@
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Coral",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/09.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Pantalon Brilloso Coral",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/09_.jpg",
         "tags": ["Pantalon corto", "Coral", "Corte recto"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Coral",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/10.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Coral",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/10_.jpg",
         "tags": ["Manga corta", "Coral", "Escote redondo", "Peluche en mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Dorado",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/11.jpg",
+         "subcategoria": "Conjuntos brillosos",
+        "nombre": "Pantalon Brilloso Dorado",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/11_.jpg",
         "tags": ["Pantalon corto", "Dorado", "Corte amplio"]
       },
       {
@@ -90,18 +101,16 @@
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Coral",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/13.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Coral",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/13_.jpg",
         "tags": ["Manga corta", "Coral", "Escote redondo"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Café",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Café",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14_.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
@@ -109,31 +118,28 @@
          "subcategoria": "Vestidos",
         "tipo": "Brillosos largos",
       "nombre": "Brilloso Rojo",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14_1.jpg",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/14.jpg",
         "tags": ["Manga larga", "Rojo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Tinto",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/15.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Tinto",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/15_.jpg",
         "tags": ["Sin mangas", "Tinto", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Café",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/16.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Café",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/16_.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Café",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/17.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blusa Brillosa Café",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/17_.jpg",
         "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
       },
       {
@@ -146,19 +152,17 @@
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Café",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/19.jpg",
-        "tags": ["Manga 3/4", "Café", "Escote redondo", "Corte corto"]
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Falda Brillosa Dorada",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/19_.jpg",
+        "tags": ["Falda corta", "Dorada", "Corte recto"]
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Dorado",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/20.jpg",
-        "tags": ["Dorado", "Corte corto"]
+         "subcategoria": "Conjuntos brillosos",
+        "nombre": "Pantalon Brilloso Coral",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/20_.jpg",
+        "tags": ["Largo", "Coral", "Corte amplio"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -203,10 +207,9 @@
       },
       {
         "categoria": "Vestuario de mujer",
-         "subcategoria": "Vestidos",
-        "tipo": "Brillosos largos",
-      "nombre": "Brilloso Tinto",
-        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/27.jpg",
+        "subcategoria": "Conjuntos brillosos",
+        "nombre": "Blisa Brillosa Tinto",
+        "imagen": "assets/img/mujeres/vestidos/05_vestidos_brillosos_largos/27_.jpg",
         "tags": ["Corto", "Tinto", "Cadena dorada en escote", "Manga 3/4"]
       },
       {

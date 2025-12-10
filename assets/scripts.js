@@ -35,6 +35,7 @@ const categoryMappings = {
             "Normales",
             "Brillosos",
         ],
+        "Conjuntos brillosos": [],
         "Calzado": ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"],
         "Faldas": ["Faldas cortas", "Mezclilla", "Cortas brillosas", "Faldas largas", "Largas brillosas"],
         "Blusas": [
