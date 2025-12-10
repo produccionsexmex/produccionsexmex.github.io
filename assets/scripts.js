@@ -13,16 +13,15 @@ const toggleOrderBtn = document.getElementById('toggleOrderBtn');
 
 let items = [];
 let currentCategory = '';
-let currentSubcategory = '';
-let currentMainSubcategory = '';
-let currentFilterAttribute = '';
-let currentFilterValue = '';
-let currentOrder = 'desc';
+let currentSubcategory = ''; // Ej: "Zapatillas" (tipo) o "" si no hay tipo seleccionado
+let currentMainSubcategory = ''; // Ej: "Calzado" (subcategoría padre)
+let currentFilterAttribute = ''; // 'medidas' o 'color'
+let currentFilterValue = ''; // valor del filtro avanzado
+let currentOrder = 'desc'; // 'desc' = más nuevo, 'asc' = más viejo
 
 // =========================================================
-// SUBCATEGORÍAS
+// Mapeo de Categorías (mantener sincronizado con JSON 'tipo' values)
 // =========================================================
-
 const categoryMappings = {
     "Vestuario de mujer": {
         "Vestidos": [
@@ -30,64 +29,52 @@ const categoryMappings = {
             "Vestidos largos",
             "Mezclilla",
             "Brillosos cortos",
-            "Brillosos largos"],
-        "Enterizos":[
-            "Normales",
-            "Brillosos",
+            "Brillosos largos"
         ],
-        "Conjuntos brillosos": [],
+        "Enterizos":[ "Normales", "Brillosos" ],
         "Calzado": ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"],
-        "Faldas": ["Faldas cortas", "Mezclilla", "Cortas brillosas", "Faldas largas", "Largas brillosas"],
-        "Blusas": [
-            "Básicas",
-            //"De vestir",
-            "Manga Larga",
-            "Tops",
-            "Playeras",
-            "Pantiblusas",
-        ],
+        "Faldas": ["Faldas cortas", "Faldas largas", "Mezclilla" ],
+        "Blusas": ["Básicas","Manga Larga","Tops","Playeras","Pantiblusas"],
         "Lencería": [],
         "Bodysuits": [],
         "Disfraces": [
-            "Enfermeras",
-            "Sexys",
-            "Superheroínas",
-            "Personajes",
-            "Navideños",
-            "Juego Del Calamar", 
-            "Fantasía"
-        ], 
+            "Enfermeras","Sexys","Superheroínas","Personajes","Navideños","Juego Del Calamar","Fantasía"
+        ],
         "Variado": [],
         "Deportivos": [],
-        "Utilería": [],
+        "Utilería": []
     },
     "Vestuario de hombre": {
         "Disfraces": [],
-        "Utilería": [],
+        "Utilería": []
     },
     "Sado": {
-        "Utilería": [],
+        "Utilería": []
     },
     "Decoración": {
         "Jarrones": [],
         "Lámparas y Macetas": [],
         "Lámparas": [],
         "Plantas": [],
-        "Utilería": [],
+        "Utilería": []
     }
 };
 
-
 // =========================================================
-// ORDENAMIENTO POR IMAGEN
+// UTILIDADES DE ORDENAMIENTO
 // =========================================================
-
 function extraerNumeroDeImagen(ruta) {
-    const match = ruta.match(/(\d+)/);
-    return match ? parseInt(match[1], 10) : 0;
+    if (!ruta || typeof ruta !== 'string') return 0;
+    // buscamos el último grupo de dígitos en la ruta (maneja nombres con -1.jpg etc.)
+    const matches = ruta.match(/(\d+)(?=[^0-9]*\.[a-z]{2,4}$)/i);
+    if (matches && matches[1]) return parseInt(matches[1], 10);
+    // fallback: buscar cualquier número
+    const any = ruta.match(/(\d+)/);
+    return any ? parseInt(any[1], 10) : 0;
 }
 
 function ordenarItemsPorImagen(array) {
+    // devuelve nuevo array ordenado según currentOrder
     return [...array].sort((a, b) => {
         const A = extraerNumeroDeImagen(a.imagen);
         const B = extraerNumeroDeImagen(b.imagen);
@@ -96,13 +83,10 @@ function ordenarItemsPorImagen(array) {
 }
 
 function ordenarPorImagenDesc(a, b) {
-    const matchA = a.imagen?.match(/(\d+)\.jpg$/i);
-    const matchB = b.imagen?.match(/(\d+)\.jpg$/i);
-    const A = matchA ? parseInt(matchA[1]) : 0;
-    const B = matchB ? parseInt(matchB[1]) : 0;
+    const A = extraerNumeroDeImagen(a.imagen);
+    const B = extraerNumeroDeImagen(b.imagen);
     return B - A;
 }
-
 
 // =========================================================
 // CARGA INICIAL
@@ -112,39 +96,59 @@ async function loadItems() {
         const response = await fetch('data/catalog.json');
         items = await response.json();
 
-        items = items.sort(ordenarPorImagenDesc);
+        // inicial: ordenamos por desc (más nuevo)
+        items = ordenarItemsPorImagen(items);
 
+        // estados iniciales
         currentCategory = '';
         currentSubcategory = '';
         currentMainSubcategory = '';
         currentFilterAttribute = '';
         currentFilterValue = '';
+        currentOrder = 'desc';
 
         subcategoriesList.innerHTML = '';
         sizesNav.style.display = 'none';
 
         currentCategoryHeading.textContent = 'Catálogo General';
-        itemsContainer.innerHTML =
-            '<p class="text-muted">Por favor, selecciona una categoría.</p>';
+        itemsContainer.innerHTML = '<p class="text-muted">Por favor, selecciona una categoría.</p>';
 
+        if (toggleOrderBtn) toggleOrderBtn.textContent = 'Ordenar: Más nuevo';
     } catch (error) {
         console.error('Error al cargar los ítems:', error);
     }
 }
 
+// =========================================================
+// TOOLS
+// =========================================================
+function toTitleCase(str) {
+    if (!str) return '';
+    return str
+        .toLowerCase()
+        .replace(/(^|\s)([a-záéíóúñü])/g, (m, g1, g2) => g1 + g2.toUpperCase());
+}
 
 // =========================================================
-// MOSTRAR ITEMS
+// RENDERIZADO DE ITEMS
 // =========================================================
 function displayItems(filteredItems) {
+    if (!Array.isArray(filteredItems)) filteredItems = [];
+
     if (filteredItems.length === 0) {
         itemsContainer.innerHTML = '<p class="text-muted">No hay ítems disponibles.</p>';
         return;
     }
 
-    itemsContainer.innerHTML = filteredItems.map(item => {
-        const name = item.nombre ? item.nombre : '';
-        const tags = item.tags ? item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("") : "";
+    // Aplicamos orden aquí para asegurar que siempre respete currentOrder
+    const ordered = ordenarItemsPorImagen(filteredItems);
+
+    itemsContainer.innerHTML = ordered.map(item => {
+        const name = item.nombre ? toTitleCase(item.nombre) : '';
+        const medidasText = item.medidas && Array.isArray(item.medidas) && item.medidas.length > 0
+            ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : "";
+        const tags = item.tags && Array.isArray(item.tags)
+            ? item.tags.map(tag => `<span class="badge bg-primary me-1">${tag}</span>`).join("") : "";
 
         return `
             <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
@@ -152,71 +156,106 @@ function displayItems(filteredItems) {
                     <img src="${item.imagen}" class="card-img-top" alt="${name}">
                     <div class="card-body">
                         ${name ? `<h5 class="card-title">${name}</h5>` : ""}
-                        ${item.medidas ? `<p>Medidas: ${item.medidas.join(", ")}</p>` : ""}
+                        ${medidasText}
                         ${tags ? `<div class="mt-2">${tags}</div>` : ""}
                     </div>
                 </div>
-            </div>`;
+            </div>
+        `;
     }).join("");
 }
 
-
 // =========================================================
-// BUSCADOR
+// FILTRADO PRINCIPAL (BUSCADOR + ESTADO)
 // =========================================================
 function filterItems() {
-    const query = searchBar.value.toLowerCase().trim();
-    const keywords = query.split(/\s+/);
+    const query = (searchBar && searchBar.value) ? searchBar.value.toLowerCase().trim() : '';
+    const keywords = query ? query.split(/\s+/) : [];
 
     let baseItems = items;
 
+    // Filtrar por categoría principal
     if (currentCategory) {
-        baseItems = items.filter(item =>
-            item.categoria.toLowerCase() === currentCategory.toLowerCase()
+        baseItems = baseItems.filter(item =>
+            (item.categoria || '').toLowerCase().trim() === currentCategory.toLowerCase().trim()
         );
 
+        // Filtrar por subcategoría padre (ej. Calzado)
         if (currentMainSubcategory) {
             baseItems = baseItems.filter(item =>
-                item.subcategoria.toLowerCase() === currentMainSubcategory.toLowerCase()
+                (item.subcategoria || '').toLowerCase().trim() === currentMainSubcategory.toLowerCase().trim()
             );
         }
 
-        if (currentFilterAttribute === 'tipo') {
+        // Filtrar por tipo (si se seleccionó un tipo distinto a la subcategoría padre)
+        if (currentSubcategory && currentSubcategory !== currentMainSubcategory) {
             baseItems = baseItems.filter(item =>
-                item.tipo?.toLowerCase() === currentFilterValue.toLowerCase()
+                (item.tipo || '').toLowerCase().trim() === currentSubcategory.toLowerCase().trim()
             );
+        }
+
+        // Filtrar por filtro avanzado (medidas o color)
+        if (currentFilterAttribute && currentFilterValue) {
+            const fv = currentFilterValue.toString().trim().toLowerCase();
+            if (currentFilterAttribute === 'medidas') {
+                baseItems = baseItems.filter(item => Array.isArray(item.medidas) && item.medidas.map(String).some(m => m.toLowerCase().trim() === fv));
+            } else if (currentFilterAttribute === 'color') {
+                baseItems = baseItems.filter(item => ((item.color || '')).toLowerCase().trim() === fv);
+            }
         }
     }
 
+    // Aplicar búsqueda de texto sobre baseItems
     const filteredSearch = baseItems.filter(item => {
+        if (keywords.length === 0) return true;
         const text = [
-            item.nombre,
-            item.categoria,
-            item.subcategoria,
-            item.tipo,
+            item.nombre || '',
+            item.categoria || '',
+            item.subcategoria || '',
+            item.tipo || '',
             ...(item.tags || [])
-        ].join(" ").toLowerCase();
-
+        ].join(' ').toLowerCase();
         return keywords.every(k => text.includes(k));
     });
 
-    displayItems(ordenarItemsPorImagen(filteredSearch));
+    displayItems(filteredSearch);
+    updateCurrentCategoryHeading();
+
+    // Regenerar filtros avanzados si corresponde
+    if (currentMainSubcategory === "Calzado" || currentMainSubcategory === "Jarrones") {
+        regenerateAdvancedFilters();
+    } else {
+        sizesNav.style.display = 'none';
+    }
 }
 
+// =========================================================
+// HEADER/ENCABEZADO
+// =========================================================
+function updateCurrentCategoryHeading() {
+    let headingText = currentCategory || 'Catálogo General';
+
+    if (currentMainSubcategory) headingText += ` > ${currentMainSubcategory}`;
+    if (currentSubcategory && currentSubcategory !== currentMainSubcategory) headingText += ` > ${currentSubcategory}`;
+    if (currentFilterValue) headingText += ` (Filtro: ${currentFilterValue})`;
+
+    currentCategoryHeading.textContent = headingText;
+}
 
 // =========================================================
-// SUBCATEGORÍAS
+// NAVEGACIÓN: Subcategorías (render dinámico)
 // =========================================================
 function displaySubcategories(category) {
     currentCategory = category;
-    subcategoriesList.innerHTML = "";
+    subcategoriesList.innerHTML = '';
 
-    const submap = categoryMappings[category];
+    const submap = categoryMappings[category] || {};
 
     Object.keys(submap).forEach(main => {
         const subs = submap[main];
 
-        if (subs.length > 0) {
+        if (Array.isArray(subs) && subs.length > 0) {
+            // dropdown (los items dentro son "tipo")
             subcategoriesList.innerHTML += `
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">${main}</a>
@@ -226,6 +265,7 @@ function displaySubcategories(category) {
                 </li>
             `;
         } else {
+            // enlace directo
             subcategoriesList.innerHTML += `
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="handleSubcategoryClick('${main}', false)">${main}</a>
@@ -234,127 +274,173 @@ function displaySubcategories(category) {
         }
     });
 
+    // Reiniciar estados relacionados a filtros
     sizesNav.style.display = 'none';
+    currentFilterAttribute = '';
+    currentFilterValue = '';
+    currentSubcategory = '';
+    currentMainSubcategory = '';
 
-    currentCategoryHeading.textContent = category;
+    currentCategoryHeading.textContent = currentCategory;
     itemsContainer.innerHTML = '<p class="text-muted">Selecciona una subcategoría.</p>';
 }
 
-
 // =========================================================
-// MANEJO DE SUBCATEGORÍAS Y TIPOS
+// MANEJO DE SUBCATEGORÍAS / TIPOS
 // =========================================================
 function handleSubcategoryClick(subcategory, isType) {
-    currentSubcategory = subcategory;
+    // limpiar filtros avanzados
     currentFilterAttribute = "";
     currentFilterValue = "";
 
-    let filteredItems = [];
+    currentSubcategory = subcategory;
 
     if (isType) {
-        let main = '';
-        const map = categoryMappings[currentCategory];
-
+        // buscamos el padre (mainSubcategory) que contiene este tipo
+        let mainCategory = '';
+        const map = categoryMappings[currentCategory] || {};
         for (const [key, values] of Object.entries(map)) {
-            if (values.includes(subcategory)) {
-                main = key;
+            if (Array.isArray(values) && values.includes(subcategory)) {
+                mainCategory = key;
                 break;
             }
         }
-
-        currentMainSubcategory = main;
-        currentFilterAttribute = "tipo";
-        currentFilterValue = subcategory;
-
-        filteredItems = items.filter(item =>
-            item.categoria.toLowerCase() === currentCategory.toLowerCase() &&
-            item.subcategoria.toLowerCase() === main.toLowerCase() &&
-            item.tipo?.toLowerCase() === subcategory.toLowerCase()
-        );
-
-        currentCategoryHeading.textContent = `${currentCategory} > ${main} > ${subcategory}`;
-    }
-
-    else {
+        currentMainSubcategory = mainCategory;
+    } else {
+        // el enlace directo es la subcategoría padre
         currentMainSubcategory = subcategory;
-
-        filteredItems = items.filter(item =>
-            item.categoria.toLowerCase() === currentCategory.toLowerCase() &&
-            item.subcategoria.toLowerCase() === subcategory.toLowerCase()
-        );
-
-        currentCategoryHeading.textContent = `${currentCategory} > ${subcategory}`;
     }
 
-    displayItems(ordenarItemsPorImagen(filteredItems));
-
-    sizesNav.style.display = "none";
-
-    const calzado = ["Zapatillas", "Botas", "Botas Vaqueras", "Botines"];
-
-    if (calzado.includes(currentMainSubcategory)) {
-        displaySizes(filteredItems);
-    }
+    // Aplicar filtro y actualizar vista
+    filterItems();
 }
 
-
 // =========================================================
-// FILTRO POR MEDIDAS (Calzado)
+// REGENERAR FILTROS AVANZADOS (Tallas y Colores)
 // =========================================================
+function regenerateAdvancedFilters() {
+    let filterAttribute = '';
+    if (currentMainSubcategory === "Calzado") filterAttribute = 'medidas';
+    else if (currentMainSubcategory === "Jarrones") filterAttribute = 'color';
 
-function displaySizes(filteredItems) {
-    const sizes = new Set();
-
-    filteredItems.forEach(item => {
-        item.medidas?.forEach(m => sizes.add(m));
-    });
-
-    if (sizes.size === 0) {
+    if (!filterAttribute) {
         sizesNav.style.display = 'none';
         return;
     }
 
+    // baseItemsForFilters: todos los ítems del padre (p.ej. Calzado) en la categoría actual
+    let baseItemsForFilters = items.filter(item =>
+    (item.categoria || '').toLowerCase().trim() === currentCategory.toLowerCase().trim() &&
+    (item.subcategoria || '').toLowerCase().trim() === currentMainSubcategory.toLowerCase().trim()
+);
+
+// Si hay un tipo seleccionado (ej. "Botas"), filtramos solo ese tipo
+if (currentSubcategory && currentSubcategory !== currentMainSubcategory) {
+    baseItemsForFilters = baseItemsForFilters.filter(item =>
+        (item.tipo || '').toLowerCase().trim() === currentSubcategory.toLowerCase().trim()
+    );
+}
+
+    displaySubcategoryFilters(baseItemsForFilters, filterAttribute);
+}
+
+// =========================================================
+// RENDERIZAR BOTONES DE FILTRO (Tallas/Colores)
+// =========================================================
+function displaySubcategoryFilters(filteredItems, filterKey) {
+    const filters = new Set();
+
+    filteredItems.forEach(item => {
+        const prop = item[filterKey];
+        if (!prop) return;
+
+        if (Array.isArray(prop)) {
+            prop.forEach(v => {
+                if (v !== undefined && v !== null) filters.add(String(v).trim());
+            });
+        } else {
+            filters.add(String(prop).trim());
+        }
+    });
+
+    // Si no hay valores, ocultamos
+    if (filters.size === 0) {
+        sizesNav.classList.add("d-none");
+        sizesList.innerHTML = '';
+        return;
+    }
+
+    // Mostramos menú
+    sizesNav.classList.remove("d-none");
     sizesNav.style.display = 'block';
 
     let html = `
         <li class="nav-item me-2 mb-2">
-            <a class="btn btn-outline-primary" href="#" onclick="handleClearFilter('${currentMainSubcategory}')">TODOS</a>
+            <a class="btn btn-outline-primary ${currentFilterValue === '' ? 'active' : ''}"
+               href="#"
+               onclick="handleClearFilter()">TODOS</a>
         </li>
     `;
 
-    html += [...sizes].sort().map(s => `
-        <li class="nav-item me-2 mb-2">
-            <a class="btn btn-outline-primary" href="#" onclick="filterBySubcategoryAttribute('medidas', '${s}')">${s}</a>
-        </li>
-    `).join("");
+    html += [...filters]
+        .sort((a, b) => {
+            const na = parseFloat(String(a).replace(/\s+/g, ''));
+            const nb = parseFloat(String(b).replace(/\s+/g, ''));
+            if (!isNaN(na) && !isNaN(nb)) return na - nb;
+            return String(a).localeCompare(String(b));
+        })
+        .map(value => {
+            const isActive =
+                currentFilterAttribute === filterKey && currentFilterValue === value ? 'active' : '';
+
+            return `
+                <li class="nav-item me-2 mb-2">
+                    <a class="btn btn-outline-primary ${isActive}"
+                       href="#"
+                       onclick="filterBySubcategoryAttribute('${filterKey}', '${value.replace(/'/g, "\\'")}')">
+                        ${value}
+                    </a>
+                </li>
+            `;
+        })
+        .join("");
 
     sizesList.innerHTML = html;
 }
 
+// =========================================================
+// FILTRAR POR ATRIBUTO (TALLAS / COLOR)
+// =========================================================
 function filterBySubcategoryAttribute(attribute, value) {
     currentFilterAttribute = attribute;
     currentFilterValue = value;
-
-    const filteredItems = items.filter(item =>
-        item.categoria === currentCategory &&
-        item.subcategoria === currentMainSubcategory &&
-        item.medidas?.includes(value)
-    );
-
-    displayItems(ordenarItemsPorImagen(filteredItems));
+    filterItems();
 }
 
-
 // =========================================================
-// LIMPIAR FILTRO
+// LIMPIAR FILTRO (TODOS)
 // =========================================================
-
-function handleClearFilter(mainSubcategory) {
-    currentFilterAttribute = "";
-    currentFilterValue = "";
-    handleSubcategoryClick(mainSubcategory, false);
+function handleClearFilter() {
+    currentFilterAttribute = '';
+    currentFilterValue = '';
+    filterItems();
 }
 
+// =========================================================
+// MANEJO CLIC EN CATEGORÍA PRINCIPAL
+// =========================================================
+function handleCategoryClick(category) {
+    const navbarCollapse = document.getElementById('navbarNav');
+    const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+    bsCollapse.hide();
+
+    // activar visualmente (si quieres)
+    document.querySelectorAll('.nav-link[data-category]').forEach(link => link.classList.remove('active'));
+    const categoryLink = document.querySelector(`.nav-link[data-category="${category}"]`);
+    if (categoryLink) categoryLink.classList.add('active');
+
+    displaySubcategories(category);
+}
 
 // =========================================================
 // EVENTOS
@@ -363,23 +449,20 @@ document.querySelectorAll('.nav-link[data-category]').forEach(link => {
     link.addEventListener("click", e => {
         e.preventDefault();
         const category = e.target.dataset.category;
-        displaySubcategories(category);
+        handleCategoryClick(category);
     });
 });
 
-searchBar?.addEventListener("input", filterItems);
+if (searchBar) searchBar.addEventListener("input", filterItems);
 
-toggleOrderBtn.addEventListener("click", () => {
-    currentOrder = currentOrder === "desc" ? "asc" : "desc";
-
-    toggleOrderBtn.textContent =
-        currentOrder === "desc" ? "Ordenar: Más nuevo" : "Ordenar: Más viejo";
-
-    if (currentSubcategory) {
-        handleSubcategoryClick(currentSubcategory, currentFilterAttribute === "tipo");
-    }
-});
-
+if (toggleOrderBtn) {
+    toggleOrderBtn.addEventListener("click", () => {
+        currentOrder = currentOrder === "desc" ? "asc" : "desc";
+        toggleOrderBtn.textContent = currentOrder === 'desc' ? 'Ordenar: Más nuevo' : 'Ordenar: Más viejo';
+        // Re-aplicar filtro/orden
+        filterItems();
+    });
+}
 
 // =========================================================
 // INICIO

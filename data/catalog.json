@@ -427,7 +427,8 @@
       
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+        "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Coral",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/01.jpg",
@@ -436,7 +437,8 @@
 
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Plateadas",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/02.jpg",
@@ -444,7 +446,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/03.jpg",
@@ -452,7 +455,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/04.jpg",
@@ -460,7 +464,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/05.jpg",
@@ -468,7 +473,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["22"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/06.jpg",
@@ -476,7 +482,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Lilas",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/07.jpg",
@@ -484,7 +491,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Coral",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/08.jpg",
@@ -492,7 +500,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Floreadas",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/09.jpg",
@@ -500,7 +509,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Hueso",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/10.jpg",
@@ -508,7 +518,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["28"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/11.jpg",
@@ -516,7 +527,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Hueso",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/12.jpg",
@@ -524,7 +536,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Plateadas",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/13.jpg",
@@ -532,7 +545,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24  1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/14.jpg",
@@ -540,7 +554,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Fiusha",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/15.jpg",
@@ -548,7 +563,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/16.jpg",
@@ -556,7 +572,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/17.jpg",
@@ -564,7 +581,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/18.jpg",
@@ -572,7 +590,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/19.jpg",
@@ -580,7 +599,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/20.jpg",
@@ -588,7 +608,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/21.jpg",
@@ -596,7 +617,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/22.jpg",
@@ -604,7 +626,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Grises",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/23.jpg",
@@ -612,7 +635,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Beige",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/24.jpg",
@@ -620,7 +644,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Floreadas",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/25.jpg",
@@ -628,7 +653,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Blancas",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/26.jpg",
@@ -636,7 +662,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/27.jpg",
@@ -644,7 +671,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/28.jpg",
@@ -652,7 +680,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/29.jpg",
@@ -660,7 +689,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Beige",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/30.jpg",
@@ -668,7 +698,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/31.jpg",
@@ -676,7 +707,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/32.jpg",
@@ -684,7 +716,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/33.jpg",
@@ -693,7 +726,8 @@
 
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Coral",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/35.jpg",
@@ -701,7 +735,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/36.jpg",
@@ -709,7 +744,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["28 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/37.jpg",
@@ -717,7 +753,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Ladrillo",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/38.jpg",
@@ -725,7 +762,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/39.jpg",
@@ -733,7 +771,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/40.jpg",
@@ -741,7 +780,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Plateadas",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/41.jpg",
@@ -749,7 +789,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/42.jpg",
@@ -758,7 +799,8 @@
 
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/44.jpg",
@@ -766,7 +808,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Plateadas",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/45.jpg",
@@ -774,7 +817,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Café",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/46.jpg",
@@ -782,7 +826,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Verdes",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/47.jpg",
@@ -790,7 +835,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Verdes",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/48.jpg",
@@ -798,7 +844,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Beige",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/49.jpg",
@@ -806,7 +853,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Blancas",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/50.jpg",
@@ -814,7 +862,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Doradas",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/51.jpg",
@@ -822,7 +871,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/52.jpg",
@@ -830,7 +880,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Animal Print",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/53.jpg",
@@ -838,7 +889,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Negras",
         "medidas": ["28"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/54.jpg",
@@ -846,14 +898,16 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/55.jpg",
         "tags": ["Tacón alto", "Rojo", "Abiertos"]
       },{
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/56.jpg",
@@ -861,7 +915,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatillas Rojas",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/01-tacones/057.jpg",
@@ -869,7 +924,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/02-botas/01.jpg",
@@ -877,7 +933,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/02-botas/02.jpg",
@@ -885,7 +942,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/02-botas/03.jpg",
@@ -893,7 +951,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["26 1/2"],
         "imagen": "assets/img/mujeres/calzado/02-botas/04.jpg",
@@ -901,7 +960,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["27"],
         "imagen": "assets/img/mujeres/calzado/02-botas/05.jpg",
@@ -909,7 +969,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas negras",
         "medidas": ["23 1/2"],
         "imagen": "assets/img/mujeres/calzado/02-botas/06.jpg",
@@ -917,7 +978,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas cafés",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/02-botas/07.jpg",
@@ -925,7 +987,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas cafés",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/02-botas/08.jpg",
@@ -933,7 +996,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas marrón",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/02-botas/09.jpg",
@@ -941,7 +1005,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas doradas",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/02-botas/010.jpg",
@@ -949,7 +1014,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas fiusha",
         "medidas": ["28"],
         "imagen": "assets/img/mujeres/calzado/02-botas/011.jpg",
@@ -957,7 +1023,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas",
+        "subcategoria": "Calzado",
+        "tipo": "Botas",
         "nombre": "Botas Grises",
         "medidas": ["24"],
         "imagen": "assets/img/mujeres/calzado/02-botas/012.jpg",
@@ -969,7 +1036,8 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas Vaqueras",
+        "subcategoria": "Calzado",
+        "tipo": "Botas Vaqueras",
         "nombre": "Botas vaqueras cafés",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/03-botas_vaqueras/01.jpg",
@@ -977,7 +1045,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas Vaqueras",
+        "subcategoria": "Calzado",
+        "tipo": "Botas Vaqueras",
         "nombre": "Botas vaqueras cafés oscuro",
         "medidas": ["25 1/2"],
         "imagen": "assets/img/mujeres/calzado/03-botas_vaqueras/02.jpg",
@@ -985,7 +1054,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas Vaqueras",
+        "subcategoria": "Calzado",
+        "tipo": "Botas Vaqueras",
         "nombre": "Botas vaqueras hueso",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/03-botas_vaqueras/03.jpg",
@@ -993,7 +1063,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botas Vaqueras",
+        "subcategoria": "Calzado",
+        "tipo": "Botas Vaqueras",
         "nombre": "Botas vaqueras doradas",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/03-botas_vaqueras/04.jpg",
@@ -1003,7 +1074,8 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines negros",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/04-botines/01.jpg",
@@ -1011,7 +1083,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines negros",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/04-botines/02.jpg",
@@ -1019,7 +1092,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines negros",
         "medidas": ["24 1/2"],
         "imagen": "assets/img/mujeres/calzado/04-botines/03.jpg",
@@ -1027,7 +1101,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines rojos",
         "medidas": ["23"],
         "imagen": "assets/img/mujeres/calzado/04-botines/05.jpg",
@@ -1035,7 +1110,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines plateado",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/04-botines/05.jpg",
@@ -1043,7 +1119,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines cafés",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/04-botines/06.jpg",
@@ -1051,7 +1128,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines rojos",
         "medidas": ["26"],
         "imagen": "assets/img/mujeres/calzado/04-botines/07.jpg",
@@ -1059,7 +1137,8 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Botines",
+        "subcategoria": "Calzado",
+        "tipo": "Botines",
         "nombre": "Botines blancos",
         "medidas": ["25"],
         "imagen": "assets/img/mujeres/calzado/04-botines/08.jpg",
@@ -2080,6 +2159,13 @@
         "nombre": "Pantalon de vestir coral",
         "imagen": "assets/img/mujeres/variado/05.jpg", 
         "tags": ["Liso", "Coral", "Cintura alta", "Pinzas"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Putishort Mezclilla",
+        "imagen": "assets/img/mujeres/variado/06.jpg", 
+        "tags": ["Mezclilla", "Azul Cielo"]
       },
 
 
@@ -3624,9 +3710,18 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Negro y Dorado",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0163_.jpg",
-        "tags": ["Liso", "Negro y Doradoo", "Manga larga", "Ajustado"]
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0164.jpg",
+        "tags": ["Liso", "Negro y Dorado", "Manga larga", "Ajustado"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Negro de Latex",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0165.jpg",
+        "tags": ["Brillos", "Negro", "Manga larga", "Ajustado", "Cierre frontal"]
+      },
+      
 
 
 
@@ -4028,112 +4123,128 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga roja",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/01.jpg",
         "tags": ["Lisa", "Roja", "Falda Larga", "Metálica"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga naranja",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/02.jpg",
         "tags": ["Lisa", "Naranja", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga café ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/03.jpg",
         "tags": ["Lisa", "Animal print", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga café ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/04.jpg",
         "tags": ["Texturizada", "Café", "Falda Larga", "Abertura lateral"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga beige ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/05.jpg",
         "tags": ["Lisa", "Beige", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga beige ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/06.jpg",
         "tags": ["Texturizada", "Animal print", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga floreada ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/07.jpg",
         "tags": ["Floreada", "Floreada", "Falda Larga", "Plisada"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga coral ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/08.jpg",
         "tags": ["Texturizada", "Punteada", "Falda Larga", "Abertura lateral"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga beige ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/09.jpg",
         "tags": ["Lisa", "Beige", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga verde ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/010.jpg",
         "tags": ["Lisa", "Verde", "Falda Larga", "Abertura media pierna"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga verde ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/011.jpg",
         "tags": ["Lisa", "Verde", "Falda Larga", "Tipo Sirena"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga gris ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/012.jpg",
         "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga gris ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/013.jpg",
         "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga gris ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/015.jpg",
         "tags": ["Lisa", "Gris", "Falda Larga", "Tipo Sirena"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga azul cielo ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/016.jpg",
         "tags": ["Texturizada", "Floreada", "Azul cielo", "Falda Larga"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas largas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas largas",
         "nombre": "Falda larga azul cielo ",
         "imagen": "assets/img/mujeres/faldas/04-faldas_largas/017.jpg",
         "tags": ["Texturizada", "Floreada", "Azul cielo", "Falda Larga", "Abertura lateral"]
@@ -4144,259 +4255,296 @@
 
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta coral ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/01.jpg",
         "tags": ["Plisada", "Coral", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta fiusha ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/02.jpg",
         "tags": ["Plisada", "Fiusha", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta roja ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/03.jpg",
         "tags": ["Lisa", "Roja", "Falda corta", "Tipo tubo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta roja ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/04.jpg",
         "tags": ["Lisa", "Roja", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta coral ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/05.jpg",
         "tags": ["Texturizada", "Coral", "Falda corta", "Minifalda", "Lentejuelas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta verde limon ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/06.jpg",
         "tags": ["Plisada", "Verde limon", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta verde olivo ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/07.jpg",
         "tags": ["Plisada", "Verde olivo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda verde neón ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/08.jpg",
         "tags": ["Lisa", "Verde neón", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta gris ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/09.jpg",
         "tags": ["Texturizada", "Gris", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta hueso ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/010.jpg",
         "tags": ["Lisa", "Hueso", "Falda corta", "Minifalda", "Abertura lateral"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta coral ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/011.jpg",
         "tags": ["Plisada", "Hueso", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta hueso ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/012.jpg",
         "tags": ["Lisa", "Hueso", "Falda corta", "Minifalda", "Con vuelos"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta naranja ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/013.jpg",
         "tags": ["Plisada", "Naranja", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta ladrillo ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/014.jpg",
         "tags": ["Lisa", "Ladrillo", "Falda corta", "Minifalda", "Abertura lateral"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta hueso ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/015.jpg",
         "tags": ["Encaje floral", "Hueso", "Falda corta", "Con capas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta crema ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/016.jpg",
         "tags": ["Plisada", "Crema", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta beige ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/017.jpg",
         "tags": ["Plisada", "Beige", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta animal print",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/018.jpg",
         "tags": ["Lisa", "Animal print", "Falda corta", "Tipo tubo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta ladrillo ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/019.jpg",
         "tags": ["Lisa", "Ladrillo", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta café ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/020.jpg",
         "tags": ["Texturizada", "Café", "Falda corta", "Minifalda", "Lentejuelas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta gris ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/021.jpg",
         "tags": ["Lisa", "Gris", "Falda corta", "Envolente"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta hueso",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/022.jpg",
         "tags": ["Plisada", "Hueso", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta verde olivo ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/023.jpg",
         "tags": ["Lisa", "Verde olivo", "Falda corta", "Tipo tubo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta verde olivo ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/024.jpg",
         "tags": ["Lisa", "Verde olivo", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/025.jpg",
         "tags": ["Plisada", "Negra", "Falda corta", "Con vuelos"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/026.jpg",
         "tags": ["Plisada", "negra", "Falda corta", "Con vuelos"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/027.jpg",
         "tags": ["Plisada", "negra", "Falda corta", "Minifalda", "Drapeada"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/028.jpg",
         "tags": ["Lisa", "negra", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/029.jpg",
         "tags": ["Plisada", "Negra", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta gris ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/030.jpg",
         "tags": ["Texturizada", "Gris", "Falda corta", "Lentejuelas"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/031.jpg",
         "tags": ["Lisa", "Negra", "Falda corta"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/032.jpg",
         "tags": ["Lisa", "Negra", "Falda corta", "Minifalda", "Tipo tubo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/033.jpg",
         "tags": ["Lisa", "Negra", "Falda corta", "Minifalda", "Tipo tubo"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/034.jpg",
         "tags": ["Plisda", "Negra", "Falda corta", "Minifalda"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta negra ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/035.jpg",
         "tags": ["Lisa", "Negra y rojo", "Falda corta", "Minifalda", "Con vuelos"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta Lila con rayas ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/036.jpg",
         "tags": ["Lisa", "Lila con rayas blancas", "Falda corta", "Minifalda", "Plisada"]
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Faldas cortas",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
         "nombre": "Falda corta Beige ",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/037.jpg",
         "tags": ["Lisa", "Beige", "Falda corta", "Minifalda", "Plisada"]
@@ -5374,7 +5522,8 @@
 
       {
         "categoria": "Vestuario de hombre",
-       "subcategoria": "Zapatillas",
+       "subcategoria": "Calzado",
+        "tipo": "Zapatillas",
         "nombre": "Zapatos negros",
         "medidas": ["26"],
         "imagen": "assets/img/hombres/zapatos/01.jpg",
