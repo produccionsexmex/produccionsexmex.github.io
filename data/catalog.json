@@ -4920,7 +4920,7 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Tops",
+        "tipo": "Básicas",
         "nombre": "Top Morado",
         "imagen": "assets/img/mujeres/blusas/04-tops/tops/023.jpg",
         "tags": ["Liso", "Morado",  "Sin mangas", "Tirantes", "Escote redondo"]
@@ -4928,7 +4928,7 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Tops",
+        "tipo": "Manga Larga",
         "nombre": "Top Azul Cielo",
         "imagen": "assets/img/mujeres/blusas/04-tops/tops/024.jpg",
         "tags": ["Liso", "Azul Cielo",  "Una manga larga", "Escote entrelazado"]
@@ -4936,7 +4936,7 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Tops",
+        "tipo": "Manga Larga",
         "nombre": "Top Azul",
         "imagen": "assets/img/mujeres/blusas/04-tops/tops/025.jpg",
         "tags": ["Liso", "Azul",  "Manga larga", "Escote en V"]
@@ -4944,7 +4944,7 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Tops",
+        "tipo": "Manga Larga",
         "nombre": "Top Azul",
         "imagen": "assets/img/mujeres/blusas/04-tops/tops/026.jpg",
         "tags": ["Liso", "Azul",  "Manga larga", "Escote abierto"]
