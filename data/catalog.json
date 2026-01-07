@@ -2180,21 +2180,21 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Variado",
         "nombre": "Pantalón de vestir Fiusha",
-        "imagen": "assets/img/mujeres/variado/07.jpg", 
+        "imagen": "assets/img/mujeres/variado/07.JPG", 
         "tags": ["Liso", "Fiusha"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Variado",
         "nombre": "Mallas Negras",
-        "imagen": "assets/img/mujeres/variado/08.jpg", 
+        "imagen": "assets/img/mujeres/variado/08.JPG", 
         "tags": ["Lisas", "Negro", "Cintura baja", "1 pieza"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Variado",
         "nombre": "Hoodie Multicolor",
-        "imagen": "assets/img/mujeres/variado/09.jpg", 
+        "imagen": "assets/img/mujeres/variado/09.JPG", 
         "tags": ["Lsa", "Multicolor", "Cierre frontal"]
       },
 
@@ -2433,7 +2433,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Negro y Blanco Cuadriculado",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/011_.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/011_.JPG",
         "tags": ["Liso", "Negro y Blanco", "Sin mangas", "Escote abiero"]
       },
       {
@@ -3772,7 +3772,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Azul Cielo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0168.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0168.JPG",
         "tags": ["Plizado", "Azul Cielo", "Sin mangas", "Ajustado", "Tirantes"]
       },
       {
@@ -3780,7 +3780,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rosa",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0169.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0169.JPG",
         "tags": ["Liso", "Rosa", "Sin mangas", "Tirantes", "Ajustado", "Abertura frontal"]
       },
       {
@@ -3788,7 +3788,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0170.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0170.JPG",
         "tags": ["Liso", "Rojo", "Sin mangas", "Tirantes", "Ajustado", "Abertura frontal"]
       },
       {
@@ -3796,7 +3796,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Amarillo Pálido",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0171.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0171.JPG",
         "tags": ["Liso", "Amarillo Pálido", "Sin mangas", "Tirantes", "Ajustado"]
       },
       {
@@ -3804,7 +3804,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0172.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0172.JPG",
         "tags": ["Plisado", "Rojo", "Manga larga", "Escote en V", "Ajustado"]
       },
       {
@@ -3812,7 +3812,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Naranja",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0173.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0173.JPG",
         "tags": ["Liso", "Naranja", "Sin mangas", "Sin tirantes", "Ajustado"]
       },
       {
@@ -3820,7 +3820,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0174.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0174.JPG",
         "tags": ["Liso", "Rojo", "Sin mangas", "Tirantes", "Escote amplio", "Ajustado"]
       },
       {
@@ -3828,7 +3828,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0175.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0175.JPG",
         "tags": ["Texturizado", "Rojo", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3836,7 +3836,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Dorado",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0176.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0176.JPG",
         "tags": ["Texturizado", "Dorado", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3844,7 +3844,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Naranja Fluorescente",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0177.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0177.JPG",
         "tags": ["Liso", "Naranja Fluorescente", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3852,7 +3852,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Amarillo Pálido",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0177.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0177.JPG",
         "tags": ["Liso", "Amarillo Pálido", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3860,7 +3860,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0178.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0178.JPG",
         "tags": ["Liso", "Rojo", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3868,7 +3868,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Amarillo Pálido",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0179.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0179.JPG",
         "tags": ["Liso", "Amarillo Pálido", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3876,7 +3876,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0180.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0180.JPG",
         "tags": ["Liso", "Rojo", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3884,7 +3884,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Animal Print",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0181.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0181.JPG",
         "tags": ["Liso", "Animal Print", "Manga larga", "Escote abierto", "Ajustado"]
       },
       {
@@ -3892,7 +3892,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0182.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0182.JPG",
         "tags": ["Liso", "Rojo", "Sin mangas", "Sin tirantes", "Escote cerrado", "Ajustado"]
       },
       {
@@ -3900,7 +3900,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0183.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0183.JPG",
         "tags": ["Liso", "Rojo", "Tirantes", "Sin mangas", "Escote abierto", "Ajustado"]
       },
       {
@@ -3908,7 +3908,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rosa",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0184.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0184.JPG",
         "tags": ["Liso", "Rosa", "Sin mangas", "Sin tirantes", "Ajustado"]
       },
       {
@@ -3916,7 +3916,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0185.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0185.JPG",
         "tags": ["Liso", "Rojo", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3924,7 +3924,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Amarillo Pálido",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0186.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0186.JPG",
         "tags": ["Liso", "Amarillo Pálido", "Sin mangas", "Tirantes", "Escote abierto", "Ajustado", "Cierre frontal"]
       },
       {
@@ -3932,7 +3932,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0187.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0187.JPG",
         "tags": ["Liso", "Rojo", "Manga 3/4", "Cuello alto", "Escote abierto", "Ajustado"]
       },
       {
@@ -3940,7 +3940,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Blanco",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0188.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0188.JPG",
         "tags": ["Liso", "Blanco", "Sin mangas", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3948,7 +3948,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Naranja",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0189.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0189.JPG",
         "tags": ["Liso", "Naranja", "Sin mangas", "Sin tirantes", "Ajustado"]
       },
       {
@@ -3956,7 +3956,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Beige y Negro",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0190.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0190.JPG",
         "tags": ["Liso", "Beige y Negro", "Tirantes", "Escote abierto", "Ajustado"]
       },
       
@@ -3965,7 +3965,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0192.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0192.JPG",
         "tags": ["Liso", "Rojo", "Sin mangas", "Escote abierto", "Ajustado"]
       },
       {
@@ -3973,7 +3973,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Beige",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0193.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0193.JPG",
         "tags": ["Liso", "Beige", "Sin mangas", "Tirantes", "Escote abierto", "Ajustado"]
       },
        {
@@ -3981,7 +3981,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Lila",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0194.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0194.JPG",
         "tags": ["Liso", "Lila", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -3989,7 +3989,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Blanco",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0195.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0195.JPG",
         "tags": ["Liso", "Blanco", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
        {
@@ -3997,7 +3997,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Crema",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0196.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0196.JPG",
         "tags": ["Liso", "Crema", "Sin mangas", "Tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -4005,7 +4005,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Amarillo",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0197.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0197.JPG",
         "tags": ["Liso", "Amarillo", "Sin mangas", "Sin tirantes", "Escote abierto", "Ajustado"]
       },
       {
@@ -4013,7 +4013,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Tinto",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0191.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0191.JPG",
         "tags": ["Terciopelo", "Tinto", "Manga larga",  "Escote en V", "Ajustado"]
       },
       
@@ -4407,7 +4407,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Tinto",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/042.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/042.JPG",
         "tags": ["Liso", "Tinto", "Vestido largo", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
@@ -4415,7 +4415,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Rojo",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/043.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/043.JPG",
         "tags": ["Liso", "Rojo", "Vestido largo", "Escote cruzado", "Sin mangas", "Sin tirantes"]
       },
       {
@@ -4423,7 +4423,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Naranja",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/044.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/044.JPG",
         "tags": ["Liso", "Naranja", "Vestido largo", "Escote amplio", "Sin mangas", "Tirantes"]
       },
       {
@@ -4431,7 +4431,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Tinto",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/045.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/045.JPG",
         "tags": ["Liso", "Tinto", "Vestido largo", "Escote cerrado", "Sin mangas", "Sin tirantes"]
       },
       {
@@ -4439,7 +4439,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Fiusha",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/046.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/046.JPG",
         "tags": ["Liso", "Fiusha", "Vestido largo", "Escote cerrado", "Sin mangas", "Tirantes"]
       },
       {
@@ -4447,7 +4447,7 @@
         "subcategoria": "Vestidos",
         "tipo": "Vestidos largos",
         "nombre": "Vestido Naranja",
-        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/047.jpg",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/047.JPG",
         "tags": ["Liso", "Naranja", "Vestido largo", "Escote amplio", "Sin mangas", "Sin tirantes"]
       },
 
@@ -5319,9 +5319,9 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Básicas",
+         "tipo": "Tops",
         "nombre": "Top Rosa",
-        "imagen": "assets/img/mujeres/blusas/04-tops/tops/023_.jpg",
+        "imagen": "assets/img/mujeres/blusas/04-tops/tops/023_.JPG",
         "tags": ["Liso", "Rosa",  "Sin mangas", "Sin tirantes", "Escote amplio"]
       },
       {
@@ -5335,9 +5335,9 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Manga Larga",
+         "tipo": "Tops",
         "nombre": "Top Rosa",
-        "imagen": "assets/img/mujeres/blusas/04-tops/tops/024_.jpg",
+        "imagen": "assets/img/mujeres/blusas/04-tops/tops/024_.JPG",
         "tags": ["Liso", "Rosa",  "Sin mangas", "Sin tirantes", "Escote amplio"]
       },
       {
@@ -5351,9 +5351,9 @@
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Blusas",
-        "tipo": "Manga Larga",
+         "tipo": "Tops",
         "nombre": "Top Rojo",
-        "imagen": "assets/img/mujeres/blusas/04-tops/tops/025_.jpg",
+        "imagen": "assets/img/mujeres/blusas/04-tops/tops/025_.JPG",
         "tags": ["Liso", "Rojo",  "Sin mangas", "Tirantes", "Escote en V"]
       },
       {
