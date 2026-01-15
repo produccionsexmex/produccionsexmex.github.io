@@ -2476,14 +2476,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/016.jpg",
         "tags": ["Liso", "Naranja", "Vestido con falda larga", "Cuello redondo", "Sin mangas"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido 016",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/016_1.jpg",
-        "tags": ["Rayado", "Blanco, Negro, Rosa", "Vestido con falda corta", "Escote en V", "Manga 3/4"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -2840,9 +2833,17 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido Mezclilla",
+        "nombre": "Putivestido Negro y Dorado",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/061.jpg",
-        "tags": ["Mezclilla", "Azul Cielo", "Vestido con falda corta", "Escote amplio", "Sin mangas"]
+        "tags": ["Liso", "Dorado y Negro", "1 Manga larga", "Escote cruzado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Azul Marino",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/062.jpg",
+        "tags": ["Liso", "Azul Marino", "Tirantes", "Escote amplio", "Sin mangas"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -2964,14 +2965,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/077.jpg",
         "tags": ["Liso", "Naranja", "Escote amplio", "Sin mangas", "Tirantes"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Magenta",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/078_.jpg",
-        "tags": ["Liso", "Magenta", "Escote amplio", "Sin mangas", "Tirantes"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -2988,14 +2982,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/079.jpg",
         "tags": ["Liso", "Rojo", "Vestido con falda corta", "Sin mangas"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Lavanda",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/079_.jpg",
-        "tags": ["Plisado", "Lavanda", "Sin mangas", "Tirantes"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3004,14 +2991,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/080.jpg",
         "tags": ["Liso", "Rojo", "Vestido con falda corta"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Tinto",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/080_.jpg",
-        "tags": ["Liso", "Tinto", "Vestido con falda corta", "Tirantes de cadena dorada"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3020,14 +3000,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/081.jpg",
         "tags": ["Liso", "Negro", "Vestido con falda corta", "Apertura lateral", "Sin mangas", "Tirantes"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Dorado",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/081_.jpg",
-        "tags": ["Liso", "Dorado", "Escote corto", "Sin mangas", "Tirantes"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3036,14 +3009,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/082.jpg",
         "tags": ["Liso", "Rojo", "Vestido con falda larga", "Escote amplio", "Sin mangas", "Tirantes"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Negro",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/082_.jpg",
-        "tags": ["Liso", "Negro", "Cuello alto", "Sin mangas"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3052,14 +3018,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/083.jpg",
         "tags": ["Liso", "Café", "Vestido con falda larga", "Escote amplio", "Sin mangas", "Tirantes"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Negro",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/083_.jpg",
-        "tags": ["Liso", "Negro", "Escote amplio", "Sin mangas", "Tirantes"]
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3067,14 +3026,6 @@
         "nombre": "Putivestido 084",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/084.jpg",
         "tags": ["Puntos Blancos", "Gris", "Vestido con falda corta", "Escote en V", "Manga larga"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido Negro",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/084_.jpg",
-        "tags": ["Liso", "Negro", "Cuello redondo", "Manga corta plisada"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -3104,9 +3055,9 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido 088",
+        "nombre": "Putivestido Animal Print",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/088.jpg",
-       "tags": ["Liso", "Negro", "Vestido con falda corta", "Detalles en Dorado", "Cuello redondo", "Manga larga"]
+       "tags": ["Animal Print", "Negro, Rosa, Blanco", "Manga larga", "Escote abiero"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -3124,14 +3075,7 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/090.jpg",
         "tags": ["Liso", "Negro", "Vestido con falda corta", "Detalles en Dorado", "Cuello redondo", "Manga larga"]
       },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido 091",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/091.jpg",
-        "tags": ["Liso", "Negro", "Vestido con falda corta", "Cuello redondo", "Sin mangas", "Tirantes"] 
-      },
+
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
@@ -3337,14 +3281,6 @@
         "tags": ["Floreado", "Azul", "Vestido con falda corta", "Escote amplio", "Tirantes"] 
       },
 
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
-        "nombre": "Putivestido 0115",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0115_1.jpg",
-        "tags": ["Floreado", "Azul", "Vestido con falda corta", "Escote amplio", "Tirantes"] 
-      },
 
       {
         "categoria": "Vestuario de mujer",
@@ -3515,14 +3451,6 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido Rojo y Blanco",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0134_.jpg",
-        "tags": ["Liso", "Rojo y Blanco", "Vestido con falda corta", "Tirantes", "Sin mangas"]
-      },
-      {
-        "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
-        "tipo": "Putivestidos",
         "nombre": "Putivestido 0135",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0135.jpg",
         "tags": ["Liso", "Rojo", "Vestido con falda corta"]
@@ -3619,17 +3547,17 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido Rojo",
+        "nombre": "Putivestido Tinto",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0147.jpg",
-        "tags": ["Encaje", "Rojo", "Sin tirantes", "Sin mangas", "Ajustado", "Con medias rojas"]
+        "tags": ["Encaje", "Tinto", "Tirantes cruzados", "Sin mangas", "Ajustado"]
       },
       {
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido Naranja",
+        "nombre": "Putivestido Lila",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0148.jpg",
-        "tags": ["Liso", "Naranja", "Sin tirantes", "Ajustado", "Aberturas laterales"]
+        "tags": ["Liso", "Lila", "Tirantes", "Sin mangas", "Escote amplio", "Ajustado"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -3651,9 +3579,9 @@
         "categoria": "Vestuario de mujer",
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
-        "nombre": "Putivestido Rojo",
+        "nombre": "Putivestido Tinto",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0151.jpg",
-        "tags": ["Liso", "Rojo", "Ajustado", "Aberturas laterales"]
+        "tags": ["Liso", "Tinto", "Ajustado", "Tirantes", "Ajustado", "Aberturas laterales"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -3756,8 +3684,16 @@
         "subcategoria": "Vestidos",
         "tipo": "Putivestidos",
         "nombre": "Putivestido Negro y Dorado",
-        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0164.jpg",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0163_.jpg",
         "tags": ["Liso", "Negro y Dorado", "Manga larga", "Ajustado"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Dorado",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0164.jpg",
+        "tags": ["Metalizado", "Dorado", "Sin mangas", "Ajustado"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -3765,7 +3701,31 @@
         "tipo": "Putivestidos",
         "nombre": "Putivestido Negro de Latex",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0165.jpg",
+        "tags": ["Brillos", "Negro", "Sin mangas", "Sin tirantes", "Ajustado", "Cuello alto"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Negro de Latex",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0165_.jpg",
         "tags": ["Brillos", "Negro", "Manga larga", "Ajustado", "Cierre frontal"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Negro",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0166.jpg",
+        "tags": ["Liso", "Negro", "Sin mangas", "Tirantes", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Negro",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0167.jpg",
+        "tags": ["Liso", "Negro", "Manga corta plisada", "Sin tirantes", "Ajustado", "Cuello alto"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -4476,14 +4436,14 @@
         "imagen": "assets/img/mujeres/vestidos/03_vestidos_mezclilla/02.jpg",
         "tags": ["Mezclilla", "Azul Cielo", "Falda Corta", "Plisado", "Sin mangas"]
       },
-
-
-
-
-
-
-
-
+            {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Mezclilla",
+        "nombre": "Putivestido Mezclilla",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/061.jpg",
+        "tags": ["Mezclilla", "Azul Cielo", "Vestido con falda corta", "Escote amplio", "Sin mangas"]
+      },
 
       {
         "categoria": "Vestuario de mujer",
