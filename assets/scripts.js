@@ -574,7 +574,7 @@ function peekBottomSheet() {
   document.body.style.overflow = '';
 
   sheet.classList.add('peek');
-  sheet.style.height = '64px';
+  sheet.style.height = '46px';
 
   if (overlay) {
     overlay.classList.remove('active');
