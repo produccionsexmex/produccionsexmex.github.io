@@ -10,6 +10,48 @@ const subcategoriesList = document.getElementById("subcategoriesList");
 const sizesList = document.getElementById("sizesList");
 const currentCategoryHeading = document.getElementById('currentCategory');
 const toggleOrderBtn = document.getElementById('toggleOrderBtn');
+const filtersOverlay = document.getElementById('filtersOverlay');
+const sheetHeader = document.querySelector('#filtersSheet .sheet-header');
+const closeBtn = document.querySelector('#filtersSheet .close-btn');
+const toggleOrderBtnMobile = document.getElementById('toggleOrderBtnMobile');
+
+function handleToggleOrder() {
+  currentOrder = currentOrder === "desc" ? "asc" : "desc";
+
+  const text =
+    currentOrder === 'desc'
+      ? 'Ordenar: Más nuevo'
+      : 'Ordenar: Más viejo';
+
+  toggleOrderBtn.textContent = text;
+  if (toggleOrderBtnMobile) toggleOrderBtnMobile.textContent = text;
+
+  filterItems();
+}
+
+if (toggleOrderBtn) {
+  toggleOrderBtn.addEventListener("click", handleToggleOrder);
+}
+
+if (toggleOrderBtnMobile) {
+  toggleOrderBtnMobile.addEventListener("click", handleToggleOrder);
+}
+
+
+
+
+if (sheetHeader) {
+  sheetHeader.addEventListener('click', (e) => {
+    const sheet = document.getElementById('filtersSheet');
+    if (!sheet) return;
+
+    if (sheet.classList.contains('peek')) {
+      e.stopPropagation();
+      openBottomSheet();
+    }
+  });
+}
+
 
 let items = [];
 let currentCategory = '';
@@ -152,19 +194,15 @@ function displayItems(filteredItems) {
 
         return `
             <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="card h-100 product-card">
-                    <div class="product-image">
-                        <img src="${item.imagen}" alt="${name}">
-                    </div>
+                <div class="card h-100">
+                    <img src="${item.imagen}" class="card-img-top" alt="${name}">
                     <div class="card-body">
                         ${name ? `<h5 class="card-title">${name}</h5>` : ""}
                         ${medidasText}
                         ${tags ? `<div class="mt-2">${tags}</div>` : ""}
                     </div>
-
                 </div>
             </div>
-
         `;
     }).join("");
 }
@@ -450,12 +488,39 @@ function handleCategoryClick(category) {
 // EVENTOS
 // =========================================================
 document.querySelectorAll('.nav-link[data-category]').forEach(link => {
-    link.addEventListener("click", e => {
-        e.preventDefault();
-        const category = e.target.dataset.category;
-        handleCategoryClick(category);
-    });
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    const category = e.target.dataset.category;
+
+    if (isMobileView()) {
+  // cerrar navbar
+  const navbar = document.getElementById('navbarNav');
+  if (navbar) {
+    const bs =
+      bootstrap.Collapse.getInstance(navbar) ||
+      new bootstrap.Collapse(navbar, { toggle: false });
+    bs.hide();
+  }
+
+  openBottomSheet();
+}
+
+handleCategoryClick(category);
+
+
+if (isMobileView()) {
+  // 👇 solo abrir automáticamente si NO hay subcategoría activa
+  if (!currentSubcategory) {
+    renderMobileSubcategories(category);
+    updateBottomSheetTitle(category);
+    openBottomSheet();
+  }
+}
+
+
+  });
 });
+
 
 if (searchBar) searchBar.addEventListener("input", filterItems);
 
@@ -467,6 +532,191 @@ if (toggleOrderBtn) {
         filterItems();
     });
 }
+
+// =========================================================
+// MOBILE
+// =========================================================
+
+function isMobileView() {
+  return window.matchMedia('(max-width: 991.98px)').matches;
+}
+
+function openBottomSheet() {
+  const sheet = document.getElementById('filtersSheet');
+  const overlay = document.getElementById('filtersOverlay');
+  if (!sheet) return;
+
+  document.body.style.overflow = 'hidden';
+
+  sheet.classList.remove('peek');
+
+  // 👇 en vez de height fijo
+  requestAnimationFrame(() => {
+    adjustBottomSheetHeight();
+  });
+
+  if (overlay) {
+    overlay.classList.add('active');
+    overlay.style.pointerEvents = 'auto';
+  }
+}
+
+
+
+
+
+
+function peekBottomSheet() {
+  const sheet = document.getElementById('filtersSheet');
+  const overlay = document.getElementById('filtersOverlay');
+  if (!sheet) return;
+
+  document.body.style.overflow = '';
+
+  sheet.classList.add('peek');
+  sheet.style.height = '64px';
+
+  if (overlay) {
+    overlay.classList.remove('active');
+    overlay.style.pointerEvents = 'none'; // 👈 CLAVE
+  }
+}
+
+
+
+
+
+function closeBottomSheet() {
+  const sheet = document.getElementById('filtersSheet');
+  if (!sheet) return;
+
+  document.body.style.overflow = '';
+  sheet.style.height = '0px';
+}
+
+
+function renderMobileSubcategories(category) {
+  const container = document.getElementById('mobileSubcategories');
+  if (!container) return;
+
+  container.innerHTML = '';
+
+  const submap = categoryMappings[category] || {};
+
+  Object.entries(submap).forEach(([main, subs]) => {
+
+    // CASO 1: subcategoría con hijos (ej. Calzado)
+    if (Array.isArray(subs) && subs.length > 0) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'sheet-item';
+
+      const mainBtn = document.createElement('button');
+        mainBtn.className = 'sheet-main';
+        mainBtn.textContent = main;
+
+        // 👇 CLAVE
+        mainBtn.dataset.hasChildren = 'true';
+        mainBtn.setAttribute('aria-expanded', 'false');
+
+
+      const children = document.createElement('div');
+      children.className = 'sheet-children';
+      children.style.display = 'none';
+
+      mainBtn.onclick = () => {
+  const isOpen = children.style.display === 'block';
+
+  children.style.display = isOpen ? 'none' : 'block';
+  mainBtn.setAttribute('aria-expanded', String(!isOpen));
+};
+
+      subs.forEach(sub => {
+        const childBtn = document.createElement('button');
+        childBtn.className = 'sheet-child';
+        childBtn.textContent = sub;
+
+        childBtn.onclick = () => {
+            handleSubcategoryClick(sub, true);
+            updateBottomSheetTitle(`${category} > ${sub}`); // 👈 NUEVO
+            collapseAllMobileAccordions();
+            peekBottomSheet();
+        };
+
+
+        children.appendChild(childBtn);
+      });
+
+      wrapper.appendChild(mainBtn);
+      wrapper.appendChild(children);
+      container.appendChild(wrapper);
+
+    } 
+    // CASO 2: subcategoría directa (sin hijos)
+    else {
+      const btn = document.createElement('button');
+      btn.className = 'sheet-main';
+      btn.textContent = main;
+
+      btn.onclick = () => {
+        handleSubcategoryClick(main, false);
+        updateBottomSheetTitle(`${category} > ${main}`); // 👈 NUEVO
+        collapseAllMobileAccordions();
+        peekBottomSheet();
+    };
+
+
+      container.appendChild(btn);
+    }
+  });
+}
+
+function updateBottomSheetTitle(text) {
+  const title = document.getElementById('sheetTitle');
+  if (!title) return;
+  title.textContent = text;
+}
+
+if (filtersOverlay) {
+  filtersOverlay.addEventListener('click', () => {
+    peekBottomSheet();
+  });
+}
+
+function collapseAllMobileAccordions() {
+  const allChildren = document.querySelectorAll(
+    '#mobileSubcategories .sheet-children'
+  );
+
+  allChildren.forEach(el => {
+    el.style.display = 'none';
+  });
+}
+
+function adjustBottomSheetHeight() {
+  const sheet = document.getElementById('filtersSheet');
+  if (!sheet) return;
+
+  const content = sheet.querySelector('.sheet-content');
+  if (!content) return;
+
+  const headerHeight = 56; // alto real del header
+  const contentHeight = content.scrollHeight + headerHeight;
+
+  const maxHeight = window.innerHeight * 0.7;
+
+  const finalHeight = Math.min(contentHeight, maxHeight);
+
+  sheet.style.height = `${finalHeight}px`;
+}
+
+if (closeBtn) {
+  closeBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    peekBottomSheet();
+  });
+}
+
+
 
 // =========================================================
 // INICIO

@@ -39,6 +39,38 @@ h3 {
     margin-bottom: 1rem;
     text-align: left;
 }
+    #sizesNav {
+        position: sticky;
+        top: 56px;
+        z-index: 1020;
+        background: #fff;
+        padding: 8px 12px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+@media (max-width: 991.98px) {
+  #sizesNav {
+    position: sticky;
+    top: 56px;
+    z-index: 1020;
+    background: #fff;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  #sizesList {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #sizesList li {
+    flex: 0 0 auto;
+  }
+}
+
+
 
 /* Tarjetas */
 /* ===============================
@@ -81,172 +113,189 @@ h3 {
   float: left;
 }
 
-/* ================================
-   BOTÓN FLOTANTE
-================================ */
-.filters-fab {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 1050;
-  padding: 12px 18px;
-  border-radius: 24px;
-  background: #0d6efd;
-  color: #fff;
-  border: none;
-  font-weight: 600;
-  box-shadow: 0 6px 16px rgba(0,0,0,.25);
+
+
+.mobile-subcategory-item:active {
+  background-color: #f2f2f2;
+}
+/* ===============================
+   OCULTAR SUBCATEGORÍAS EN MOBILE
+=============================== */
+
+@media (max-width: 991.98px) {
+  #subcategoriesList {
+    display: none !important;
+  }
 }
 
-/* ================================
-   OVERLAY
-================================ */
 .filters-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.45);
-  z-index: 1040;
+  background: rgba(0,0,0,.25);
   opacity: 0;
   pointer-events: none;
-  transition: opacity .25s ease;
+  transition: opacity .2s ease;
+  z-index: 1040;
 }
 
 .filters-overlay.active {
   opacity: 1;
-  pointer-events: all;
+  pointer-events: auto;
 }
 
-/* ================================
-   BOTTOM SHEET
-================================ */
-.filters-sheet {
+
+#filtersSheet {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 75vh;
-  background: #fff;
+  padding: 16px;
+
+  height: 0px;              /* ← estado minimizado */
+  max-height: 100vh;
+
+  background: #f3f3f3;
   border-radius: 16px 16px 0 0;
-  z-index: 1051;
-  transform: translateY(100%);
-  transition: transform .3s ease;
+  transition: height 0.25s ease;
+  z-index: 1050;
+  will-change: height;
+}
+
+#filtersSheet .sheet-header {
   display: flex;
-  flex-direction: column;
+width: 100%;
+padding: 0;
+justify-content: space-between;
+align-items: center;
+font-weight: 700;
 }
 
-.filters-sheet.active {
-  transform: translateY(0);
-}
-
-/* ================================
-   HEADER
-================================ */
-.filters-header {
-  padding: 12px 16px;
-  border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.filters-handle {
+/* .sheet-header::before {
+  content: '';
   width: 40px;
   height: 4px;
   background: #ccc;
   border-radius: 2px;
-  margin: 0 auto;
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  display: block;
+  margin: 0 auto 8px;
+} */
 
-.filters-title {
-  font-weight: 600;
-}
 
-.filters-close {
-  background: none;
-  border: none;
-  font-size: 20px;
-}
-
-/* ================================
-   CONTENT
-================================ */
-.filters-content {
-  padding: 16px;
+#filtersSheet .sheet-content {
   overflow-y: auto;
-  flex: 1;
+  max-height: calc(70vh - 56px); /* header height */
+  padding-bottom: 16px;
+}
+#filtersSheet.peek {
+  height: 64px;
+  cursor: pointer;
 }
 
-.filters-section {
-  margin-bottom: 20px;
+#filtersSheet .close-btn {
+  display: none;
 }
 
-.filters-section-title {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #555;
+#filtersSheet:not(.peek) .close-btn {
+  display: inline-flex;
 }
 
-/* GRID PARA BOTONES */
-.filters-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+/* ===============================
+   BOTTOM SHEET – ITEMS
+=============================== */
+
+.sheet-item {
+  border-bottom: 1px solid #e5e7eb;
 }
 
-.filters-grid li a,
-.filters-grid li button {
+/* ===============================
+   MAIN CATEGORY (Accordion Header)
+=============================== */
+
+.sheet-main {
   width: 100%;
-  padding: 10px 8px;
-  border-radius: 20px;
-  border: 1px solid #0d6efd;
   background: transparent;
-  color: #0d6efd;
-  font-size: 14px;
-  text-align: center;
+  border: none;
+  padding: 16px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1f2937;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-.filters-grid li a.active,
-.filters-grid li button.active {
-  background: #0d6efd;
-  color: #fff;
+.sheet-main[data-has-children="true"]::after {
+  content: "▾";
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+  color: #2563eb;
 }
 
-/* ================================
-   FOOTER
-================================ */
-.filters-footer {
+.sheet-main[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+
+/* Girar flecha cuando está abierto */
+.sheet-main[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+/* Feedback táctil */
+.sheet-main:active {
+  background-color: #f3f4f6;
+}
+
+/* ===============================
+   CHILDREN LIST
+=============================== */
+
+.sheet-children {
+  padding: 8px 12px 12px;
+  background-color: #fafafa;
+}
+
+/* Cada sub-item */
+.sheet-child {
+  width: 100%;
+  background: transparent;
+  border: none;
   padding: 12px 16px;
-  border-top: 1px solid #e5e5e5;
+  text-align: left;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  color: #2563eb;
+  cursor: pointer;
 }
 
-/* ================================
-   DESKTOP
-================================ */
-@media (min-width: 992px) {
-  .filters-fab,
-  .filters-sheet,
-  .filters-overlay {
-    display: none !important;
-  }
+.sheet-child:active {
+  background-color: #e0e7ff;
 }
-.sticky-subcategories {
-  position: sticky;
-  top: 56px;
+
+/* ===============================
+   SCROLL CONTROL (IMPORTANTE)
+=============================== */
+
+#filtersSheet .sheet-content {
+  overflow-y: auto;
+  max-height: calc(70vh - 56px);
+  -webkit-overflow-scrolling: touch;
 }
-@media (min-width: 992px) {
-  .sticky-subcategories {
+@media (max-width: 991.98px) {
+  .sticky-order-mobile {
     position: sticky;
-    top: 56px;
+    top: 56px; /* navbar */
+    z-index: 1020;
     background: #fff;
-    z-index: 1000;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e5e7eb;
   }
-}
 
+
+}
