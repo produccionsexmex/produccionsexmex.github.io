@@ -152,15 +152,19 @@ function displayItems(filteredItems) {
 
         return `
             <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="card h-100">
-                    <img src="${item.imagen}" class="card-img-top" alt="${name}">
+                <div class="card h-100 product-card">
+                    <div class="product-image">
+                        <img src="${item.imagen}" alt="${name}">
+                    </div>
                     <div class="card-body">
                         ${name ? `<h5 class="card-title">${name}</h5>` : ""}
                         ${medidasText}
                         ${tags ? `<div class="mt-2">${tags}</div>` : ""}
                     </div>
+
                 </div>
             </div>
+
         `;
     }).join("");
 }

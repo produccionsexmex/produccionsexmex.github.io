@@ -41,56 +41,35 @@ h3 {
 }
 
 /* Tarjetas */
-.card {
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+/* ===============================
+   PRODUCT IMAGE — ASPECT RATIO 3:4
+=============================== */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.product-image {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: #f3f3f3;
 }
 
-/* Imagen en las tarjetas */
-.card-img-top {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Ajustes específicos por tamaño de pantalla */
-@media (max-width: 690px) {
-    .card-img-top {
-        height: 430px;
-    }
-}
-
-@media (min-width: 691px) and (max-width: 768px) {
-    .card-img-top {
-        height: 490px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .card-img-top {
-        height: 650px;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1440px) {
-    .card-img-top {
-        height: 430px;
-    }
-}
-
-@media (min-width: 1441px) {
-    .card-img-top {
-        height: 630px;
-    }
-}
 
 /* Contenedor principal */
 .container {
@@ -101,3 +80,173 @@ h3 {
   display: block;
   float: left;
 }
+
+/* ================================
+   BOTÓN FLOTANTE
+================================ */
+.filters-fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1050;
+  padding: 12px 18px;
+  border-radius: 24px;
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(0,0,0,.25);
+}
+
+/* ================================
+   OVERLAY
+================================ */
+.filters-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  z-index: 1040;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+
+.filters-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ================================
+   BOTTOM SHEET
+================================ */
+.filters-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75vh;
+  background: #fff;
+  border-radius: 16px 16px 0 0;
+  z-index: 1051;
+  transform: translateY(100%);
+  transition: transform .3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.filters-sheet.active {
+  transform: translateY(0);
+}
+
+/* ================================
+   HEADER
+================================ */
+.filters-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters-handle {
+  width: 40px;
+  height: 4px;
+  background: #ccc;
+  border-radius: 2px;
+  margin: 0 auto;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.filters-title {
+  font-weight: 600;
+}
+
+.filters-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+/* ================================
+   CONTENT
+================================ */
+.filters-content {
+  padding: 16px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.filters-section {
+  margin-bottom: 20px;
+}
+
+.filters-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* GRID PARA BOTONES */
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filters-grid li a,
+.filters-grid li button {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 20px;
+  border: 1px solid #0d6efd;
+  background: transparent;
+  color: #0d6efd;
+  font-size: 14px;
+  text-align: center;
+}
+
+.filters-grid li a.active,
+.filters-grid li button.active {
+  background: #0d6efd;
+  color: #fff;
+}
+
+/* ================================
+   FOOTER
+================================ */
+.filters-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* ================================
+   DESKTOP
+================================ */
+@media (min-width: 992px) {
+  .filters-fab,
+  .filters-sheet,
+  .filters-overlay {
+    display: none !important;
+  }
+}
+.sticky-subcategories {
+  position: sticky;
+  top: 56px;
+}
+@media (min-width: 992px) {
+  .sticky-subcategories {
+    position: sticky;
+    top: 56px;
+    background: #fff;
+    z-index: 1000;
+  }
+}
+
