@@ -59,9 +59,7 @@ h3 {
   }
 
   #sizesList {
-    flex-wrap: nowrap;
     overflow-x: auto;
-    gap: 8px;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -187,7 +185,7 @@ font-weight: 700;
   padding-bottom: 16px;
 }
 #filtersSheet.peek {
-  height: 64px;
+  height: 50px;
   cursor: pointer;
 }
 
