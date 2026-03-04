@@ -352,7 +352,27 @@
       "nombre": "Lencería Blanco / Rojo",
       "imagen": "assets/img/mujeres/lenceria/07.jpg",
       "tags": ["Encaje", "Blanco con rojo", "Escote en V", "2 piezas", "Tirantes"]
-      },  
+      },
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Roja",
+      "imagen": "assets/img/mujeres/lenceria/08.jpg",
+      "tags": ["Tirantes", "Rojo", "Escote abierto", "Tirantes"]
+      }, 
+      {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Fiusha",
+      "imagen": "assets/img/mujeres/lenceria/09.jpg",
+      "tags": ["Encaje", "Fiusha", "Escote amplio", "Tirantes"]
+      },   
+
+      
+
+
+
+
 
 
 
@@ -2146,7 +2166,7 @@
         "tipo": "Personajes",
         "nombre": "Disfraz Avatar Varang",
         "imagen": "assets/img/mujeres/disfraces/0123.jpg", 
-        "tags": ["Tres piezas", "Bñanco, Negro y Rojo", "Latex", "Manga larga"]
+        "tags": ["Tres piezas", "Blanco, Negro y Rojo", "Latex", "Manga larga"]
       },
       {
         "categoria": "Vestuario de mujer",
@@ -2155,6 +2175,14 @@
         "nombre": "Disfraz Nier: Automata",
         "imagen": "assets/img/mujeres/disfraces/0124.jpg", 
         "tags": ["Tres piezas", "Blanco",  "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz Nami One Piece",
+        "imagen": "assets/img/mujeres/disfraces/0125.jpg", 
+        "tags": ["Tres piezas", "Azul y Turquesa",  "Bikini", "Falda corta"]
       },
 
 
@@ -2220,8 +2248,23 @@
         "subcategoria": "Variado",
         "nombre": "Hoodie Multicolor",
         "imagen": "assets/img/mujeres/variado/09.JPG", 
-        "tags": ["Lsa", "Multicolor", "Cierre frontal"]
+        "tags": ["Lisa", "Multicolor", "Cierre frontal"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Conjunto Hueso",
+        "imagen": "assets/img/mujeres/variado/010.JPG", 
+        "tags": ["Liso", "Hueso", "Dos piezas", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Conjunto Hueso",
+        "imagen": "assets/img/mujeres/variado/011.JPG", 
+        "tags": ["Metálico", "Hueso", "Una Pieza", "Sin mangas", "Sin tirantes"]
+      },
+      
 
 
 
@@ -4033,6 +4076,14 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0201.jpg",
         "tags": ["Liso", "Naranja", "Sin tirantes", "Sin mangas",  "Escote abierto", "Ajustado"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Coral y Rosa ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0202.jpg",
+        "tags": ["Liso", "Coral y Rosa", "Sin tirantes", "Sin mangas",  "Escote medio", "Ajustado"]
+      },
       
       
 
@@ -4445,7 +4496,7 @@
       },
       {
         "categoria": "Vestuario de mujer",
-        "subcategoria": "Vestidos",
+        "subcategoria": "Vestidos", 
         "tipo": "Vestidos largos",
         "nombre": "Vestido Tinto",
         "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/045.JPG",
@@ -4466,6 +4517,14 @@
         "nombre": "Vestido Naranja",
         "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/047.JPG",
         "tags": ["Liso", "Naranja", "Vestido largo", "Escote amplio", "Sin mangas", "Sin tirantes"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Vestidos largos",
+        "nombre": "Vestido Lady Gaga Superbowl",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/048.jpg",
+        "tags": ["Plisado", "Azul cielo", "Vestido largo", "Escote amplio", "Sin mangas", "Sin tirantes"]
       },
 
 
@@ -4954,6 +5013,14 @@
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/039.JPG",
         "tags": ["Lisa", "Negra", "Falda corta", "Minifalda"]
       },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
+        "nombre": "Falda corta Coral",
+        "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/040.jpg",
+        "tags": ["Lisa", "Coral", "Falda corta", "Plisada", "Cinturón"]
+      },
 
 
 
@@ -5381,6 +5448,14 @@
         "imagen": "assets/img/mujeres/blusas/04-tops/tops/026.jpg",
         "tags": ["Liso", "Azul",  "Manga larga", "Escote abierto"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Blusas",
+        "tipo": "Manga Larga",
+        "nombre": "Top Fiusha",
+        "imagen": "assets/img/mujeres/blusas/04-tops/tops/027.jpg",
+        "tags": ["Plisado", "Fiusha",  "Sin mangas", "Sin tirantes"]
+      },
 
 
 
@@ -5615,6 +5690,7 @@
         "imagen": "assets/img/mujeres/disfraces/05-juego_calamar/08.jpg",
          "tags": ["Top básico", "Blanca", "Sin mangas", "Tirantes"]
       },
+      
 
 
       {
@@ -6449,9 +6525,23 @@
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
-        "nombre": "Disfraz Track Suit Verde",
+        "nombre": "Disfraz One Pice (Luffy) 2",
         "imagen": "assets/img/hombres/disfraces/068.jpg",
+         "tags": ["Tres piezas", "Rojo y Azul"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Track Suit Verde",
+        "imagen": "assets/img/hombres/disfraces/069.jpg",
         "tags": ["Dos piezas", "Verde militar", "Pants"]
+      },
+       {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Bad Bunny Superbowl",
+        "imagen": "assets/img/hombres/disfraces/070.jpg",
+        "tags": ["Tres piezas", "Blanco", "Corbata blanca"]
       },
 
 
