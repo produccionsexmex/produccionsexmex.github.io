@@ -2063,6 +2063,7 @@
         "imagen": "assets/img/mujeres/disfraces/0108_.jpg", 
         "tags": ["Dos piezas", "Negro, Rojo, Dorado", "Falda corta", "Tirantes", "Sombrero pirata"]
       },
+      
 
  
 
@@ -2130,6 +2131,30 @@
         "nombre": "Disfraz Colegiala",
         "imagen": "assets/img/mujeres/disfraces/0121.jpg", 
         "tags": ["Disfraz Sexy", "Blanco", "Manga corta", "2 piezas", "Micro falda"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Superheroínas",
+        "nombre": "Disfraz SuperGirl",
+        "imagen": "assets/img/mujeres/disfraces/0122.jpg", 
+        "tags": ["Tres piezas", "Rojo y Azul", "Cuello redondo", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz Avatar Varang",
+        "imagen": "assets/img/mujeres/disfraces/0123.jpg", 
+        "tags": ["Tres piezas", "Bñanco, Negro y Rojo", "Latex", "Manga larga"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz Nier: Automata",
+        "imagen": "assets/img/mujeres/disfraces/0124.jpg", 
+        "tags": ["Tres piezas", "Blanco",  "Manga larga"]
       },
 
 
@@ -3975,6 +4000,38 @@
         "nombre": "Putivestido Tinto",
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0191.JPG",
         "tags": ["Terciopelo", "Tinto", "Manga larga",  "Escote en V", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Tinto",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0198.jpg",
+        "tags": ["Terciopelo", "Tinto", "Manga larga",  "Escote en V", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Azul",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0199.jpg",
+        "tags": ["Liso", "Azul", "Sin mangas", "Tirantes", "Escote en V", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Negro",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0200.jpg",
+        "tags": ["Latex", "Negro", "Sin tirantes", "Sin mangas",  "Escote abierto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Naranja ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0201.jpg",
+        "tags": ["Liso", "Naranja", "Sin tirantes", "Sin mangas",  "Escote abierto", "Ajustado"]
       },
       
       
@@ -6273,16 +6330,16 @@
       {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
-        "nombre": "Disfraz Spiderman",
+        "nombre": "Disfraz Marciano",
         "imagen": "assets/img/hombres/disfraces/052_.jpg",
-        "tags": ["Disfraz completo", "Rojo y azul", "Una pieza"]
+        "tags": ["Disfraz completo", "Gris metálico", "Una pieza", "Capucha"]
       },
-      {
+            {
         "categoria": "Vestuario de hombre",
         "subcategoria": "Disfraces",
-        "nombre": "Disfraz Marciano",
+        "nombre": "Disfraz Spiderman",
         "imagen": "assets/img/hombres/disfraces/052.jpg",
-        "tags": ["Disfraz completo", "Gris metálico", "Una pieza", "Capucha"]
+        "tags": ["Disfraz completo", "Rojo y azul", "Una pieza"]
       },
       {
         "categoria": "Vestuario de hombre",
@@ -6360,6 +6417,41 @@
         "nombre": "Disfraz Beetlejuice",
         "imagen": "assets/img/hombres/disfraces/063.jpg",
         "tags": ["Dos piezas", "Blanco y Negro", "Corbata negra", "Traje a rayas"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Venom",
+        "imagen": "assets/img/hombres/disfraces/064.jpg",
+        "tags": ["Una pieza", "Negro", "Latex"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Spiderman Miles Morales",
+        "imagen": "assets/img/hombres/disfraces/065.jpg",
+        "tags": ["Una pieza", "Negro y Rojo", "Latex"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Avatar Sully",
+        "imagen": "assets/img/hombres/disfraces/066.jpg",
+        "tags": ["Tres piezas", "Azul Cielo", "Latex", "Accesorios"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz One Pice (Luffy)",
+        "imagen": "assets/img/hombres/disfraces/067.jpg",
+        "tags": ["Tres piezas", "Rojo y Azul", "Sombrero"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Track Suit Verde",
+        "imagen": "assets/img/hombres/disfraces/068.jpg",
+        "tags": ["Dos piezas", "Verde militar", "Pants"]
       },
 
 
