@@ -366,6 +366,20 @@
       "nombre": "Lencería Fiusha",
       "imagen": "assets/img/mujeres/lenceria/09.jpg",
       "tags": ["Encaje", "Fiusha", "Escote amplio", "Tirantes"]
+      },
+       {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Tinto",
+      "imagen": "assets/img/mujeres/lenceria/010.jpg",
+      "tags": ["Encaje", "Fiusha", "Escote amplio", "Tirantes"]
+      },
+       {
+      "categoria": "Vestuario de mujer",
+      "subcategoria": "Lencería",
+      "nombre": "Lencería Café",
+      "imagen": "assets/img/mujeres/lenceria/011.jpg",
+      "tags": ["Plisado", "Café", "Escote amplio", "Tirantes"]
       },   
 
       
@@ -2083,6 +2097,22 @@
         "imagen": "assets/img/mujeres/disfraces/0108_.jpg", 
         "tags": ["Dos piezas", "Negro, Rojo, Dorado", "Falda corta", "Tirantes", "Sombrero pirata"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz Doña Floreada",
+        "imagen": "assets/img/mujeres/disfraces/0126.jpg", 
+        "tags": ["Algodón", "Multicolor", "Putivestido floreado", "Falda corta", "Manga corta plisada"]
+      },
+            {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Disfraces",
+        "tipo": "Personajes",
+        "nombre": "Disfraz La Pompis",
+        "imagen": "assets/img/mujeres/disfraces/0127.jpg", 
+        "tags": ["Algodón", "Multicolor", "Putivestido floreado", "Falda corta", "Manga corta plisada"]
+      },
       
 
  
@@ -2263,6 +2293,20 @@
         "nombre": "Conjunto Hueso",
         "imagen": "assets/img/mujeres/variado/011.JPG", 
         "tags": ["Metálico", "Hueso", "Una Pieza", "Sin mangas", "Sin tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Conjunto Coral",
+        "imagen": "assets/img/mujeres/variado/012.jpg", 
+        "tags": ["Liso", "Coral", "Dos piezas", "Manga larga", "Botones dorados", "Falda corta"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Variado",
+        "nombre": "Conjunto Hueso",
+        "imagen": "assets/img/mujeres/variado/013.jpg", 
+        "tags": ["Liso", "Hueso", "Dos piezas", "Sin mangas", "Chaleco", "Falda corta"]
       },
       
 
@@ -4084,6 +4128,78 @@
         "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0202.jpg",
         "tags": ["Liso", "Coral y Rosa", "Sin tirantes", "Sin mangas",  "Escote medio", "Ajustado"]
       },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Menta ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0203.jpg",
+        "tags": ["Liso", "Menta", "Tirantes", "Sin mangas",  "Escote amplio", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Beige ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0204.jpg",
+        "tags": ["Tejido a mano", "Beige", "Manga larga", "Escote abierto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Multicolor ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0205.jpg",
+        "tags": ["Liso", "Multicolor", "Manga larga",  "Escote medio", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Gris ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0206.jpg",
+        "tags": ["Liso", "Gris", "Manga larga", "Escote alto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Floral Naranja ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0207.jpg",
+        "tags": ["Liso", "Naranja", "Sin mangas", "Tirantes", "Escote alto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Tinto ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0208.jpg",
+        "tags": ["Liso", "Tinto", "Manga larga", "Escote abierto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Coral y Rosa ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0209.jpg",
+        "tags": ["Liso", "Coral y Rosa", "Sin tirantes", "Sin mangas",  "Escote medio", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Olivo",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0210.jpg",
+        "tags": ["Liso", "Olivo", "Manga corta",  "Escote transparente", "Cuello alto", "Ajustado"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Putivestidos",
+        "nombre": "Putivestido Naranja ",
+        "imagen": "assets/img/mujeres/vestidos/01_putivestidos/0211.jpg",
+        "tags": ["Liso", "Naranja", "Sin tirantes", "Manga corta",  "Escote cruzado", "Ajustado"]
+      },
       
       
 
@@ -4525,6 +4641,38 @@
         "nombre": "Vestido Lady Gaga Superbowl",
         "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/048.jpg",
         "tags": ["Plisado", "Azul cielo", "Vestido largo", "Escote amplio", "Sin mangas", "Sin tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Vestidos largos",
+        "nombre": "Vestido Cielo",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/049.jpg",
+        "tags": ["Lisado", "Azul cielo", "Vestido largo", "Escote amplio", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Vestidos largos",
+        "nombre": "Vestido Amarillo",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/050.jpg",
+        "tags": ["Liso", "Amarillo", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Vestidos largos",
+        "nombre": "Vestido Floral Beige",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/051.jpg",
+        "tags": ["Liso", "Beige", "Vestido largo", "Escote amplio", "Sin mangas", "Tirantes"]
+      },
+      {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Vestidos",
+        "tipo": "Vestidos largos",
+        "nombre": "Vestido Floral Hueso",
+        "imagen": "assets/img/mujeres/vestidos/02_vestidos-largos/052.jpg",
+        "tags": ["Liso", "Hueso", "Vestido largo", "Escote abierto", "Sin mangas", "Tirantes"]
       },
 
 
@@ -5020,6 +5168,22 @@
         "nombre": "Falda corta Coral",
         "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/040.jpg",
         "tags": ["Lisa", "Coral", "Falda corta", "Plisada", "Cinturón"]
+      },
+       {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
+        "nombre": "Falda corta Hueso",
+        "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/041.jpg",
+        "tags": ["Lisa", "Hueso", "Falda corta"]
+      },
+             {
+        "categoria": "Vestuario de mujer",
+        "subcategoria": "Faldas",
+        "tipo": "Faldas cortas",
+        "nombre": "Falda corta Cielo",
+        "imagen": "assets/img/mujeres/faldas/01-faldas_cortas/042.jpg",
+        "tags": ["Plisada", "Azul Cielo", "Falda corta", "Plisada"]
       },
 
 
@@ -6542,6 +6706,48 @@
         "nombre": "Disfraz Bad Bunny Superbowl",
         "imagen": "assets/img/hombres/disfraces/070.jpg",
         "tags": ["Tres piezas", "Blanco", "Corbata blanca"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Chavalón",
+        "imagen": "assets/img/hombres/disfraces/071.jpg",
+        "tags": ["Tres piezas", "Blanco, Rojo, Café", "Gorro de invierno"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Cricko",
+        "imagen": "assets/img/hombres/disfraces/072.jpg",
+        "tags": ["Tres piezas", "Negro. Rojo, Blanco, Amarillo", "Corbata roja, Gorro amarillo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Cricko",
+        "imagen": "assets/img/hombres/disfraces/073.jpg",
+        "tags": ["Tres piezas", "Negro. Rojo, Blanco, Amarillo", "Corbata roja, Gorro amarillo"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Jaimito El Pajero",
+        "imagen": "assets/img/hombres/disfraces/074.jpg",
+        "tags": ["Tres piezas", "Azul Marino", "Pañoleta verde, Gorro de cartero"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Scorpion",
+        "imagen": "assets/img/hombres/disfraces/075.jpg",
+        "tags": ["Dos piezas", "Negro y Dorado", "Máscara de ninja, Hombreras, Espinilleras, Brazaletes"]
+      },
+      {
+        "categoria": "Vestuario de hombre",
+        "subcategoria": "Disfraces",
+        "nombre": "Disfraz Vegeta",
+        "imagen": "assets/img/hombres/disfraces/076.jpg",
+        "tags": ["Una pieza", "Azul, Blanco, Dorado", "Manga larga"]
       },
 
 
